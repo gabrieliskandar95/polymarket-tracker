@@ -101,21 +101,22 @@ PIPELINE_COLS = {
 
 # ─── API ───────────────────────────────────────────────────────────────────────
 
-def fetch_all_markets(max_results: int = 600) -> list[dict]:
+def fetch_all_events(max_results: int = 300) -> list[dict]:
     """
-    Fetch active, open markets from Polymarket Gamma API.
-    Paginates automatically. Returns raw market dicts.
+    Fetch active events from Polymarket Gamma API.
+    Events have proper slug fields that map to real polymarket.com/event/{slug} URLs.
+    Paginates automatically. Returns raw event dicts.
     """
-    markets = []
+    events = []
     offset = 0
-    batch_size = 100
+    batch_size = 50
 
-    print("Fetching markets from Polymarket Gamma API...")
+    print("Fetching events from Polymarket Gamma API...")
 
-    while len(markets) < max_results:
+    while len(events) < max_results:
         try:
             resp = requests.get(
-                f"{GAMMA_API}/markets",
+                f"{GAMMA_API}/events",
                 params={
                     "active": "true",
                     "closed": "false",
@@ -132,14 +133,14 @@ def fetch_all_markets(max_results: int = 600) -> list[dict]:
             if not batch:
                 break
 
-            markets.extend(batch)
-            print(f"  ... {len(markets)} markets fetched", end="\r")
+            events.extend(batch)
+            print(f"  ... {len(events)} events fetched", end="\r")
 
             if len(batch) < batch_size:
-                break  # Last page
+                break
 
             offset += batch_size
-            time.sleep(0.2)  # Be polite to the API
+            time.sleep(0.2)
 
         except requests.exceptions.HTTPError as e:
             print(f"\nHTTP error at offset {offset}: {e}")
@@ -148,31 +149,26 @@ def fetch_all_markets(max_results: int = 600) -> list[dict]:
             print(f"\nNetwork error at offset {offset}: {e}")
             break
 
-    print(f"\nFetched {len(markets)} total markets.")
-    return markets
+    print(f"\nFetched {len(events)} total events.")
+    return events
 
 
-def fetch_events_for_category(tag_slug: str, limit: int = 50) -> list[dict]:
+def flatten_events_to_markets(events: list[dict]) -> list[dict]:
     """
-    Optionally fetch markets filtered by a Polymarket tag slug.
-    Useful tag slugs: 'politics', 'world', 'middle-east', 'international-affairs'
+    Flatten events into individual markets, stamping each market with
+    its parent event's slug so we can build correct URLs.
     """
-    try:
-        resp = requests.get(
-            f"{GAMMA_API}/events",
-            params={"tag_slug": tag_slug, "limit": limit, "active": "true"},
-            timeout=20,
+    markets = []
+    for event in events:
+        event_slug = event.get("slug", "")
+        event_url = (
+            f"https://polymarket.com/event/{event_slug}" if event_slug else ""
         )
-        resp.raise_for_status()
-        events = resp.json()
-        # Each event contains a 'markets' list — flatten
-        markets = []
-        for event in events:
-            for m in event.get("markets", []):
-                markets.append(m)
-        return markets
-    except requests.exceptions.RequestException:
-        return []
+        for market in event.get("markets", []):
+            market["_event_slug"] = event_slug
+            market["_event_url"] = event_url
+            markets.append(market)
+    return markets
 
 
 # ─── PARSING ───────────────────────────────────────────────────────────────────
@@ -226,26 +222,25 @@ def get_matched_categories(market: dict) -> list[str]:
 
 def build_url(market: dict) -> str:
     """
-    Construct the most reliable Polymarket URL for this market.
-    Priority: groupSlug (parent event) → slug → conditionId → search fallback.
+    Construct the correct Polymarket URL for this market.
+    Uses the parent event slug (_event_url) stamped during flattening —
+    this is the real URL that Polymarket uses for the event page.
+    Falls back to the market's own slug, then a search page.
     """
     import urllib.parse
 
-    # groupSlug is the parent event slug — most reliable for grouped markets
-    group_slug = market.get("groupSlug") or market.get("group_slug")
-    slug = market.get("slug")
-    condition_id = market.get("conditionId") or market.get("condition_id")
-    question = market.get("question", "")
+    # Best: event-level URL stamped during flatten_events_to_markets
+    event_url = market.get("_event_url")
+    if event_url:
+        return event_url
 
-    if group_slug:
-        return f"https://polymarket.com/event/{group_slug}"
+    # Fallback: market's own slug
+    slug = market.get("slug")
     if slug:
         return f"https://polymarket.com/event/{slug}"
-    if condition_id:
-        return f"https://polymarket.com/market/{condition_id}"
 
-    # Last resort: search page using the market question
-    q = urllib.parse.quote_plus(question[:100])
+    # Last resort: search
+    q = urllib.parse.quote_plus(market.get("question", "")[:100])
     return f"https://polymarket.com/search?q={q}"
 
 
@@ -747,11 +742,13 @@ def main():
     print(f"  Window: {args.days}d | Min liq: ${args.min_liquidity:,} | Top: {args.top}")
     print(f"{'='*55}\n")
 
-    # Step 1: Fetch
-    markets = fetch_all_markets(max_results=600)
-    if not markets:
-        print("No markets fetched. Check your internet connection.")
+    # Step 1: Fetch events and flatten to markets (events carry correct URL slugs)
+    events = fetch_all_events(max_results=300)
+    if not events:
+        print("No events fetched. Check your internet connection.")
         sys.exit(1)
+    markets = flatten_events_to_markets(events)
+    print(f"Flattened to {len(markets)} individual markets.")
 
     # Step 2: Filter and score
     print("Filtering for geopolitical relevance...")
