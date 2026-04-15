@@ -1,0 +1,375 @@
+{
+  "generated_at": "2026-04-15 03:12",
+  "total": 16,
+  "markets": [
+    {
+      "id": "1708109",
+      "question": "Kharg Island no longer under Iranian control by May 31?",
+      "yes_price": 0.065,
+      "market_prob_pct": 6.5,
+      "days_to_resolution": 46,
+      "resolution_date": "2026-05-31",
+      "liquidity": 176569,
+      "volume": 995017,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/kharg-island-no-longer-under-iranian-control-by-may-31-689",
+      "market_id": "1708109",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 0,
+      "mispricing_signals": []
+    },
+    {
+      "id": "1704817",
+      "question": "Will there be between 20 and 30 average daily transits of the Strait of Hormuz on April 30?",
+      "yes_price": 0.079,
+      "market_prob_pct": 7.9,
+      "days_to_resolution": 14,
+      "resolution_date": "2026-04-30",
+      "liquidity": 10497,
+      "volume": 9960,
+      "categories": [
+        "Iran"
+      ],
+      "primary_category": "Iran",
+      "score": 10,
+      "url": "https://polymarket.com/event/will-there-be-between-20-and-30-average-daily-transits-of-the-strait-of-hormuz-on-april-30-234",
+      "market_id": "1704817",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 1,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1961414",
+      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 19, 2026?",
+      "yes_price": 0.19,
+      "market_prob_pct": 19.0,
+      "days_to_resolution": 14,
+      "resolution_date": "2026-04-30",
+      "liquidity": 16804,
+      "volume": 96346,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 10,
+      "url": "https://polymarket.com/event/will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-hormuz-has-been-lifted-by-april-19-2026",
+      "market_id": "1961414",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 2,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1919421",
+      "question": "US x Iran permanent peace deal by April 30, 2026?",
+      "yes_price": 0.335,
+      "market_prob_pct": 33.5,
+      "days_to_resolution": 14,
+      "resolution_date": "2026-04-30",
+      "liquidity": 76499,
+      "volume": 956262,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon"
+      ],
+      "primary_category": "Iran",
+      "score": 10,
+      "url": "https://polymarket.com/event/us-x-iran-permanent-peace-deal-by-april-30-2026",
+      "market_id": "1919421",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 3,
+      "mispricing_signals": []
+    },
+    {
+      "id": "1817695",
+      "question": "Trump ballroom project unblocked by April 30?",
+      "yes_price": 0.0635,
+      "market_prob_pct": 6.3,
+      "days_to_resolution": 14,
+      "resolution_date": "2026-04-30",
+      "liquidity": 7752,
+      "volume": 9462,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 10,
+      "url": "https://polymarket.com/event/trump-ballroom-project-unblocked-by-april-30",
+      "market_id": "1817695",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 4,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "956449",
+      "question": "Ukraine signs peace deal with Russia by June 30?",
+      "yes_price": 0.065,
+      "market_prob_pct": 6.5,
+      "days_to_resolution": 75,
+      "resolution_date": "2026-06-30",
+      "liquidity": 18056,
+      "volume": 93625,
+      "categories": [
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Israel / Gaza / Lebanon",
+      "score": 10,
+      "url": "https://polymarket.com/event/ukraine-signs-peace-deal-with-russia-by-june-30",
+      "market_id": "956449",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 5,
+      "mispricing_signals": []
+    },
+    {
+      "id": "825535",
+      "question": "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?",
+      "yes_price": 0.13,
+      "market_prob_pct": 13.0,
+      "days_to_resolution": 33,
+      "resolution_date": "2026-05-19",
+      "liquidity": 9344,
+      "volume": 9737,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 9,
+      "url": "https://polymarket.com/event/will-chris-dudley-win-the-2026-oregon-governor-republican-primary-election",
+      "market_id": "825535",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 6,
+      "mispricing_signals": []
+    },
+    {
+      "id": "1965489",
+      "question": "Will the highest temperature in Warsaw be 14\u00b0C on April 15?",
+      "yes_price": 0.1015,
+      "market_prob_pct": 10.2,
+      "days_to_resolution": 0,
+      "resolution_date": "2026-04-15",
+      "liquidity": 766,
+      "volume": 9405,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 8,
+      "url": "https://polymarket.com/event/highest-temperature-in-warsaw-on-april-15-2026-14c",
+      "market_id": "1965489",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 7,
+      "mispricing_signals": [
+        "low_liquidity_outlier",
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "679608",
+      "question": "Will Mark Baisley be the Republican nominee for Senate in Colorado?",
+      "yes_price": 0.915,
+      "market_prob_pct": 91.5,
+      "days_to_resolution": 75,
+      "resolution_date": "2026-06-30",
+      "liquidity": 14047,
+      "volume": 9875,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 8,
+      "url": "https://polymarket.com/event/will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
+      "market_id": "679608",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 8,
+      "mispricing_signals": []
+    },
+    {
+      "id": "956317",
+      "question": "Will Trump create a tariff dividend by June 30?",
+      "yes_price": 0.075,
+      "market_prob_pct": 7.5,
+      "days_to_resolution": 75,
+      "resolution_date": "2026-06-30",
+      "liquidity": 13108,
+      "volume": 9688,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 8,
+      "url": "https://polymarket.com/event/will-trump-create-a-tariff-dividend-by-june-30",
+      "market_id": "956317",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 9,
+      "mispricing_signals": []
+    },
+    {
+      "id": "1835894",
+      "question": "Will Alexis Tipton as Reze (Chainsaw Man \u2013 The Movie: Reze Arc) win Best Anime Voice Artist Performance (English) at the 2026 Crunchyroll Anime Awards?",
+      "yes_price": 0.07,
+      "market_prob_pct": 7.0,
+      "days_to_resolution": 37,
+      "resolution_date": "2026-05-23",
+      "liquidity": 585,
+      "volume": 9465,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 7,
+      "url": "https://polymarket.com/event/will-alexis-tipton-as-reze-chainsaw-man-the-movie-reze-arc-win-best-anime-voice-artist-performance-english-at-the-2026-crunchyroll-anime-awards",
+      "market_id": "1835894",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 10,
+      "mispricing_signals": [
+        "low_liquidity_outlier"
+      ]
+    },
+    {
+      "id": "1811224",
+      "question": "Will any country join the Board of Peace by June 30?",
+      "yes_price": 0.22,
+      "market_prob_pct": 22.0,
+      "days_to_resolution": 75,
+      "resolution_date": "2026-06-30",
+      "liquidity": 1637,
+      "volume": 9374,
+      "categories": [
+        "Israel / Gaza / Lebanon",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Israel / Gaza / Lebanon",
+      "score": 7,
+      "url": "https://polymarket.com/event/will-any-country-join-the-board-of-peace-by-june-30-128",
+      "market_id": "1811224",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 11,
+      "mispricing_signals": []
+    },
+    {
+      "id": "1586896",
+      "question": "Will Valtteri Bottas finish on the podium at the 2026 F1 Bahrain Grand Prix?",
+      "yes_price": 0.525,
+      "market_prob_pct": 52.5,
+      "days_to_resolution": 4,
+      "resolution_date": "2026-04-19",
+      "liquidity": 2156,
+      "volume": 9228,
+      "categories": [
+        "Saudi Arabia / Gulf"
+      ],
+      "primary_category": "Saudi Arabia / Gulf",
+      "score": 6,
+      "url": "https://polymarket.com/event/f1-bahrain-grand-prix-driver-podium-bottas-2026-04-12",
+      "market_id": "1586896",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 12,
+      "mispricing_signals": []
+    },
+    {
+      "id": "907358",
+      "question": "Will Dan Cox win the 2026 Maryland Governor Republican primary election?",
+      "yes_price": 0.58,
+      "market_prob_pct": 58.0,
+      "days_to_resolution": 68,
+      "resolution_date": "2026-06-23",
+      "liquidity": 15346,
+      "volume": 93632,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 5,
+      "url": "https://polymarket.com/event/will-dan-cox-win-the-2026-maryland-governor-republican-primary-election",
+      "market_id": "907358",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 13,
+      "mispricing_signals": []
+    },
+    {
+      "id": "704474",
+      "question": "Will Byron Donalds be the Republican nominee for Florida Governor?",
+      "yes_price": 0.815,
+      "market_prob_pct": 81.5,
+      "days_to_resolution": 124,
+      "resolution_date": "2026-08-18",
+      "liquidity": 15337,
+      "volume": 95399,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 5,
+      "url": "https://polymarket.com/event/will-byron-donalds-be-the-republican-nominee-for-florida-governor",
+      "market_id": "704474",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 14,
+      "mispricing_signals": []
+    },
+    {
+      "id": "1122570",
+      "question": "Will Jack Thorne win the 2026 Fields Medal?",
+      "yes_price": 0.46,
+      "market_prob_pct": 46.0,
+      "days_to_resolution": 105,
+      "resolution_date": "2026-07-30",
+      "liquidity": 2152,
+      "volume": 99389,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 3,
+      "url": "https://polymarket.com/event/will-jack-thorne-win-the-2026-fields-medal",
+      "market_id": "1122570",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 15,
+      "mispricing_signals": []
+    }
+  ]
+}
