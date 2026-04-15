@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-15 11:37",
+  "generated_at": "2026-04-15 12:01",
   "total": 16,
   "markets": [
     {
       "id": "1515492",
       "question": "Iran agrees to end enrichment of uranium by April 30?",
-      "yes_price": 0.2485,
-      "market_prob_pct": 24.9,
+      "yes_price": 0.276,
+      "market_prob_pct": 27.6,
       "days_to_resolution": 14,
       "resolution_date": "2026-04-30",
-      "liquidity": 28213,
-      "volume": 925352,
+      "liquidity": 30378,
+      "volume": 945070,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon"
@@ -19,20 +19,20 @@
       "score": 11,
       "url": "https://polymarket.com/event/iran-agrees-to-end-enrichment-of-uranium-by-april-30",
       "market_id": "1515492",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
+      "previous_price": 0.2485,
+      "price_delta": 0.0275,
+      "is_new": false,
       "cluster_id": 0,
       "mispricing_signals": []
     },
     {
       "id": "1817695",
       "question": "Trump ballroom project unblocked by April 30?",
-      "yes_price": 0.0635,
-      "market_prob_pct": 6.3,
+      "yes_price": 0.0645,
+      "market_prob_pct": 6.5,
       "days_to_resolution": 14,
       "resolution_date": "2026-04-30",
-      "liquidity": 7658,
+      "liquidity": 6131,
       "volume": 9468,
       "categories": [
         "Broader Geopolitics"
@@ -42,7 +42,7 @@
       "url": "https://polymarket.com/event/trump-ballroom-project-unblocked-by-april-30",
       "market_id": "1817695",
       "previous_price": 0.0635,
-      "price_delta": 0.0,
+      "price_delta": 0.001,
       "is_new": false,
       "cluster_id": 1,
       "mispricing_signals": [
@@ -56,7 +56,7 @@
       "market_prob_pct": 6.5,
       "days_to_resolution": 75,
       "resolution_date": "2026-06-30",
-      "liquidity": 16645,
+      "liquidity": 15284,
       "volume": 93625,
       "categories": [
         "Israel / Gaza / Lebanon",
@@ -76,12 +76,12 @@
     {
       "id": "1705154",
       "question": "Will 80 ships transit the Strait of Hormuz on any day by April 30?",
-      "yes_price": 0.18,
-      "market_prob_pct": 18.0,
+      "yes_price": 0.175,
+      "market_prob_pct": 17.5,
       "days_to_resolution": 14,
       "resolution_date": "2026-04-30",
-      "liquidity": 17732,
-      "volume": 94651,
+      "liquidity": 16255,
+      "volume": 95003,
       "categories": [
         "Iran"
       ],
@@ -89,9 +89,9 @@
       "score": 9,
       "url": "https://polymarket.com/event/will-80-ships-transit-the-strait-of-hormuz-on-any-day-by-april-30",
       "market_id": "1705154",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
+      "previous_price": 0.18,
+      "price_delta": -0.005,
+      "is_new": false,
       "cluster_id": 3,
       "mispricing_signals": [
         "imminent_extreme"
@@ -100,11 +100,11 @@
     {
       "id": "825535",
       "question": "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?",
-      "yes_price": 0.145,
-      "market_prob_pct": 14.5,
+      "yes_price": 0.15,
+      "market_prob_pct": 15.0,
       "days_to_resolution": 33,
       "resolution_date": "2026-05-19",
-      "liquidity": 8948,
+      "liquidity": 7424,
       "volume": 9744,
       "categories": [
         "Broader Geopolitics"
@@ -113,8 +113,8 @@
       "score": 9,
       "url": "https://polymarket.com/event/will-chris-dudley-win-the-2026-oregon-governor-republican-primary-election",
       "market_id": "825535",
-      "previous_price": 0.13,
-      "price_delta": 0.015,
+      "previous_price": 0.145,
+      "price_delta": 0.005,
       "is_new": false,
       "cluster_id": 4,
       "mispricing_signals": []
@@ -126,7 +126,7 @@
       "market_prob_pct": 94.0,
       "days_to_resolution": 75,
       "resolution_date": "2026-06-30",
-      "liquidity": 12866,
+      "liquidity": 10415,
       "volume": 9978,
       "categories": [
         "Broader Geopolitics"
@@ -135,8 +135,8 @@
       "score": 8,
       "url": "https://polymarket.com/event/will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
       "market_id": "679608",
-      "previous_price": 0.915,
-      "price_delta": 0.025,
+      "previous_price": 0.94,
+      "price_delta": 0.0,
       "is_new": false,
       "cluster_id": 5,
       "mispricing_signals": []
@@ -148,7 +148,7 @@
       "market_prob_pct": 7.5,
       "days_to_resolution": 75,
       "resolution_date": "2026-06-30",
-      "liquidity": 13193,
+      "liquidity": 11951,
       "volume": 9688,
       "categories": [
         "Broader Geopolitics"
@@ -170,7 +170,7 @@
       "market_prob_pct": 7.5,
       "days_to_resolution": 75,
       "resolution_date": "2026-06-30",
-      "liquidity": 19893,
+      "liquidity": 18276,
       "volume": 95459,
       "categories": [
         "Broader Geopolitics"
@@ -179,43 +179,20 @@
       "score": 8,
       "url": "https://polymarket.com/event/ukraine-peace-referendum-scheduled-by-june-30",
       "market_id": "1059337",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
+      "previous_price": 0.075,
+      "price_delta": 0.0,
+      "is_new": false,
       "cluster_id": 7,
-      "mispricing_signals": []
-    },
-    {
-      "id": "1939133",
-      "question": "Israel announces suspension of Lebanon offensive by June 30, 2026?",
-      "yes_price": 0.745,
-      "market_prob_pct": 74.5,
-      "days_to_resolution": 75,
-      "resolution_date": "2026-06-30",
-      "liquidity": 5076,
-      "volume": 9289,
-      "categories": [
-        "Israel / Gaza / Lebanon",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Israel / Gaza / Lebanon",
-      "score": 8,
-      "url": "https://polymarket.com/event/israel-announces-suspension-of-lebanon-offensive-by-june-30-2026-934",
-      "market_id": "1939133",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 8,
       "mispricing_signals": []
     },
     {
       "id": "1835894",
       "question": "Will Alexis Tipton as Reze (Chainsaw Man \u2013 The Movie: Reze Arc) win Best Anime Voice Artist Performance (English) at the 2026 Crunchyroll Anime Awards?",
-      "yes_price": 0.105,
-      "market_prob_pct": 10.5,
+      "yes_price": 0.12,
+      "market_prob_pct": 12.0,
       "days_to_resolution": 37,
       "resolution_date": "2026-05-23",
-      "liquidity": 1407,
+      "liquidity": 959,
       "volume": 9465,
       "categories": [
         "Broader Geopolitics"
@@ -224,10 +201,10 @@
       "score": 7,
       "url": "https://polymarket.com/event/will-alexis-tipton-as-reze-chainsaw-man-the-movie-reze-arc-win-best-anime-voice-artist-performance-english-at-the-2026-crunchyroll-anime-awards",
       "market_id": "1835894",
-      "previous_price": 0.07,
-      "price_delta": 0.035,
+      "previous_price": 0.105,
+      "price_delta": 0.015,
       "is_new": false,
-      "cluster_id": 9,
+      "cluster_id": 8,
       "mispricing_signals": [
         "low_liquidity_outlier"
       ]
@@ -235,11 +212,11 @@
     {
       "id": "1811224",
       "question": "Will any country join the Board of Peace by June 30?",
-      "yes_price": 0.24,
-      "market_prob_pct": 24.0,
+      "yes_price": 0.245,
+      "market_prob_pct": 24.5,
       "days_to_resolution": 75,
       "resolution_date": "2026-06-30",
-      "liquidity": 2144,
+      "liquidity": 2070,
       "volume": 9374,
       "categories": [
         "Israel / Gaza / Lebanon",
@@ -249,8 +226,31 @@
       "score": 7,
       "url": "https://polymarket.com/event/will-any-country-join-the-board-of-peace-by-june-30-128",
       "market_id": "1811224",
-      "previous_price": 0.22,
-      "price_delta": 0.02,
+      "previous_price": 0.24,
+      "price_delta": 0.005,
+      "is_new": false,
+      "cluster_id": 9,
+      "mispricing_signals": []
+    },
+    {
+      "id": "1939133",
+      "question": "Israel announces suspension of Lebanon offensive by June 30, 2026?",
+      "yes_price": 0.73,
+      "market_prob_pct": 73.0,
+      "days_to_resolution": 75,
+      "resolution_date": "2026-06-30",
+      "liquidity": 4743,
+      "volume": 9296,
+      "categories": [
+        "Israel / Gaza / Lebanon",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Israel / Gaza / Lebanon",
+      "score": 7,
+      "url": "https://polymarket.com/event/israel-announces-suspension-of-lebanon-offensive-by-june-30-2026-934",
+      "market_id": "1939133",
+      "previous_price": 0.745,
+      "price_delta": -0.015,
       "is_new": false,
       "cluster_id": 10,
       "mispricing_signals": []
@@ -262,7 +262,7 @@
       "market_prob_pct": 63.5,
       "days_to_resolution": 75,
       "resolution_date": "2026-06-30",
-      "liquidity": 5805,
+      "liquidity": 5484,
       "volume": 9211,
       "categories": [
         "Israel / Gaza / Lebanon",
@@ -272,9 +272,9 @@
       "score": 7,
       "url": "https://polymarket.com/event/israel-announces-suspension-of-lebanon-offensive-by-may-31-2026-866",
       "market_id": "1939132",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
+      "previous_price": 0.635,
+      "price_delta": 0.0,
+      "is_new": false,
       "cluster_id": 11,
       "mispricing_signals": []
     },
@@ -307,7 +307,7 @@
       "market_prob_pct": 58.0,
       "days_to_resolution": 68,
       "resolution_date": "2026-06-23",
-      "liquidity": 16878,
+      "liquidity": 13947,
       "volume": 93632,
       "categories": [
         "Broader Geopolitics"
@@ -325,11 +325,11 @@
     {
       "id": "704474",
       "question": "Will Byron Donalds be the Republican nominee for Florida Governor?",
-      "yes_price": 0.825,
-      "market_prob_pct": 82.5,
+      "yes_price": 0.83,
+      "market_prob_pct": 83.0,
       "days_to_resolution": 124,
       "resolution_date": "2026-08-18",
-      "liquidity": 15650,
+      "liquidity": 14173,
       "volume": 95802,
       "categories": [
         "Broader Geopolitics"
@@ -338,8 +338,8 @@
       "score": 5,
       "url": "https://polymarket.com/event/will-byron-donalds-be-the-republican-nominee-for-florida-governor",
       "market_id": "704474",
-      "previous_price": 0.815,
-      "price_delta": 0.01,
+      "previous_price": 0.825,
+      "price_delta": 0.005,
       "is_new": false,
       "cluster_id": 14,
       "mispricing_signals": []
@@ -351,13 +351,13 @@
       "market_prob_pct": 46.0,
       "days_to_resolution": 105,
       "resolution_date": "2026-07-30",
-      "liquidity": 1915,
+      "liquidity": 710,
       "volume": 99389,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
-      "score": 3,
+      "score": 2,
       "url": "https://polymarket.com/event/will-jack-thorne-win-the-2026-fields-medal",
       "market_id": "1122570",
       "previous_price": 0.46,
