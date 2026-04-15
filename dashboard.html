@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polymarket Dashboard — Pierre & Gabe</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/3.0.1/chartjs-plugin-annotation.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      background: #f0f2f5;
+      color: #1a252f;
+      min-height: 100vh;
+    }
+
+    /* ── NAV ── */
+    .nav {
+      background: #1a252f;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 28px;
+      height: 52px;
+    }
+    .nav-brand { color: white; font-weight: 700; font-size: 15px; letter-spacing: 0.3px; }
+    .nav-links { display: flex; gap: 6px; }
+    .nav-link {
+      color: rgba(255,255,255,0.6);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 6px 12px;
+      border-radius: 4px;
+      transition: background 0.15s;
+    }
+    .nav-link:hover { background: rgba(255,255,255,0.1); color: white; }
+    .nav-link.active { background: rgba(255,255,255,0.15); color: white; }
+    .nav-updated { color: rgba(255,255,255,0.4); font-size: 12px; }
+
+    /* ── LAYOUT ── */
+    .page { max-width: 1140px; margin: 0 auto; padding: 28px 20px 60px; }
+
+    .section {
+      background: white;
+      border-radius: 10px;
+      margin-bottom: 24px;
+      overflow: hidden;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    }
+    .section-header {
+      padding: 18px 24px 14px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .section-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a252f;
+      margin-bottom: 3px;
+    }
+    .section-desc {
+      font-size: 13px;
+      color: #7f8c8d;
+      line-height: 1.5;
+    }
+    .section-body { padding: 20px 24px; }
+
+    /* ── STATS ROW ── */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .stat-card {
+      background: white;
+      border-radius: 10px;
+      padding: 18px 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    }
+    .stat-n { font-size: 28px; font-weight: 700; color: #1a252f; }
+    .stat-l { font-size: 11px; color: #95a5a6; text-transform: uppercase; letter-spacing: 0.6px; margin-top: 3px; }
+    .stat-sub { font-size: 12px; color: #7f8c8d; margin-top: 4px; }
+
+    /* ── CHART CONTAINERS ── */
+    .chart-wrap { position: relative; }
+    .chart-wrap canvas { max-height: 400px; }
+
+    /* ── QUADRANT LABELS ── */
+    .quadrant-labels {
+      position: relative;
+      height: 0;
+      pointer-events: none;
+    }
+
+    /* ── MISPRICING SIGNALS ── */
+    .signals-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 12px;
+    }
+    .signal-card {
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 14px 16px;
+      position: relative;
+    }
+    .signal-card.sharp_move { border-left: 4px solid #e74c3c; }
+    .signal-card.imminent_extreme { border-left: 4px solid #e67e22; }
+    .signal-card.low_liquidity_outlier { border-left: 4px solid #9b59b6; }
+    .signal-badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 10px;
+      margin-bottom: 7px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+    .badge-sharp_move { background: #fdf2f2; color: #c0392b; }
+    .badge-imminent_extreme { background: #fef5ec; color: #d35400; }
+    .badge-low_liquidity_outlier { background: #f5eef8; color: #7d3c98; }
+    .signal-q { font-size: 13px; font-weight: 500; line-height: 1.4; margin-bottom: 8px; }
+    .signal-meta { font-size: 12px; color: #7f8c8d; }
+    .signal-meta span { margin-right: 10px; }
+    .signal-delta { font-weight: 600; }
+    .signal-delta.up { color: #27ae60; }
+    .signal-delta.down { color: #e74c3c; }
+    .signal-link {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 12px;
+      color: #2471a3;
+      text-decoration: none;
+    }
+
+    /* ── DELTA CHART LEGEND ── */
+    .delta-legend {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 12px;
+      font-size: 12px;
+      color: #7f8c8d;
+    }
+    .legend-dot {
+      display: inline-block;
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+    /* ── CLUSTER VIZ ── */
+    .clusters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 16px;
+    }
+    .cluster-card {
+      border: 1px solid #e8e8e8;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .cluster-header {
+      padding: 10px 14px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .cluster-size {
+      font-size: 11px;
+      font-weight: 400;
+      opacity: 0.7;
+    }
+    .cluster-markets { padding: 10px 14px; }
+    .cluster-market {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 7px 0;
+      border-bottom: 1px solid #f5f5f5;
+      gap: 10px;
+    }
+    .cluster-market:last-child { border-bottom: none; }
+    .cluster-market-q {
+      font-size: 12.5px;
+      line-height: 1.4;
+      flex: 1;
+    }
+    .cluster-market-q a { color: #1a252f; text-decoration: none; }
+    .cluster-market-q a:hover { color: #2471a3; }
+    .cluster-market-prob {
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .cluster-warning {
+      font-size: 11px;
+      color: #e74c3c;
+      padding: 6px 14px;
+      background: #fdf2f2;
+      border-top: 1px solid #fce4e4;
+    }
+
+    /* ── LOADING / ERROR ── */
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px;
+      color: #7f8c8d;
+      font-size: 14px;
+    }
+    .spinner {
+      width: 24px; height: 24px;
+      border: 2px solid #e0e0e0;
+      border-top-color: #2471a3;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-right: 10px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .error-msg { color: #e74c3c; font-size: 13px; }
+
+    /* ── EMPTY STATE ── */
+    .empty { color: #aaa; font-size: 13px; padding: 20px 0; }
+
+    /* ── PRIORITY LEGEND ── */
+    .quadrant-legend {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 16px;
+      font-size: 12px;
+    }
+    .ql-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      border-radius: 6px;
+    }
+    .ql-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <span class="nav-brand">Polymarket · Pierre &amp; Gabe</span>
+  <div class="nav-links">
+    <a href="index.html" class="nav-link">📋 Scan Report</a>
+    <a href="dashboard.html" class="nav-link active">📊 Dashboard</a>
+  </div>
+  <span class="nav-updated" id="nav-updated">Loading…</span>
+</nav>
+
+<div class="page">
+
+  <!-- Stats row -->
+  <div class="stats" id="stats-row">
+    <div class="stat-card">
+      <div class="stat-n" id="stat-total">—</div>
+      <div class="stat-l">Candidates</div>
+      <div class="stat-sub" id="stat-90d">— within 90 days</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-n" id="stat-signals">—</div>
+      <div class="stat-l">Mispricing Signals</div>
+      <div class="stat-sub">Objective flags only</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-n" id="stat-movers">—</div>
+      <div class="stat-l">Moved Since Last Scan</div>
+      <div class="stat-sub" id="stat-movers-sub">—</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-n" id="stat-clusters">—</div>
+      <div class="stat-l">Correlation Clusters</div>
+      <div class="stat-sub">Groups of linked bets</div>
+    </div>
+  </div>
+
+  <!-- SECTION 1: Priority Matrix -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">Priority Matrix</div>
+      <div class="section-desc">
+        Each dot is a market candidate. <strong>X-axis</strong>: days to resolution (sooner = left).
+        <strong>Y-axis</strong>: mispricing potential — how far the price is from 50% (higher = more room for edge).
+        Top-left quadrant is where you should look first.
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="chart-wrap">
+        <canvas id="matrixChart"></canvas>
+      </div>
+      <div class="quadrant-legend">
+        <div class="ql-item" style="background:#fdf2f2;">
+          <div class="ql-dot" style="background:#e74c3c;"></div>
+          <div><strong>Act Now</strong> — High mispricing, resolves soon. Top priority.</div>
+        </div>
+        <div class="ql-item" style="background:#fef5ec;">
+          <div class="ql-dot" style="background:#e67e22;"></div>
+          <div><strong>Monitor</strong> — High mispricing, more time. Keep watching.</div>
+        </div>
+        <div class="ql-item" style="background:#eaf4fb;">
+          <div class="ql-dot" style="background:#2471a3;"></div>
+          <div><strong>Watch</strong> — Resolves soon, but price near 50/50. Lower edge.</div>
+        </div>
+        <div class="ql-item" style="background:#f8f9fa;">
+          <div class="ql-dot" style="background:#bdc3c7;"></div>
+          <div><strong>Low Priority</strong> — Plenty of time, price near fair value.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 2: Mispricing Signals -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">Objective Mispricing Signals</div>
+      <div class="section-desc">
+        Markets flagged by automated criteria — sharp recent moves, extreme prices near resolution, or
+        large price deviations on thin liquidity. These are <em>signals to investigate</em>, not
+        confirmed edges. Your independent probability estimate is still required.
+      </div>
+    </div>
+    <div class="section-body" id="signals-body">
+      <div class="loading"><div class="spinner"></div> Loading…</div>
+    </div>
+  </div>
+
+  <!-- SECTION 3: Price Movement Delta -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">Price Movement Since Last Scan</div>
+      <div class="section-desc">
+        Markets that moved the most since last week. A sharp move often signals new information —
+        either the market has already repriced an event, or it has overreacted.
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="delta-legend">
+        <span><span class="legend-dot" style="background:#27ae60;"></span>YES price rose — market more confident</span>
+        <span><span class="legend-dot" style="background:#e74c3c;"></span>YES price fell — market less confident</span>
+        <span><span class="legend-dot" style="background:#bdc3c7;"></span>New this scan</span>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="deltaChart"></canvas>
+      </div>
+      <div class="empty" id="delta-empty" style="display:none;">
+        No delta data yet — will appear after the second scan run.
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 4: Correlation Clusters -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">Correlation Clusters</div>
+      <div class="section-desc">
+        Markets grouped by shared underlying events or actors. If you enter multiple bets from the
+        same cluster, they are effectively one position — size accordingly (max 25–30% combined per cluster).
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="clusters-grid" id="clusters-body">
+        <div class="loading"><div class="spinner"></div> Loading…</div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /page -->
+
+<script>
+// ─── CATEGORY COLOURS ────────────────────────────────────────────────────────
+const CAT_COLORS = {
+  "Iran":                    { bg: "rgba(192,57,43,0.75)",  border: "#c0392b" },
+  "Israel / Gaza / Lebanon": { bg: "rgba(36,113,163,0.75)", border: "#2471a3" },
+  "Saudi Arabia / Gulf":     { bg: "rgba(30,132,73,0.75)",  border: "#1e8449" },
+  "Broader Geopolitics":     { bg: "rgba(125,60,152,0.75)", border: "#7d3c98" },
+};
+const DEFAULT_COLOR = { bg: "rgba(100,100,100,0.5)", border: "#555" };
+
+function catColor(cat) { return CAT_COLORS[cat] || DEFAULT_COLOR; }
+
+// ─── QUADRANT COLOUR ─────────────────────────────────────────────────────────
+function quadrantColor(days, mispricing) {
+  const highMispricing = mispricing >= 25;
+  const urgent = days <= 45;
+  if (highMispricing && urgent)  return "rgba(231,76,60,0.8)";
+  if (highMispricing && !urgent) return "rgba(230,126,34,0.8)";
+  if (!highMispricing && urgent) return "rgba(36,113,163,0.8)";
+  return "rgba(189,195,199,0.8)";
+}
+
+// ─── LOAD DATA ────────────────────────────────────────────────────────────────
+async function loadData() {
+  const resp = await fetch("markets.json");
+  if (!resp.ok) throw new Error(`Could not load markets.json (${resp.status})`);
+  return resp.json();
+}
+
+// ─── RENDER STATS ────────────────────────────────────────────────────────────
+function renderStats(data) {
+  const markets = data.markets || [];
+  const total = markets.length;
+  const within90 = markets.filter(m => m.days_to_resolution <= 90).length;
+  const signals = markets.filter(m => m.mispricing_signals && m.mispricing_signals.length > 0).length;
+  const movers = markets.filter(m => m.price_delta !== null && m.price_delta !== undefined).length;
+  const bigMovers = markets.filter(m => m.price_delta && Math.abs(m.price_delta) >= 0.05).length;
+
+  // Count distinct clusters with 2+ members
+  const clusterCounts = {};
+  markets.forEach(m => {
+    const c = m.cluster_id;
+    if (c !== undefined && c !== null) clusterCounts[c] = (clusterCounts[c] || 0) + 1;
+  });
+  const realClusters = Object.values(clusterCounts).filter(v => v >= 2).length;
+
+  document.getElementById("stat-total").textContent = total;
+  document.getElementById("stat-90d").textContent = `${within90} within 90 days`;
+  document.getElementById("stat-signals").textContent = signals;
+  document.getElementById("stat-movers").textContent = movers > 0 ? bigMovers : "—";
+  document.getElementById("stat-movers-sub").textContent = movers > 0
+    ? `of ${movers} tracked markets` : "No previous scan yet";
+  document.getElementById("stat-clusters").textContent = realClusters || "—";
+  document.getElementById("nav-updated").textContent = `Updated: ${data.generated_at || ""}`;
+}
+
+// ─── PRIORITY MATRIX ─────────────────────────────────────────────────────────
+function renderMatrix(markets) {
+  const ctx = document.getElementById("matrixChart").getContext("2d");
+
+  // Group by category for datasets
+  const categories = [...new Set(markets.map(m => m.primary_category))];
+  const datasets = categories.map(cat => {
+    const col = catColor(cat);
+    const points = markets
+      .filter(m => m.primary_category === cat)
+      .map(m => ({
+        x: m.days_to_resolution,
+        y: Math.round(Math.abs(m.yes_price - 0.5) * 100),
+        question: m.question,
+        prob: m.market_prob_pct,
+        days: m.days_to_resolution,
+        url: m.url,
+        signals: m.mispricing_signals || [],
+      }));
+
+    return {
+      label: cat,
+      data: points,
+      backgroundColor: col.bg,
+      borderColor: col.border,
+      borderWidth: 1.5,
+      pointRadius: 7,
+      pointHoverRadius: 10,
+    };
+  });
+
+  new Chart(ctx, {
+    type: "scatter",
+    data: { datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 2.2,
+      plugins: {
+        legend: {
+          position: "top",
+          labels: { font: { family: "Arial", size: 12 }, padding: 16 },
+        },
+        tooltip: {
+          callbacks: {
+            title: () => "",
+            label: (item) => {
+              const d = item.raw;
+              const sig = d.signals.length ? ` ⚑ ${d.signals.join(", ")}` : "";
+              return [
+                d.question.length > 70 ? d.question.slice(0, 70) + "…" : d.question,
+                `Market prob: ${d.prob}%  |  Days left: ${d.days}${sig}`,
+              ];
+            },
+          },
+          backgroundColor: "rgba(26,37,47,0.95)",
+          titleFont: { size: 13 },
+          bodyFont: { size: 12 },
+          padding: 10,
+          cornerRadius: 6,
+        },
+        annotation: {
+          annotations: {
+            vLine: {
+              type: "line",
+              xMin: 45, xMax: 45,
+              borderColor: "rgba(0,0,0,0.12)",
+              borderWidth: 1.5,
+              borderDash: [5, 4],
+            },
+            hLine: {
+              type: "line",
+              yMin: 25, yMax: 25,
+              borderColor: "rgba(0,0,0,0.12)",
+              borderWidth: 1.5,
+              borderDash: [5, 4],
+            },
+            labelActNow: {
+              type: "label",
+              xValue: 10, yValue: 47,
+              content: "Act Now",
+              font: { size: 11, weight: "bold" },
+              color: "rgba(192,57,43,0.5)",
+            },
+            labelMonitor: {
+              type: "label",
+              xValue: 75, yValue: 47,
+              content: "Monitor",
+              font: { size: 11, weight: "bold" },
+              color: "rgba(230,126,34,0.5)",
+            },
+            labelWatch: {
+              type: "label",
+              xValue: 10, yValue: 6,
+              content: "Watch",
+              font: { size: 11, weight: "bold" },
+              color: "rgba(36,113,163,0.5)",
+            },
+            labelLow: {
+              type: "label",
+              xValue: 75, yValue: 6,
+              content: "Low Priority",
+              font: { size: 11, weight: "bold" },
+              color: "rgba(150,150,150,0.5)",
+            },
+          },
+        },
+      },
+      scales: {
+        x: {
+          title: { display: true, text: "Days to Resolution", font: { size: 12 } },
+          min: 0,
+          max: 95,
+          grid: { color: "rgba(0,0,0,0.05)" },
+        },
+        y: {
+          title: { display: true, text: "Mispricing Potential (%)", font: { size: 12 } },
+          min: 0,
+          max: 50,
+          grid: { color: "rgba(0,0,0,0.05)" },
+        },
+      },
+      onClick: (evt, elements) => {
+        if (elements.length > 0) {
+          const el = elements[0];
+          const url = datasets[el.datasetIndex].data[el.index].url;
+          if (url) window.open(url, "_blank");
+        }
+      },
+    },
+  });
+}
+
+// ─── MISPRICING SIGNALS ───────────────────────────────────────────────────────
+const SIGNAL_LABELS = {
+  sharp_move:            { label: "Sharp Move",          cls: "sharp_move" },
+  imminent_extreme:      { label: "Imminent Extreme",    cls: "imminent_extreme" },
+  low_liquidity_outlier: { label: "Thin Liquidity",      cls: "low_liquidity_outlier" },
+};
+const SIGNAL_DESC = {
+  sharp_move:            "Moved >10pp since last scan on thin liquidity — possible overreaction.",
+  imminent_extreme:      "Resolves in <21 days at >80% or <20% — very confident market, high stakes if wrong.",
+  low_liquidity_outlier: "Price far from 50% but very thin liquidity — market may be inefficiently priced.",
+};
+
+function renderSignals(markets) {
+  const body = document.getElementById("signals-body");
+  const flagged = markets.filter(m => m.mispricing_signals && m.mispricing_signals.length > 0);
+
+  if (flagged.length === 0) {
+    body.innerHTML = `<div class="empty">No objective signals this scan — no markets met the flagging criteria.</div>`;
+    return;
+  }
+
+  const html = `<div class="signals-grid">${flagged.map(m => {
+    const primarySig = m.mispricing_signals[0];
+    const sigInfo = SIGNAL_LABELS[primarySig] || { label: primarySig, cls: "" };
+    const delta = m.price_delta;
+    const deltaHtml = delta !== null && delta !== undefined
+      ? `<span class="signal-delta ${delta >= 0 ? 'up' : 'down'}">${delta >= 0 ? '+' : ''}${(delta * 100).toFixed(1)}pp</span>`
+      : "";
+
+    const allBadges = m.mispricing_signals.map(s => {
+      const si = SIGNAL_LABELS[s] || { label: s, cls: "" };
+      return `<span class="signal-badge badge-${si.cls}">${si.label}</span>`;
+    }).join(" ");
+
+    return `
+    <div class="signal-card ${primarySig}">
+      ${allBadges}
+      <div class="signal-q">${m.question}</div>
+      <div class="signal-meta">
+        <span><strong>${m.market_prob_pct}%</strong> market prob</span>
+        <span>${m.days_to_resolution}d left</span>
+        ${deltaHtml}
+      </div>
+      <div style="font-size:11px; color:#95a5a6; margin-top:5px; line-height:1.4;">
+        ${m.mispricing_signals.map(s => SIGNAL_DESC[s]).join(" ")}
+      </div>
+      <a href="${m.url}" target="_blank" class="signal-link">Open on Polymarket ↗</a>
+    </div>`;
+  }).join("")}</div>`;
+
+  body.innerHTML = html;
+}
+
+// ─── DELTA CHART ─────────────────────────────────────────────────────────────
+function renderDelta(markets) {
+  const canvas = document.getElementById("deltaChart");
+  const emptyEl = document.getElementById("delta-empty");
+
+  // Only markets with a real delta
+  const movers = markets
+    .filter(m => m.price_delta !== null && m.price_delta !== undefined && !m.is_new)
+    .sort((a, b) => Math.abs(b.price_delta) - Math.abs(a.price_delta))
+    .slice(0, 20);
+
+  if (movers.length === 0) {
+    canvas.style.display = "none";
+    emptyEl.style.display = "block";
+    return;
+  }
+
+  const labels = movers.map(m =>
+    m.question.length > 65 ? m.question.slice(0, 65) + "…" : m.question
+  );
+  const values = movers.map(m => Math.round(m.price_delta * 1000) / 10); // to pp
+  const colors = movers.map(m =>
+    m.price_delta >= 0 ? "rgba(39,174,96,0.75)" : "rgba(231,76,60,0.75)"
+  );
+  const borders = movers.map(m =>
+    m.price_delta >= 0 ? "#27ae60" : "#e74c3c"
+  );
+
+  const ctx = canvas.getContext("2d");
+  new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [{
+        label: "Price change (pp)",
+        data: values,
+        backgroundColor: colors,
+        borderColor: borders,
+        borderWidth: 1,
+        borderRadius: 3,
+      }],
+    },
+    options: {
+      indexAxis: "y",
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (item) => {
+              const m = movers[item.dataIndex];
+              const dir = item.raw >= 0 ? "↑" : "↓";
+              return `${dir} ${Math.abs(item.raw).toFixed(1)}pp  |  Now: ${m.market_prob_pct}%  |  Was: ${Math.round(m.previous_price * 100)}%`;
+            },
+          },
+          backgroundColor: "rgba(26,37,47,0.95)",
+          bodyFont: { size: 12 },
+          padding: 10,
+          cornerRadius: 6,
+        },
+      },
+      scales: {
+        x: {
+          title: { display: true, text: "Price change (percentage points)", font: { size: 11 } },
+          grid: { color: "rgba(0,0,0,0.05)" },
+        },
+        y: {
+          ticks: { font: { size: 11 } },
+          grid: { display: false },
+        },
+      },
+    },
+  });
+
+  // Set a sensible height based on number of items
+  canvas.parentElement.style.height = `${Math.max(220, movers.length * 34)}px`;
+}
+
+// ─── CORRELATION CLUSTERS ─────────────────────────────────────────────────────
+const CLUSTER_PALETTE = [
+  { bg: "#fdf2f2", border: "#e74c3c", text: "#922b21" },
+  { bg: "#eaf4fb", border: "#2471a3", text: "#1a5276" },
+  { bg: "#eafaf1", border: "#1e8449", text: "#1a5e39" },
+  { bg: "#f5eef8", border: "#7d3c98", text: "#6c3483" },
+  { bg: "#fef5ec", border: "#e67e22", text: "#d35400" },
+  { bg: "#f0f3f4", border: "#5d6d7e", text: "#4a5568" },
+];
+
+function renderClusters(markets) {
+  const body = document.getElementById("clusters-body");
+
+  // Group markets by cluster_id
+  const groups = {};
+  markets.forEach(m => {
+    const c = m.cluster_id ?? -1;
+    if (!groups[c]) groups[c] = [];
+    groups[c].push(m);
+  });
+
+  // Sort: multi-market clusters first (by size desc), then singletons
+  const sorted = Object.entries(groups).sort((a, b) => b[1].length - a[1].length);
+  const clusters = sorted.filter(([, ms]) => ms.length >= 2);
+  const singletons = sorted.filter(([, ms]) => ms.length === 1);
+
+  let html = "";
+  let paletteIdx = 0;
+
+  clusters.forEach(([, ms]) => {
+    const pal = CLUSTER_PALETTE[paletteIdx % CLUSTER_PALETTE.length];
+    paletteIdx++;
+
+    // Determine cluster label from shared categories
+    const cats = [...new Set(ms.map(m => m.primary_category))];
+    const label = cats.length === 1 ? cats[0] : cats.join(" / ");
+
+    // Warn if combined exposure is high (3+ markets = flag)
+    const warning = ms.length >= 3
+      ? `<div class="cluster-warning">⚠ ${ms.length} linked markets — treat as one position for sizing</div>`
+      : "";
+
+    const rows = ms.map(m => `
+      <div class="cluster-market">
+        <div class="cluster-market-q">
+          <a href="${m.url}" target="_blank">${m.question}</a>
+        </div>
+        <div class="cluster-market-prob" style="color:${pal.text};">${m.market_prob_pct}%</div>
+      </div>`).join("");
+
+    html += `
+    <div class="cluster-card">
+      <div class="cluster-header" style="background:${pal.bg}; color:${pal.text}; border-bottom:2px solid ${pal.border};">
+        <span>${label}</span>
+        <span class="cluster-size">${ms.length} linked markets</span>
+      </div>
+      <div class="cluster-markets">${rows}</div>
+      ${warning}
+    </div>`;
+  });
+
+  // Add singletons as a collapsed group
+  if (singletons.length > 0) {
+    const singleRows = singletons.map(([, ms]) => {
+      const m = ms[0];
+      return `
+      <div class="cluster-market">
+        <div class="cluster-market-q"><a href="${m.url}" target="_blank">${m.question}</a></div>
+        <div class="cluster-market-prob" style="color:#7f8c8d;">${m.market_prob_pct}%</div>
+      </div>`;
+    }).join("");
+
+    html += `
+    <div class="cluster-card">
+      <div class="cluster-header" style="background:#f8f9fa; color:#7f8c8d; border-bottom:2px solid #dee2e6;">
+        <span>Standalone Markets</span>
+        <span class="cluster-size">${singletons.length} markets</span>
+      </div>
+      <div class="cluster-markets">${singleRows}</div>
+    </div>`;
+  }
+
+  body.innerHTML = html || `<div class="empty">No clusters detected.</div>`;
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+(async () => {
+  try {
+    const data = await loadData();
+    const markets = data.markets || [];
+
+    renderStats(data);
+    renderMatrix(markets);
+    renderSignals(markets);
+    renderDelta(markets);
+    renderClusters(markets);
+
+  } catch (err) {
+    console.error(err);
+    document.querySelector(".page").innerHTML = `
+      <div style="padding:40px; text-align:center;">
+        <div class="error-msg" style="font-size:15px;">⚠ Could not load market data</div>
+        <p style="color:#aaa; margin-top:10px; font-size:13px;">
+          ${err.message}<br><br>
+          Make sure markets.json is in the same folder as this page.
+          If running locally, open via a local server (not file://).
+        </p>
+      </div>`;
+  }
+})();
+</script>
+</body>
+</html>

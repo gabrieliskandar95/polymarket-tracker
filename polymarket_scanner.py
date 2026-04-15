@@ -450,6 +450,10 @@ def generate_html_report(candidates: list[dict], run_date: str, max_days: int) -
   <div class="hdr">
     <h1>Polymarket Geopolitical Scan</h1>
     <p>Pierre &amp; Gabe &nbsp;·&nbsp; {run_date} &nbsp;·&nbsp; Bet Pipeline Candidates</p>
+    <a href="dashboard.html" style="display:inline-block; margin-top:10px; background:rgba(255,255,255,0.15);
+       color:white; padding:5px 14px; border-radius:5px; font-size:12px; text-decoration:none;">
+      📊 View Dashboard →
+    </a>
   </div>
 
   <div class="stats">
@@ -568,6 +572,119 @@ def update_spreadsheet(tracker_path: str, candidates: list[dict]) -> bool:
     return True
 
 
+# ─── DELTA TRACKING & CLUSTERING ──────────────────────────────────────────────
+
+def load_previous_data(path: str) -> list[dict]:
+    """Load markets from a previous scan's markets.json for delta comparison."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data.get("markets", [])
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+
+def compute_deltas(candidates: list[dict], previous: list[dict]) -> list[dict]:
+    """
+    Compare each candidate against the previous scan.
+    Adds: previous_price, price_delta (signed, 0-1 scale), is_new.
+    """
+    prev_map = {m["question"].lower().strip(): m for m in previous}
+    for c in candidates:
+        key = c["question"].lower().strip()
+        if key in prev_map:
+            prev_price = prev_map[key].get("yes_price")
+            c["previous_price"] = prev_price
+            c["price_delta"] = (
+                round(c["yes_price"] - prev_price, 4)
+                if prev_price is not None else None
+            )
+            c["is_new"] = False
+        else:
+            c["previous_price"] = None
+            c["price_delta"] = None
+            c["is_new"] = True
+    return candidates
+
+
+def compute_clusters(candidates: list[dict]) -> list[dict]:
+    """
+    Assign a cluster_id to each candidate based on keyword co-occurrence.
+    Markets sharing 2+ specific keywords are considered correlated.
+    """
+    def market_keywords(m: dict) -> set:
+        text = m["question"].lower()
+        hits = set()
+        for kws in KEYWORD_GROUPS.values():
+            for kw in kws:
+                if kw in text:
+                    hits.add(kw)
+        return hits
+
+    kw_sets = [(m, market_keywords(m)) for m in candidates]
+    cluster_map: dict[str, int] = {}
+    next_id = 0
+
+    for i, (m, kws) in enumerate(kw_sets):
+        q = m["question"]
+        if q in cluster_map:
+            continue
+        cluster_id = next_id
+        next_id += 1
+        cluster_map[q] = cluster_id
+        for j, (other, other_kws) in enumerate(kw_sets):
+            if i == j or other["question"] in cluster_map:
+                continue
+            if len(kws & other_kws) >= 2:
+                cluster_map[other["question"]] = cluster_id
+
+    for c in candidates:
+        c["cluster_id"] = cluster_map.get(c["question"], -1)
+    return candidates
+
+
+def flag_mispricing_signals(candidates: list[dict]) -> list[dict]:
+    """
+    Add objective mispricing signals that don't require our probability estimates.
+    Signals:
+      - 'sharp_move': price moved >10pp since last scan on thin liquidity
+      - 'low_liquidity_outlier': price far from 50% but very low liquidity
+      - 'imminent_extreme': resolves in <21 days and price is >80% or <20%
+    """
+    for c in candidates:
+        signals = []
+        delta = c.get("price_delta")
+        liq = c.get("liquidity", 0)
+        days = c.get("days_to_resolution", 999)
+        price = c.get("yes_price", 0.5)
+        mispricing = abs(price - 0.5)
+
+        if delta is not None and abs(delta) >= 0.10 and liq < 5000:
+            signals.append("sharp_move")
+
+        if mispricing >= 0.30 and liq < 1500:
+            signals.append("low_liquidity_outlier")
+
+        if days <= 21 and (price >= 0.80 or price <= 0.20):
+            signals.append("imminent_extreme")
+
+        c["mispricing_signals"] = signals
+    return candidates
+
+
+def save_markets_json(candidates: list[dict], output_dir: str, run_date: str) -> str:
+    """Save full market data as markets.json for the dashboard to consume."""
+    data = {
+        "generated_at": run_date,
+        "total": len(candidates),
+        "markets": candidates,
+    }
+    path = os.path.join(output_dir, "markets.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, default=str)
+    return path
+
+
 # ─── MAIN ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -602,6 +719,10 @@ def main():
         "--no-spreadsheet", action="store_true",
         help="Produce report only; do not write to spreadsheet"
     )
+    parser.add_argument(
+        "--previous-data", default=None,
+        help="Path to previous scan's markets.json for delta tracking"
+    )
     args = parser.parse_args()
 
     run_date = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -633,31 +754,45 @@ def main():
         )
         sys.exit(0)
 
+    # Step 3: Delta tracking, clustering, mispricing signals
+    previous = load_previous_data(args.previous_data) if args.previous_data else []
+    if previous:
+        print(f"  Loaded {len(previous)} markets from previous scan for delta tracking.")
+    candidates = compute_deltas(candidates, previous)
+    candidates = compute_clusters(candidates)
+    candidates = flag_mispricing_signals(candidates)
+
     print(f"\nFound {len(candidates)} pipeline candidates:\n")
     for c in candidates[:10]:
+        sig = " ⚑" if c.get("mispricing_signals") else ""
         print(f"  [{c['primary_category'][:25]:<25}] "
               f"{c['market_prob_pct']:>5.1f}% | {c['days_to_resolution']:>3}d | "
-              f"{c['question'][:60]}")
+              f"{c['question'][:55]}{sig}")
     if len(candidates) > 10:
         print(f"  ... and {len(candidates) - 10} more (see HTML report)")
 
-    # Step 3: Generate HTML report
-    report_name = f"polymarket_scan_{datetime.now().strftime('%Y%m%d_%H%M')}.html"
+    # Step 4: Save markets.json for dashboard
     Path(args.output_dir).mkdir(parents=True, exist_ok=True)
+    json_path = save_markets_json(candidates, args.output_dir, run_date)
+    print(f"\n✓ Market data saved: {json_path}")
+
+    # Step 5: Generate HTML report
+    report_name = "index.html"
     report_path = os.path.join(args.output_dir, report_name)
     html = generate_html_report(candidates, run_date, args.days)
     Path(report_path).write_text(html, encoding="utf-8")
-    print(f"\n✓ HTML report saved: {report_path}")
+    print(f"✓ Scan report saved: {report_path}")
 
-    # Step 4: Update spreadsheet
+    # Step 6: Update spreadsheet
     if not args.no_spreadsheet:
         print(f"Updating spreadsheet: {args.tracker}")
         update_spreadsheet(args.tracker, candidates)
 
     print(f"\n{'='*55}")
     print("  Done. Next steps:")
-    print(f"  1. Open {report_name} in your browser")
-    print("  2. For any market you want to investigate:")
+    print("  1. Open index.html in your browser (scan report)")
+    print("  2. Open dashboard.html for visualisations")
+    print("  3. For any market you want to investigate:")
     print("     → Form YOUR probability estimate BEFORE looking at the price")
     print("     → Write a 1-paragraph thesis in the Bet Pipeline tab")
     print("     → Then compare with Pierre at your next session")
