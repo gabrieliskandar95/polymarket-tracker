@@ -225,12 +225,28 @@ def get_matched_categories(market: dict) -> list[str]:
 
 
 def build_url(market: dict) -> str:
-    """Construct best-guess Polymarket URL for this market."""
-    slug = market.get("slug") or market.get("groupSlug")
-    market_id = market.get("id", "")
+    """
+    Construct the most reliable Polymarket URL for this market.
+    Priority: groupSlug (parent event) → slug → conditionId → search fallback.
+    """
+    import urllib.parse
+
+    # groupSlug is the parent event slug — most reliable for grouped markets
+    group_slug = market.get("groupSlug") or market.get("group_slug")
+    slug = market.get("slug")
+    condition_id = market.get("conditionId") or market.get("condition_id")
+    question = market.get("question", "")
+
+    if group_slug:
+        return f"https://polymarket.com/event/{group_slug}"
     if slug:
         return f"https://polymarket.com/event/{slug}"
-    return f"https://polymarket.com/market/{market_id}"
+    if condition_id:
+        return f"https://polymarket.com/market/{condition_id}"
+
+    # Last resort: search page using the market question
+    q = urllib.parse.quote_plus(question[:100])
+    return f"https://polymarket.com/search?q={q}"
 
 
 # ─── FILTERING & SCORING ───────────────────────────────────────────────────────
