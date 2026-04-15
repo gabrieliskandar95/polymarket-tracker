@@ -1,0 +1,52 @@
+name: Polymarket Weekly Scan
+
+on:
+  schedule:
+    - cron: '0 18 * * 0'   # Every Sunday at 6pm UTC — adjust to suit your session timing
+  workflow_dispatch:         # Lets you trigger a manual run from the GitHub UI anytime
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scan-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests openpyxl
+
+      - name: Run scanner
+        run: python polymarket_scanner.py --no-spreadsheet --output-dir ./site --days 90
+
+      - name: Rename output to index.html
+        run: mv site/polymarket_scan_*.html site/index.html
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './site'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
