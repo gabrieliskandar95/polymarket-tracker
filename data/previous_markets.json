@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-04-16 01:07",
+  "generated_at": "2026-04-18 04:25",
   "total": 40,
   "markets": [
     {
+      "id": "1706298",
+      "question": "Will Iran strike Qatar by April 30, 2026?",
+      "yes_price": 0.13,
+      "market_prob_pct": 13.0,
+      "days_to_resolution": 11,
+      "resolution_date": "2026-04-30",
+      "liquidity": 28552,
+      "volume": 88370,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 14,
+      "url": "https://polymarket.com/event/iran-military-action-against-by-april-30",
+      "market_id": "1706298",
+      "previous_price": 0.2,
+      "price_delta": -0.07,
+      "is_new": false,
+      "cluster_id": 0,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
       "id": "1912777",
       "question": "Trump announces US x Iran ceasefire end by April 21, 2026?",
-      "yes_price": 0.105,
-      "market_prob_pct": 10.5,
-      "days_to_resolution": 4,
+      "yes_price": 0.065,
+      "market_prob_pct": 6.5,
+      "days_to_resolution": 2,
       "resolution_date": "2026-04-21",
-      "liquidity": 32791,
-      "volume": 463503,
+      "liquidity": 63460,
+      "volume": 612847,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -20,10 +47,10 @@
       "score": 13,
       "url": "https://polymarket.com/event/trump-announces-us-x-iran-ceasefire-by",
       "market_id": "1912777",
-      "previous_price": 0.13,
-      "price_delta": -0.025,
+      "previous_price": 0.105,
+      "price_delta": -0.04,
       "is_new": false,
-      "cluster_id": 0,
+      "cluster_id": 1,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -31,12 +58,12 @@
     {
       "id": "1918467",
       "question": "Will Israel conduct military action against Iran by April 21, 2026?",
-      "yes_price": 0.115,
-      "market_prob_pct": 11.5,
-      "days_to_resolution": 4,
+      "yes_price": 0.065,
+      "market_prob_pct": 6.5,
+      "days_to_resolution": 2,
       "resolution_date": "2026-04-21",
-      "liquidity": 52217,
-      "volume": 442811,
+      "liquidity": 21607,
+      "volume": 700328,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -46,10 +73,10 @@
       "score": 13,
       "url": "https://polymarket.com/event/israel-military-action-against-iran-by-167",
       "market_id": "1918467",
-      "previous_price": 0.185,
-      "price_delta": -0.07,
+      "previous_price": 0.115,
+      "price_delta": -0.05,
       "is_new": false,
-      "cluster_id": 1,
+      "cluster_id": 2,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -57,12 +84,12 @@
     {
       "id": "1567747",
       "question": "Iran x Israel/US conflict ends by April 30?",
-      "yes_price": 0.885,
-      "market_prob_pct": 88.5,
-      "days_to_resolution": 13,
+      "yes_price": 0.925,
+      "market_prob_pct": 92.5,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 75959,
-      "volume": 3820055,
+      "liquidity": 112990,
+      "volume": 4095572,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -72,91 +99,10 @@
       "score": 13,
       "url": "https://polymarket.com/event/iran-x-israelus-conflict-ends-by",
       "market_id": "1567747",
-      "previous_price": 0.855,
-      "price_delta": 0.03,
+      "previous_price": 0.885,
+      "price_delta": 0.04,
       "is_new": false,
-      "cluster_id": 1,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1706297",
-      "question": "Will Iran strike Cyprus by April 30, 2026?",
-      "yes_price": 0.043,
-      "market_prob_pct": 4.3,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-04-30",
-      "liquidity": 14068,
-      "volume": 18116,
-      "categories": [
-        "Iran",
-        "Israel / Gaza / Lebanon",
-        "Saudi Arabia / Gulf",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 13,
-      "url": "https://polymarket.com/event/iran-military-action-against-by-april-30",
-      "market_id": "1706297",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
       "cluster_id": 2,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1706303",
-      "question": "Will Iran strike Oman by April 30, 2026?",
-      "yes_price": 0.065,
-      "market_prob_pct": 6.5,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-04-30",
-      "liquidity": 12244,
-      "volume": 62697,
-      "categories": [
-        "Iran",
-        "Israel / Gaza / Lebanon",
-        "Saudi Arabia / Gulf",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 13,
-      "url": "https://polymarket.com/event/iran-military-action-against-by-april-30",
-      "market_id": "1706303",
-      "previous_price": 0.06,
-      "price_delta": 0.005,
-      "is_new": false,
-      "cluster_id": 3,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1706305",
-      "question": "Will Iran strike Lebanon by April 30, 2026?",
-      "yes_price": 0.0425,
-      "market_prob_pct": 4.2,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-04-30",
-      "liquidity": 16706,
-      "volume": 42055,
-      "categories": [
-        "Iran",
-        "Israel / Gaza / Lebanon",
-        "Saudi Arabia / Gulf",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 13,
-      "url": "https://polymarket.com/event/iran-military-action-against-by-april-30",
-      "market_id": "1706305",
-      "previous_price": 0.059,
-      "price_delta": -0.0165,
-      "is_new": false,
-      "cluster_id": 4,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -164,12 +110,12 @@
     {
       "id": "1910335",
       "question": "Will Iran strike Jordan by April 30, 2026?",
-      "yes_price": 0.0635,
-      "market_prob_pct": 6.3,
-      "days_to_resolution": 13,
+      "yes_price": 0.059,
+      "market_prob_pct": 5.9,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 8940,
-      "volume": 11801,
+      "liquidity": 13591,
+      "volume": 13550,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -180,23 +126,48 @@
       "score": 13,
       "url": "https://polymarket.com/event/iran-military-action-against-by-april-30",
       "market_id": "1910335",
-      "previous_price": 0.0645,
-      "price_delta": -0.001,
+      "previous_price": 0.0635,
+      "price_delta": -0.0045,
       "is_new": false,
-      "cluster_id": 5,
+      "cluster_id": 3,
       "mispricing_signals": [
         "imminent_extreme"
       ]
     },
     {
+      "id": "1910397",
+      "question": "Will Iran strike Bahrain by April 30, 2026?",
+      "yes_price": 0.27,
+      "market_prob_pct": 27.0,
+      "days_to_resolution": 11,
+      "resolution_date": "2026-04-30",
+      "liquidity": 30605,
+      "volume": 185870,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 13,
+      "url": "https://polymarket.com/event/iran-military-action-against-by-april-30",
+      "market_id": "1910397",
+      "previous_price": 0.465,
+      "price_delta": -0.195,
+      "is_new": false,
+      "cluster_id": 4,
+      "mispricing_signals": []
+    },
+    {
       "id": "1641032",
       "question": "Will another country conduct military action against Iran by April 30, 2026?",
-      "yes_price": 0.07,
-      "market_prob_pct": 7.0,
-      "days_to_resolution": 13,
+      "yes_price": 0.06,
+      "market_prob_pct": 6.0,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 33428,
-      "volume": 388769,
+      "liquidity": 57108,
+      "volume": 419622,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -206,10 +177,10 @@
       "score": 13,
       "url": "https://polymarket.com/event/will-another-country-conduct-military-action-against-iran-by",
       "market_id": "1641032",
-      "previous_price": 0.085,
-      "price_delta": -0.015,
+      "previous_price": 0.07,
+      "price_delta": -0.01,
       "is_new": false,
-      "cluster_id": 6,
+      "cluster_id": 5,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -217,12 +188,12 @@
     {
       "id": "1484914",
       "question": "Iran x Israel/US conflict ends by May 15?",
-      "yes_price": 0.915,
-      "market_prob_pct": 91.5,
-      "days_to_resolution": 28,
+      "yes_price": 0.955,
+      "market_prob_pct": 95.5,
+      "days_to_resolution": 26,
       "resolution_date": "2026-05-15",
-      "liquidity": 118135,
-      "volume": 3404163,
+      "liquidity": 243850,
+      "volume": 3478736,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -232,48 +203,45 @@
       "score": 13,
       "url": "https://polymarket.com/event/iran-x-israelus-conflict-ends-by",
       "market_id": "1484914",
-      "previous_price": 0.86,
-      "price_delta": 0.055,
+      "previous_price": 0.915,
+      "price_delta": 0.04,
+      "is_new": false,
+      "cluster_id": 2,
+      "mispricing_signals": []
+    },
+    {
+      "id": "1918791",
+      "question": "US x Iran ceasefire extended by April 21, 2026?",
+      "yes_price": 0.765,
+      "market_prob_pct": 76.5,
+      "days_to_resolution": 2,
+      "resolution_date": "2026-04-21",
+      "liquidity": 53145,
+      "volume": 785945,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/us-x-iran-ceasefire-extended-by",
+      "market_id": "1918791",
+      "previous_price": 0.695,
+      "price_delta": 0.07,
       "is_new": false,
       "cluster_id": 1,
       "mispricing_signals": []
     },
     {
-      "id": "1706298",
-      "question": "Will Iran strike Qatar by April 30, 2026?",
-      "yes_price": 0.2,
-      "market_prob_pct": 20.0,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-04-30",
-      "liquidity": 15225,
-      "volume": 78123,
-      "categories": [
-        "Iran",
-        "Israel / Gaza / Lebanon",
-        "Saudi Arabia / Gulf",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 12,
-      "url": "https://polymarket.com/event/iran-military-action-against-by-april-30",
-      "market_id": "1706298",
-      "previous_price": 0.255,
-      "price_delta": -0.055,
-      "is_new": false,
-      "cluster_id": 7,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
       "id": "1693058",
       "question": "Will Saudi Arabia strike Iran by April 30?",
-      "yes_price": 0.058,
-      "market_prob_pct": 5.8,
-      "days_to_resolution": 13,
+      "yes_price": 0.0465,
+      "market_prob_pct": 4.7,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 23751,
-      "volume": 509148,
+      "liquidity": 34442,
+      "volume": 519668,
       "categories": [
         "Iran",
         "Saudi Arabia / Gulf"
@@ -282,10 +250,10 @@
       "score": 12,
       "url": "https://polymarket.com/event/which-countries-will-conduct-military-action-against-iran-by-april-30",
       "market_id": "1693058",
-      "previous_price": 0.0555,
-      "price_delta": 0.0025,
+      "previous_price": 0.058,
+      "price_delta": -0.0115,
       "is_new": false,
-      "cluster_id": 8,
+      "cluster_id": 6,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -293,12 +261,12 @@
     {
       "id": "1693042",
       "question": "Will UAE strike Iran by April 30?",
-      "yes_price": 0.075,
-      "market_prob_pct": 7.5,
-      "days_to_resolution": 13,
+      "yes_price": 0.055,
+      "market_prob_pct": 5.5,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 70022,
-      "volume": 1327261,
+      "liquidity": 68973,
+      "volume": 1415802,
       "categories": [
         "Iran",
         "Saudi Arabia / Gulf"
@@ -308,9 +276,9 @@
       "url": "https://polymarket.com/event/which-countries-will-conduct-military-action-against-iran-by-april-30",
       "market_id": "1693042",
       "previous_price": 0.075,
-      "price_delta": 0.0,
+      "price_delta": -0.02,
       "is_new": false,
-      "cluster_id": 9,
+      "cluster_id": 7,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -318,12 +286,12 @@
     {
       "id": "1742086",
       "question": "Will the United Kingdom send warships through the Strait of Hormuz by April 30, 2026?",
-      "yes_price": 0.1,
-      "market_prob_pct": 10.0,
-      "days_to_resolution": 13,
+      "yes_price": 0.075,
+      "market_prob_pct": 7.5,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 26715,
-      "volume": 304769,
+      "liquidity": 37287,
+      "volume": 358158,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -332,10 +300,10 @@
       "score": 12,
       "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-april-30",
       "market_id": "1742086",
-      "previous_price": 0.095,
-      "price_delta": 0.005,
+      "previous_price": 0.1,
+      "price_delta": -0.025,
       "is_new": false,
-      "cluster_id": 10,
+      "cluster_id": 8,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -343,12 +311,12 @@
     {
       "id": "1742095",
       "question": "Will Pakistan send warships through the Strait of Hormuz by April 30, 2026?",
-      "yes_price": 0.0465,
-      "market_prob_pct": 4.7,
-      "days_to_resolution": 13,
+      "yes_price": 0.069,
+      "market_prob_pct": 6.9,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 25993,
-      "volume": 133834,
+      "liquidity": 21436,
+      "volume": 140117,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -357,95 +325,122 @@
       "score": 12,
       "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-april-30",
       "market_id": "1742095",
-      "previous_price": 0.0455,
-      "price_delta": 0.001,
+      "previous_price": 0.0465,
+      "price_delta": 0.0225,
       "is_new": false,
+      "cluster_id": 8,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1742089",
+      "question": "Will Italy send warships through the Strait of Hormuz by April 30, 2026?",
+      "yes_price": 0.0615,
+      "market_prob_pct": 6.2,
+      "days_to_resolution": 11,
+      "resolution_date": "2026-04-30",
+      "liquidity": 20789,
+      "volume": 108199,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-april-30",
+      "market_id": "1742089",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 8,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1961414",
+      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 19, 2026?",
+      "yes_price": 0.145,
+      "market_prob_pct": 14.5,
+      "days_to_resolution": 11,
+      "resolution_date": "2026-04-30",
+      "liquidity": 44348,
+      "volume": 457447,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/trump-announces-us-blockade-of-hormuz-lifted-by",
+      "market_id": "1961414",
+      "previous_price": 0.225,
+      "price_delta": -0.08,
+      "is_new": false,
+      "cluster_id": 9,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1929773",
+      "question": "Will Trump agree to Iranian transit fees in the Strait of Hormuz in April?",
+      "yes_price": 0.135,
+      "market_prob_pct": 13.5,
+      "days_to_resolution": 11,
+      "resolution_date": "2026-04-30",
+      "liquidity": 28360,
+      "volume": 261103,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/what-will-the-us-agree-to",
+      "market_id": "1929773",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 1,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2002698",
+      "question": "US x Iran diplomatic meeting by April 21, 2026?",
+      "yes_price": 0.865,
+      "market_prob_pct": 86.5,
+      "days_to_resolution": 2,
+      "resolution_date": "2026-04-21",
+      "liquidity": 21824,
+      "volume": 26283,
+      "categories": [
+        "Iran"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-329",
+      "market_id": "2002698",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
       "cluster_id": 10,
       "mispricing_signals": [
         "imminent_extreme"
       ]
     },
     {
-      "id": "1901437",
-      "question": "Will Elon Musk post 260-279 tweets from April 10 to April 17, 2026?",
-      "yes_price": 0.0635,
-      "market_prob_pct": 6.3,
-      "days_to_resolution": 1,
-      "resolution_date": "2026-04-17",
-      "liquidity": 40238,
-      "volume": 433353,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-10-april-17",
-      "market_id": "1901437",
-      "previous_price": 0.0705,
-      "price_delta": -0.007,
-      "is_new": false,
-      "cluster_id": 11,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1901446",
-      "question": "Will Elon Musk post 340-359 tweets from April 10 to April 17, 2026?",
-      "yes_price": 0.0935,
-      "market_prob_pct": 9.3,
-      "days_to_resolution": 1,
-      "resolution_date": "2026-04-17",
-      "liquidity": 37486,
-      "volume": 283809,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-10-april-17",
-      "market_id": "1901446",
-      "previous_price": 0.1155,
-      "price_delta": -0.022,
-      "is_new": false,
-      "cluster_id": 12,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1918791",
-      "question": "US x Iran ceasefire extended by April 21, 2026?",
-      "yes_price": 0.695,
-      "market_prob_pct": 69.5,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-04-21",
-      "liquidity": 54566,
-      "volume": 572011,
-      "categories": [
-        "Iran",
-        "Israel / Gaza / Lebanon",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 11,
-      "url": "https://polymarket.com/event/us-x-iran-ceasefire-extended-by",
-      "market_id": "1918791",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 0,
-      "mispricing_signals": []
-    },
-    {
       "id": "1918792",
       "question": "Trump announces end of military operations against Iran by April 21st?",
-      "yes_price": 0.21,
-      "market_prob_pct": 21.0,
-      "days_to_resolution": 5,
+      "yes_price": 0.215,
+      "market_prob_pct": 21.5,
+      "days_to_resolution": 3,
       "resolution_date": "2026-04-21",
-      "liquidity": 55101,
-      "volume": 1099455,
+      "liquidity": 101413,
+      "volume": 1882217,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -454,68 +449,21 @@
       "score": 11,
       "url": "https://polymarket.com/event/trump-announces-end-of-military-operations-against-iran-by",
       "market_id": "1918792",
-      "previous_price": 0.235,
-      "price_delta": -0.025,
+      "previous_price": 0.21,
+      "price_delta": 0.005,
       "is_new": false,
-      "cluster_id": 0,
+      "cluster_id": 1,
       "mispricing_signals": []
-    },
-    {
-      "id": "1919417",
-      "question": "US x Iran permanent peace deal by April 22, 2026?",
-      "yes_price": 0.235,
-      "market_prob_pct": 23.5,
-      "days_to_resolution": 5,
-      "resolution_date": "2026-04-22",
-      "liquidity": 200437,
-      "volume": 5018904,
-      "categories": [
-        "Iran",
-        "Israel / Gaza / Lebanon"
-      ],
-      "primary_category": "Iran",
-      "score": 11,
-      "url": "https://polymarket.com/event/us-x-iran-permanent-peace-deal-by",
-      "market_id": "1919417",
-      "previous_price": 0.22,
-      "price_delta": 0.015,
-      "is_new": false,
-      "cluster_id": 13,
-      "mispricing_signals": []
-    },
-    {
-      "id": "1943729",
-      "question": "Will Elon Musk post 200-219 tweets from April 14 to April 21, 2026?",
-      "yes_price": 0.0515,
-      "market_prob_pct": 5.1,
-      "days_to_resolution": 5,
-      "resolution_date": "2026-04-21",
-      "liquidity": 36636,
-      "volume": 83319,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-14-april-21",
-      "market_id": "1943729",
-      "previous_price": 0.0525,
-      "price_delta": -0.001,
-      "is_new": false,
-      "cluster_id": 14,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
     },
     {
       "id": "1943732",
       "question": "Will Elon Musk post 220-239 tweets from April 14 to April 21, 2026?",
-      "yes_price": 0.125,
-      "market_prob_pct": 12.5,
-      "days_to_resolution": 5,
+      "yes_price": 0.055,
+      "market_prob_pct": 5.5,
+      "days_to_resolution": 3,
       "resolution_date": "2026-04-21",
-      "liquidity": 34694,
-      "volume": 71847,
+      "liquidity": 34222,
+      "volume": 161181,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -524,33 +472,9 @@
       "url": "https://polymarket.com/event/elon-musk-of-tweets-april-14-april-21",
       "market_id": "1943732",
       "previous_price": 0.125,
-      "price_delta": 0.0,
+      "price_delta": -0.07,
       "is_new": false,
-      "cluster_id": 15,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1943739",
-      "question": "Will Elon Musk post 300-319 tweets from April 14 to April 21, 2026?",
-      "yes_price": 0.125,
-      "market_prob_pct": 12.5,
-      "days_to_resolution": 5,
-      "resolution_date": "2026-04-21",
-      "liquidity": 36693,
-      "volume": 75135,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-14-april-21",
-      "market_id": "1943739",
-      "previous_price": 0.135,
-      "price_delta": -0.01,
-      "is_new": false,
-      "cluster_id": 16,
+      "cluster_id": 11,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -558,12 +482,12 @@
     {
       "id": "1943741",
       "question": "Will Elon Musk post 320-339 tweets from April 14 to April 21, 2026?",
-      "yes_price": 0.0785,
-      "market_prob_pct": 7.8,
-      "days_to_resolution": 5,
+      "yes_price": 0.0985,
+      "market_prob_pct": 9.8,
+      "days_to_resolution": 3,
       "resolution_date": "2026-04-21",
-      "liquidity": 37653,
-      "volume": 70134,
+      "liquidity": 39529,
+      "volume": 144979,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -571,10 +495,10 @@
       "score": 11,
       "url": "https://polymarket.com/event/elon-musk-of-tweets-april-14-april-21",
       "market_id": "1943741",
-      "previous_price": 0.073,
-      "price_delta": 0.0055,
+      "previous_price": 0.0785,
+      "price_delta": 0.02,
       "is_new": false,
-      "cluster_id": 17,
+      "cluster_id": 12,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -582,12 +506,12 @@
     {
       "id": "1943742",
       "question": "Will Elon Musk post 340-359 tweets from April 14 to April 21, 2026?",
-      "yes_price": 0.0505,
-      "market_prob_pct": 5.1,
-      "days_to_resolution": 5,
+      "yes_price": 0.0405,
+      "market_prob_pct": 4.0,
+      "days_to_resolution": 3,
       "resolution_date": "2026-04-21",
-      "liquidity": 35972,
-      "volume": 82008,
+      "liquidity": 37688,
+      "volume": 160104,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -596,95 +520,215 @@
       "url": "https://polymarket.com/event/elon-musk-of-tweets-april-14-april-21",
       "market_id": "1943742",
       "previous_price": 0.0505,
-      "price_delta": 0.0,
+      "price_delta": -0.01,
       "is_new": false,
+      "cluster_id": 13,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1976997",
+      "question": "Will Elon Musk post 200-219 tweets from April 17 to April 24, 2026?",
+      "yes_price": 0.045,
+      "market_prob_pct": 4.5,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-04-24",
+      "liquidity": 40320,
+      "volume": 25833,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-17-april-24",
+      "market_id": "1976997",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 14,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1976999",
+      "question": "Will Elon Musk post 220-239 tweets from April 17 to April 24, 2026?",
+      "yes_price": 0.065,
+      "market_prob_pct": 6.5,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-04-24",
+      "liquidity": 39686,
+      "volume": 15590,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-17-april-24",
+      "market_id": "1976999",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 15,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1977001",
+      "question": "Will Elon Musk post 240-259 tweets from April 17 to April 24, 2026?",
+      "yes_price": 0.12,
+      "market_prob_pct": 12.0,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-04-24",
+      "liquidity": 36810,
+      "volume": 28128,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-17-april-24",
+      "market_id": "1977001",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 16,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1977007",
+      "question": "Will Elon Musk post 300-319 tweets from April 17 to April 24, 2026?",
+      "yes_price": 0.145,
+      "market_prob_pct": 14.5,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-04-24",
+      "liquidity": 37130,
+      "volume": 29776,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-17-april-24",
+      "market_id": "1977007",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 17,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1977008",
+      "question": "Will Elon Musk post 320-339 tweets from April 17 to April 24, 2026?",
+      "yes_price": 0.085,
+      "market_prob_pct": 8.5,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-04-24",
+      "liquidity": 36974,
+      "volume": 18257,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-17-april-24",
+      "market_id": "1977008",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
       "cluster_id": 18,
       "mispricing_signals": [
         "imminent_extreme"
       ]
     },
     {
-      "id": "1707841",
-      "question": "Israel x Hezbollah ceasefire by April 30, 2026?",
-      "yes_price": 0.6905,
-      "market_prob_pct": 69.0,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-04-30",
-      "liquidity": 53046,
-      "volume": 2679929,
+      "id": "1977009",
+      "question": "Will Elon Musk post 340-359 tweets from April 17 to April 24, 2026?",
+      "yes_price": 0.0555,
+      "market_prob_pct": 5.5,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-04-24",
+      "liquidity": 36087,
+      "volume": 21138,
       "categories": [
-        "Israel / Gaza / Lebanon",
-        "Saudi Arabia / Gulf",
         "Broader Geopolitics"
       ],
-      "primary_category": "Israel / Gaza / Lebanon",
+      "primary_category": "Broader Geopolitics",
       "score": 11,
-      "url": "https://polymarket.com/event/israel-x-hezbollah-ceasefire-by",
-      "market_id": "1707841",
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-17-april-24",
+      "market_id": "1977009",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
       "cluster_id": 19,
-      "mispricing_signals": []
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
-      "id": "1535972",
-      "question": "Iran leadership change by April 30?",
-      "yes_price": 0.065,
-      "market_prob_pct": 6.5,
-      "days_to_resolution": 13,
+      "id": "2006982",
+      "question": "US obtains Iranian enriched uranium by April 30?",
+      "yes_price": 0.0465,
+      "market_prob_pct": 4.7,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 111866,
-      "volume": 3042336,
+      "liquidity": 165281,
+      "volume": 153671,
       "categories": [
         "Iran"
       ],
       "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/iran-leadership-change-by",
-      "market_id": "1535972",
-      "previous_price": 0.075,
-      "price_delta": -0.01,
-      "is_new": false,
+      "url": "https://polymarket.com/event/us-obtains-iranian-enriched-uranium-by",
+      "market_id": "2006982",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
       "cluster_id": 20,
       "mispricing_signals": [
         "imminent_extreme"
       ]
     },
     {
-      "id": "1910397",
-      "question": "Will Iran strike Bahrain by April 30, 2026?",
-      "yes_price": 0.465,
-      "market_prob_pct": 46.5,
-      "days_to_resolution": 13,
+      "id": "1742093",
+      "question": "Will India send warships through the Strait of Hormuz by April 30, 2026?",
+      "yes_price": 0.0605,
+      "market_prob_pct": 6.0,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 20362,
-      "volume": 60663,
+      "liquidity": 19866,
+      "volume": 176816,
       "categories": [
         "Iran",
-        "Israel / Gaza / Lebanon",
-        "Saudi Arabia / Gulf",
         "Broader Geopolitics"
       ],
       "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/iran-military-action-against-by-april-30",
-      "market_id": "1910397",
-      "previous_price": 0.31,
-      "price_delta": 0.155,
-      "is_new": false,
-      "cluster_id": 21,
-      "mispricing_signals": []
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-april-30",
+      "market_id": "1742093",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 8,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
       "id": "1742087",
       "question": "Will France send warships through the Strait of Hormuz by April 30, 2026?",
-      "yes_price": 0.081,
-      "market_prob_pct": 8.1,
-      "days_to_resolution": 13,
+      "yes_price": 0.1155,
+      "market_prob_pct": 11.6,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 18324,
-      "volume": 139494,
+      "liquidity": 16562,
+      "volume": 193727,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -693,32 +737,81 @@
       "score": 11,
       "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-april-30",
       "market_id": "1742087",
-      "previous_price": 0.094,
-      "price_delta": -0.013,
+      "previous_price": 0.081,
+      "price_delta": 0.0345,
       "is_new": false,
-      "cluster_id": 10,
+      "cluster_id": 8,
       "mispricing_signals": [
         "imminent_extreme"
       ]
     },
     {
-      "id": "1708576",
-      "question": "Will the Kharg Island oil terminal be hit by April 30?",
-      "yes_price": 0.06,
-      "market_prob_pct": 6.0,
-      "days_to_resolution": 13,
+      "id": "2007435",
+      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 18, 2026?",
+      "yes_price": 0.045,
+      "market_prob_pct": 4.5,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 22666,
-      "volume": 430616,
+      "liquidity": 18191,
+      "volume": 2473,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/trump-announces-us-blockade-of-hormuz-lifted-by",
+      "market_id": "2007435",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 9,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1959319",
+      "question": "US x Iran diplomatic meeting by April 22, 2026?",
+      "yes_price": 0.895,
+      "market_prob_pct": 89.5,
+      "days_to_resolution": 11,
+      "resolution_date": "2026-04-30",
+      "liquidity": 27242,
+      "volume": 437916,
       "categories": [
         "Iran"
       ],
       "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/will-the-kharg-island-oil-terminal-be-hit-by-march-31",
-      "market_id": "1708576",
-      "previous_price": 0.085,
-      "price_delta": -0.025,
+      "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-329",
+      "market_id": "1959319",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 21,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1959320",
+      "question": "US x Iran diplomatic meeting by April 30, 2026?",
+      "yes_price": 0.935,
+      "market_prob_pct": 93.5,
+      "days_to_resolution": 11,
+      "resolution_date": "2026-04-30",
+      "liquidity": 36167,
+      "volume": 253457,
+      "categories": [
+        "Iran"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-329",
+      "market_id": "1959320",
+      "previous_price": 0.885,
+      "price_delta": 0.05,
       "is_new": false,
       "cluster_id": 22,
       "mispricing_signals": [
@@ -726,69 +819,46 @@
       ]
     },
     {
-      "id": "1961413",
-      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 17, 2026?",
-      "yes_price": 0.16,
-      "market_prob_pct": 16.0,
-      "days_to_resolution": 13,
+      "id": "1708576",
+      "question": "Will the Kharg Island oil terminal be hit by April 30?",
+      "yes_price": 0.055,
+      "market_prob_pct": 5.5,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 30439,
-      "volume": 214686,
+      "liquidity": 56896,
+      "volume": 464434,
       "categories": [
-        "Iran",
-        "Broader Geopolitics"
+        "Iran"
       ],
       "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/trump-announces-us-blockade-of-hormuz-lifted-by",
-      "market_id": "1961413",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
+      "url": "https://polymarket.com/event/will-the-kharg-island-oil-terminal-be-hit-by-march-31",
+      "market_id": "1708576",
+      "previous_price": 0.06,
+      "price_delta": -0.005,
+      "is_new": false,
       "cluster_id": 23,
       "mispricing_signals": [
         "imminent_extreme"
       ]
     },
     {
-      "id": "1961414",
-      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 19, 2026?",
-      "yes_price": 0.225,
-      "market_prob_pct": 22.5,
-      "days_to_resolution": 13,
+      "id": "1641497",
+      "question": "Israel strike on Yemen by April 30, 2026?",
+      "yes_price": 0.0465,
+      "market_prob_pct": 4.7,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 26419,
-      "volume": 171485,
+      "liquidity": 15557,
+      "volume": 208045,
       "categories": [
-        "Iran",
-        "Broader Geopolitics"
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf"
       ],
-      "primary_category": "Iran",
+      "primary_category": "Israel / Gaza / Lebanon",
       "score": 11,
-      "url": "https://polymarket.com/event/trump-announces-us-blockade-of-hormuz-lifted-by",
-      "market_id": "1961414",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 23,
-      "mispricing_signals": []
-    },
-    {
-      "id": "1576159",
-      "question": "Mojtaba Khamenei seen in public by April 30?",
-      "yes_price": 0.095,
-      "market_prob_pct": 9.5,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-04-30",
-      "liquidity": 20166,
-      "volume": 482281,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 11,
-      "url": "https://polymarket.com/event/mojtaba-khamenei-public-appearance-by",
-      "market_id": "1576159",
+      "url": "https://polymarket.com/event/israel-strike-on-yemen-by-593",
+      "market_id": "1641497",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -798,49 +868,25 @@
       ]
     },
     {
-      "id": "1982153",
-      "question": "US x Iran diplomatic meeting by April 17, 2026?",
+      "id": "1576159",
+      "question": "Mojtaba Khamenei seen in public by April 30?",
       "yes_price": 0.095,
       "market_prob_pct": 9.5,
-      "days_to_resolution": 13,
+      "days_to_resolution": 11,
       "resolution_date": "2026-04-30",
-      "liquidity": 42314,
-      "volume": 35789,
+      "liquidity": 40236,
+      "volume": 496452,
       "categories": [
         "Iran"
       ],
       "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-329",
-      "market_id": "1982153",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
+      "url": "https://polymarket.com/event/mojtaba-khamenei-public-appearance-by",
+      "market_id": "1576159",
+      "previous_price": 0.095,
+      "price_delta": 0.0,
+      "is_new": false,
       "cluster_id": 25,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1959320",
-      "question": "US x Iran diplomatic meeting by April 30, 2026?",
-      "yes_price": 0.885,
-      "market_prob_pct": 88.5,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-04-30",
-      "liquidity": 47968,
-      "volume": 114418,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 11,
-      "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-329",
-      "market_id": "1959320",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 26,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -848,12 +894,12 @@
     {
       "id": "842020",
       "question": "Will Israel win Eurovision 2026?",
-      "yes_price": 0.057,
-      "market_prob_pct": 5.7,
-      "days_to_resolution": 29,
+      "yes_price": 0.061,
+      "market_prob_pct": 6.1,
+      "days_to_resolution": 27,
       "resolution_date": "2026-05-16",
-      "liquidity": 156742,
-      "volume": 1646717,
+      "liquidity": 153914,
+      "volume": 1711539,
       "categories": [
         "Israel / Gaza / Lebanon"
       ],
@@ -861,21 +907,21 @@
       "score": 11,
       "url": "https://polymarket.com/event/eurovision-winner-2026",
       "market_id": "842020",
-      "previous_price": 0.0585,
-      "price_delta": -0.0015,
+      "previous_price": 0.057,
+      "price_delta": 0.004,
       "is_new": false,
-      "cluster_id": 27,
+      "cluster_id": 26,
       "mispricing_signals": []
     },
     {
       "id": "1651932",
       "question": "Will Ukraine win the televote for Eurovision 2026?",
-      "yes_price": 0.052,
-      "market_prob_pct": 5.2,
-      "days_to_resolution": 29,
+      "yes_price": 0.0475,
+      "market_prob_pct": 4.8,
+      "days_to_resolution": 27,
       "resolution_date": "2026-05-16",
-      "liquidity": 29798,
-      "volume": 53784,
+      "liquidity": 32626,
+      "volume": 54630,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -883,44 +929,44 @@
       "score": 11,
       "url": "https://polymarket.com/event/eurovision-2026-televote-winner",
       "market_id": "1651932",
-      "previous_price": 0.058,
-      "price_delta": -0.006,
+      "previous_price": 0.052,
+      "price_delta": -0.0045,
       "is_new": false,
-      "cluster_id": 28,
+      "cluster_id": 27,
       "mispricing_signals": []
     },
     {
-      "id": "1707932",
-      "question": "Will the Iranian regime fall by May 31?",
-      "yes_price": 0.045,
-      "market_prob_pct": 4.5,
-      "days_to_resolution": 44,
+      "id": "1972137",
+      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by May 31, 2026?",
+      "yes_price": 0.86,
+      "market_prob_pct": 86.0,
+      "days_to_resolution": 42,
       "resolution_date": "2026-05-31",
-      "liquidity": 383957,
-      "volume": 1390586,
+      "liquidity": 37835,
+      "volume": 34087,
       "categories": [
         "Iran",
         "Broader Geopolitics"
       ],
       "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-may-31",
-      "market_id": "1707932",
-      "previous_price": 0.045,
-      "price_delta": 0.0,
-      "is_new": false,
-      "cluster_id": 29,
+      "url": "https://polymarket.com/event/trump-announces-us-blockade-of-hormuz-lifted-by",
+      "market_id": "1972137",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 9,
       "mispricing_signals": []
     },
     {
       "id": "1708109",
       "question": "Kharg Island no longer under Iranian control by May 31?",
-      "yes_price": 0.085,
-      "market_prob_pct": 8.5,
-      "days_to_resolution": 45,
+      "yes_price": 0.065,
+      "market_prob_pct": 6.5,
+      "days_to_resolution": 43,
       "resolution_date": "2026-05-31",
-      "liquidity": 147690,
-      "volume": 1125266,
+      "liquidity": 238002,
+      "volume": 1473331,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon"
@@ -929,54 +975,10 @@
       "score": 11,
       "url": "https://polymarket.com/event/kharg-island-no-longer-under-iranian-control-by-march-31",
       "market_id": "1708109",
-      "previous_price": 0.095,
-      "price_delta": -0.01,
+      "previous_price": 0.085,
+      "price_delta": -0.02,
       "is_new": false,
-      "cluster_id": 29,
-      "mispricing_signals": []
-    },
-    {
-      "id": "1901440",
-      "question": "Will Elon Musk post 280-299 tweets from April 10 to April 17, 2026?",
-      "yes_price": 0.229,
-      "market_prob_pct": 22.9,
-      "days_to_resolution": 1,
-      "resolution_date": "2026-04-17",
-      "liquidity": 31770,
-      "volume": 357582,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-10-april-17",
-      "market_id": "1901440",
-      "previous_price": 0.2115,
-      "price_delta": 0.0175,
-      "is_new": false,
-      "cluster_id": 30,
-      "mispricing_signals": []
-    },
-    {
-      "id": "1901444",
-      "question": "Will Elon Musk post 320-339 tweets from April 10 to April 17, 2026?",
-      "yes_price": 0.217,
-      "market_prob_pct": 21.7,
-      "days_to_resolution": 1,
-      "resolution_date": "2026-04-17",
-      "liquidity": 30556,
-      "volume": 367018,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-april-10-april-17",
-      "market_id": "1901444",
-      "previous_price": 0.2225,
-      "price_delta": -0.0055,
-      "is_new": false,
-      "cluster_id": 31,
+      "cluster_id": 20,
       "mispricing_signals": []
     }
   ]
