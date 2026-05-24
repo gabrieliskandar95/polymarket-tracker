@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-05-17 18:50",
+  "generated_at": "2026-05-24 18:58",
   "total": 40,
   "markets": [
     {
-      "id": "1808927",
-      "question": "Will Israel launch a ground operation in Iran by May 31, 2026?",
-      "yes_price": 0.075,
-      "market_prob_pct": 7.5,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-05-31",
-      "liquidity": 27276,
-      "volume": 495818,
+      "id": "2334097",
+      "question": "Will the Iran ceasefire continue through May 25?",
+      "yes_price": 0.9575,
+      "market_prob_pct": 95.8,
+      "days_to_resolution": 0,
+      "resolution_date": "2026-05-25",
+      "liquidity": 63491,
+      "volume": 437472,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
-        "Broader Geopolitics"
+        "Saudi Arabia / Gulf"
       ],
       "primary_category": "Iran",
       "score": 13,
-      "url": "https://polymarket.com/event/israel-ground-operation-in-iran-confirmed-by",
-      "market_id": "1808927",
+      "url": "https://polymarket.com/event/iran-ceasefire-continues-through",
+      "market_id": "2334097",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -29,22 +29,75 @@
       ]
     },
     {
-      "id": "2241872",
-      "question": "Iran closes its airspace by May 21?",
-      "yes_price": 0.135,
-      "market_prob_pct": 13.5,
-      "days_to_resolution": 3,
-      "resolution_date": "2026-05-21",
-      "liquidity": 63565,
-      "volume": 344098,
+      "id": "2334098",
+      "question": "Will the Iran ceasefire continue through May 26?",
+      "yes_price": 0.915,
+      "market_prob_pct": 91.5,
+      "days_to_resolution": 1,
+      "resolution_date": "2026-05-26",
+      "liquidity": 42922,
+      "volume": 167551,
       "categories": [
         "Iran",
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf"
+      ],
+      "primary_category": "Iran",
+      "score": 13,
+      "url": "https://polymarket.com/event/iran-ceasefire-continues-through",
+      "market_id": "2334098",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 0,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2334099",
+      "question": "Will the Iran ceasefire continue through May 28?",
+      "yes_price": 0.885,
+      "market_prob_pct": 88.5,
+      "days_to_resolution": 3,
+      "resolution_date": "2026-05-28",
+      "liquidity": 47673,
+      "volume": 105753,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf"
+      ],
+      "primary_category": "Iran",
+      "score": 13,
+      "url": "https://polymarket.com/event/iran-ceasefire-continues-through",
+      "market_id": "2334099",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 0,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2169013",
+      "question": "Will Bahrain send warships through the Strait of Hormuz by May 31, 2026?",
+      "yes_price": 0.05,
+      "market_prob_pct": 5.0,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 20511,
+      "volume": 24839,
+      "categories": [
+        "Iran",
+        "Saudi Arabia / Gulf",
         "Broader Geopolitics"
       ],
       "primary_category": "Iran",
-      "score": 12,
-      "url": "https://polymarket.com/event/iran-closes-its-airspace-by",
-      "market_id": "2241872",
+      "score": 13,
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-may-31",
+      "market_id": "2169013",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -54,39 +107,14 @@
       ]
     },
     {
-      "id": "2119227",
-      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by May 22, 2026?",
-      "yes_price": 0.065,
-      "market_prob_pct": 6.5,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-05-22",
-      "liquidity": 49270,
-      "volume": 1253091,
-      "categories": [
-        "Iran",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 12,
-      "url": "https://polymarket.com/event/trump-announces-us-blockade-of-hormuz-lifted-by",
-      "market_id": "2119227",
-      "previous_price": 0.24,
-      "price_delta": -0.175,
-      "is_new": false,
-      "cluster_id": 2,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1919425",
-      "question": "US x Iran permanent peace deal by May 31, 2026?",
-      "yes_price": 0.075,
-      "market_prob_pct": 7.5,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-05-31",
-      "liquidity": 830379,
-      "volume": 24771766,
+      "id": "2324252",
+      "question": "US x Iran permanent peace deal by May 26, 2026?",
+      "yes_price": 0.115,
+      "market_prob_pct": 11.5,
+      "days_to_resolution": 1,
+      "resolution_date": "2026-05-26",
+      "liquidity": 361860,
+      "volume": 10833953,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon"
@@ -94,11 +122,11 @@
       "primary_category": "Iran",
       "score": 12,
       "url": "https://polymarket.com/event/us-x-iran-permanent-peace-deal-by",
-      "market_id": "1919425",
-      "previous_price": 0.285,
-      "price_delta": -0.21,
-      "is_new": false,
-      "cluster_id": 3,
+      "market_id": "2324252",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 2,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -106,12 +134,12 @@
     {
       "id": "2126542",
       "question": "Iran agrees to surrender enriched uranium stockpile by May 31, 2026?",
-      "yes_price": 0.0465,
-      "market_prob_pct": 4.7,
-      "days_to_resolution": 13,
+      "yes_price": 0.0795,
+      "market_prob_pct": 8.0,
+      "days_to_resolution": 6,
       "resolution_date": "2026-05-31",
-      "liquidity": 104693,
-      "volume": 999626,
+      "liquidity": 55336,
+      "volume": 2788914,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon"
@@ -120,31 +148,56 @@
       "score": 12,
       "url": "https://polymarket.com/event/iran-agrees-to-surrender-enriched-uranium-stockpile-by",
       "market_id": "2126542",
-      "previous_price": 0.11,
-      "price_delta": -0.0635,
+      "previous_price": 0.0465,
+      "price_delta": 0.033,
       "is_new": false,
+      "cluster_id": 3,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2111561",
+      "question": "Will Trump agree to Iranian enrichment of uranium by May 31?",
+      "yes_price": 0.051,
+      "market_prob_pct": 5.1,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 111873,
+      "volume": 2526193,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/what-iranian-demands-will-trump-agree-to-by-may-31",
+      "market_id": "2111561",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
       "cluster_id": 4,
       "mispricing_signals": [
         "imminent_extreme"
       ]
     },
     {
-      "id": "2111562",
-      "question": "Will Trump agree to Iranian oil sanction relief by May 31?",
-      "yes_price": 0.105,
-      "market_prob_pct": 10.5,
-      "days_to_resolution": 13,
+      "id": "2159726",
+      "question": "Israel closes its airspace by May 31?",
+      "yes_price": 0.13,
+      "market_prob_pct": 13.0,
+      "days_to_resolution": 6,
       "resolution_date": "2026-05-31",
-      "liquidity": 27812,
-      "volume": 115848,
+      "liquidity": 34053,
+      "volume": 1269784,
       "categories": [
-        "Iran",
+        "Israel / Gaza / Lebanon",
         "Broader Geopolitics"
       ],
-      "primary_category": "Iran",
+      "primary_category": "Israel / Gaza / Lebanon",
       "score": 12,
-      "url": "https://polymarket.com/event/what-iranian-demands-will-trump-agree-to-by-may-31",
-      "market_id": "2111562",
+      "url": "https://polymarket.com/event/israel-closes-its-airspace-by",
+      "market_id": "2159726",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -154,46 +207,22 @@
       ]
     },
     {
-      "id": "2111564",
-      "question": "Will Trump agree to unfreeze Iranian assets by May 31?",
-      "yes_price": 0.105,
-      "market_prob_pct": 10.5,
-      "days_to_resolution": 13,
+      "id": "2126515",
+      "question": "Israel x Iran permanent peace deal by May 31, 2026?",
+      "yes_price": 0.0835,
+      "market_prob_pct": 8.3,
+      "days_to_resolution": 6,
       "resolution_date": "2026-05-31",
-      "liquidity": 34816,
-      "volume": 174045,
+      "liquidity": 56197,
+      "volume": 763891,
       "categories": [
         "Iran",
-        "Broader Geopolitics"
+        "Israel / Gaza / Lebanon"
       ],
       "primary_category": "Iran",
       "score": 12,
-      "url": "https://polymarket.com/event/what-iranian-demands-will-trump-agree-to-by-may-31",
-      "market_id": "2111564",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 5,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "2204991",
-      "question": "Will Elon Musk post 160-179 tweets from May 12 to May 19, 2026?",
-      "yes_price": 0.0705,
-      "market_prob_pct": 7.0,
-      "days_to_resolution": 1,
-      "resolution_date": "2026-05-19",
-      "liquidity": 36762,
-      "volume": 453756,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-12-may-19",
-      "market_id": "2204991",
+      "url": "https://polymarket.com/event/israel-x-iran-permanent-peace-deal-by",
+      "market_id": "2126515",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -203,21 +232,71 @@
       ]
     },
     {
-      "id": "2205022",
-      "question": "Will Elon Musk post 220-239 tweets from May 12 to May 19, 2026?",
-      "yes_price": 0.1245,
-      "market_prob_pct": 12.4,
+      "id": "2169000",
+      "question": "Will the United Kingdom send warships through the Strait of Hormuz by May 31, 2026?",
+      "yes_price": 0.045,
+      "market_prob_pct": 4.5,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 31771,
+      "volume": 192101,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-may-31",
+      "market_id": "2169000",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 1,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2169001",
+      "question": "Will France send warships through the Strait of Hormuz by May 31, 2026?",
+      "yes_price": 0.054,
+      "market_prob_pct": 5.4,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 23596,
+      "volume": 125110,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-may-31",
+      "market_id": "2169001",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 1,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2313547",
+      "question": "Will Elon Musk post 240-259 tweets from May 19 to May 26, 2026?",
+      "yes_price": 0.057,
+      "market_prob_pct": 5.7,
       "days_to_resolution": 1,
-      "resolution_date": "2026-05-19",
-      "liquidity": 23525,
-      "volume": 368308,
+      "resolution_date": "2026-05-26",
+      "liquidity": 31460,
+      "volume": 396630,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
       "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-12-may-19",
-      "market_id": "2205022",
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-19-may-26",
+      "market_id": "2313547",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -227,21 +306,21 @@
       ]
     },
     {
-      "id": "2237143",
-      "question": "Will Elon Musk post 140-159 tweets from May 15 to May 22, 2026?",
-      "yes_price": 0.095,
-      "market_prob_pct": 9.5,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-05-22",
-      "liquidity": 39652,
-      "volume": 156412,
+      "id": "2313551",
+      "question": "Will Elon Musk post 320-339 tweets from May 19 to May 26, 2026?",
+      "yes_price": 0.0715,
+      "market_prob_pct": 7.1,
+      "days_to_resolution": 1,
+      "resolution_date": "2026-05-26",
+      "liquidity": 32966,
+      "volume": 225520,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
       "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-15-may-22",
-      "market_id": "2237143",
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-19-may-26",
+      "market_id": "2313551",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -251,45 +330,44 @@
       ]
     },
     {
-      "id": "2237154",
-      "question": "Will Elon Musk post 220-239 tweets from May 15 to May 22, 2026?",
-      "yes_price": 0.1265,
-      "market_prob_pct": 12.7,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-05-22",
-      "liquidity": 52265,
-      "volume": 145240,
+      "id": "2296135",
+      "question": "Iran closes its airspace by May 27?",
+      "yes_price": 0.206,
+      "market_prob_pct": 20.6,
+      "days_to_resolution": 2,
+      "resolution_date": "2026-05-27",
+      "liquidity": 34579,
+      "volume": 1135749,
       "categories": [
+        "Iran",
         "Broader Geopolitics"
       ],
-      "primary_category": "Broader Geopolitics",
+      "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-15-may-22",
-      "market_id": "2237154",
+      "url": "https://polymarket.com/event/iran-closes-its-airspace-by",
+      "market_id": "2296135",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
       "cluster_id": 9,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
+      "mispricing_signals": []
     },
     {
-      "id": "2237155",
-      "question": "Will Elon Musk post 240-259 tweets from May 15 to May 22, 2026?",
-      "yes_price": 0.0795,
-      "market_prob_pct": 8.0,
+      "id": "2335038",
+      "question": "Will Elon Musk post 180-199 tweets from May 22 to May 29, 2026?",
+      "yes_price": 0.0885,
+      "market_prob_pct": 8.8,
       "days_to_resolution": 4,
-      "resolution_date": "2026-05-22",
-      "liquidity": 54739,
-      "volume": 107916,
+      "resolution_date": "2026-05-29",
+      "liquidity": 34961,
+      "volume": 37623,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
       "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-15-may-22",
-      "market_id": "2237155",
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-22-may-29",
+      "market_id": "2335038",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -299,21 +377,21 @@
       ]
     },
     {
-      "id": "2237156",
-      "question": "Will Elon Musk post 260-279 tweets from May 15 to May 22, 2026?",
-      "yes_price": 0.0505,
-      "market_prob_pct": 5.1,
+      "id": "2335039",
+      "question": "Will Elon Musk post 200-219 tweets from May 22 to May 29, 2026?",
+      "yes_price": 0.145,
+      "market_prob_pct": 14.5,
       "days_to_resolution": 4,
-      "resolution_date": "2026-05-22",
-      "liquidity": 41793,
-      "volume": 116923,
+      "resolution_date": "2026-05-29",
+      "liquidity": 36945,
+      "volume": 19623,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
       "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-15-may-22",
-      "market_id": "2237156",
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-22-may-29",
+      "market_id": "2335039",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -323,158 +401,62 @@
       ]
     },
     {
-      "id": "1962237",
-      "question": "US x Iran permanent peace deal by June 30, 2026?",
-      "yes_price": 0.265,
-      "market_prob_pct": 26.5,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-05-31",
-      "liquidity": 568077,
-      "volume": 9648149,
+      "id": "2335042",
+      "question": "Will Elon Musk post 260-279 tweets from May 22 to May 29, 2026?",
+      "yes_price": 0.135,
+      "market_prob_pct": 13.5,
+      "days_to_resolution": 4,
+      "resolution_date": "2026-05-29",
+      "liquidity": 37932,
+      "volume": 22534,
       "categories": [
-        "Iran",
-        "Israel / Gaza / Lebanon"
+        "Broader Geopolitics"
       ],
-      "primary_category": "Iran",
+      "primary_category": "Broader Geopolitics",
       "score": 11,
-      "url": "https://polymarket.com/event/us-x-iran-permanent-peace-deal-by",
-      "market_id": "1962237",
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-22-may-29",
+      "market_id": "2335042",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
       "cluster_id": 12,
-      "mispricing_signals": []
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
-      "id": "1972137",
-      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by May 31, 2026?",
-      "yes_price": 0.18,
-      "market_prob_pct": 18.0,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-05-31",
-      "liquidity": 50701,
-      "volume": 3293236,
+      "id": "2335044",
+      "question": "Will Elon Musk post 300-319 tweets from May 22 to May 29, 2026?",
+      "yes_price": 0.055,
+      "market_prob_pct": 5.5,
+      "days_to_resolution": 4,
+      "resolution_date": "2026-05-29",
+      "liquidity": 34853,
+      "volume": 31745,
       "categories": [
-        "Iran",
         "Broader Geopolitics"
       ],
-      "primary_category": "Iran",
+      "primary_category": "Broader Geopolitics",
       "score": 11,
-      "url": "https://polymarket.com/event/trump-announces-us-blockade-of-hormuz-lifted-by",
-      "market_id": "1972137",
-      "previous_price": 0.345,
-      "price_delta": -0.165,
-      "is_new": false,
-      "cluster_id": 2,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1808970",
-      "question": "US obtains Iranian enriched uranium by May 31?",
-      "yes_price": 0.06,
-      "market_prob_pct": 6.0,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-05-31",
-      "liquidity": 323876,
-      "volume": 13069664,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 11,
-      "url": "https://polymarket.com/event/us-obtains-iranian-enriched-uranium-by",
-      "market_id": "1808970",
-      "previous_price": 0.055,
-      "price_delta": 0.005,
-      "is_new": false,
-      "cluster_id": 5,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1809560",
-      "question": "Strait of Hormuz traffic returns to normal by end of May?",
-      "yes_price": 0.0525,
-      "market_prob_pct": 5.2,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-05-31",
-      "liquidity": 448818,
-      "volume": 15102675,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 11,
-      "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-end-of-may",
-      "market_id": "1809560",
-      "previous_price": 0.185,
-      "price_delta": -0.1325,
-      "is_new": false,
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-22-may-29",
+      "market_id": "2335044",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
       "cluster_id": 13,
       "mispricing_signals": [
         "imminent_extreme"
       ]
     },
     {
-      "id": "1708132",
-      "question": "Iran leadership change by May 31?",
-      "yes_price": 0.065,
-      "market_prob_pct": 6.5,
-      "days_to_resolution": 13,
+      "id": "1919425",
+      "question": "US x Iran permanent peace deal by May 31, 2026?",
+      "yes_price": 0.285,
+      "market_prob_pct": 28.5,
+      "days_to_resolution": 6,
       "resolution_date": "2026-05-31",
-      "liquidity": 61258,
-      "volume": 2009214,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 11,
-      "url": "https://polymarket.com/event/iran-leadership-change-by",
-      "market_id": "1708132",
-      "previous_price": 0.065,
-      "price_delta": 0.0,
-      "is_new": false,
-      "cluster_id": 14,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1707993",
-      "question": "Mojtaba Khamenei seen in public by May 31?",
-      "yes_price": 0.049,
-      "market_prob_pct": 4.9,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-05-31",
-      "liquidity": 27747,
-      "volume": 353229,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 11,
-      "url": "https://polymarket.com/event/mojtaba-khamenei-public-appearance-by",
-      "market_id": "1707993",
-      "previous_price": 0.11,
-      "price_delta": -0.061,
-      "is_new": false,
-      "cluster_id": 15,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "2270330",
-      "question": "US x Iran permanent peace deal by June 15, 2026?",
-      "yes_price": 0.155,
-      "market_prob_pct": 15.5,
-      "days_to_resolution": 28,
-      "resolution_date": "2026-06-15",
-      "liquidity": 87918,
-      "volume": 81952,
+      "liquidity": 448493,
+      "volume": 47868559,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon"
@@ -482,167 +464,371 @@
       "primary_category": "Iran",
       "score": 11,
       "url": "https://polymarket.com/event/us-x-iran-permanent-peace-deal-by",
-      "market_id": "2270330",
+      "market_id": "1919425",
+      "previous_price": 0.075,
+      "price_delta": 0.21,
+      "is_new": false,
+      "cluster_id": 14,
+      "mispricing_signals": []
+    },
+    {
+      "id": "2133405",
+      "question": "Iran closes its airspace by May 31?",
+      "yes_price": 0.2765,
+      "market_prob_pct": 27.7,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 44554,
+      "volume": 5838705,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/iran-closes-its-airspace-by",
+      "market_id": "2133405",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
-      "cluster_id": 16,
+      "cluster_id": 15,
       "mispricing_signals": []
     },
     {
-      "id": "958443",
-      "question": "Will the Iranian regime fall by June 30?",
-      "yes_price": 0.045,
-      "market_prob_pct": 4.5,
-      "days_to_resolution": 43,
-      "resolution_date": "2026-06-30",
-      "liquidity": 649460,
-      "volume": 40332343,
+      "id": "2111562",
+      "question": "Will Trump agree to Iranian oil sanction relief by May 31?",
+      "yes_price": 0.29,
+      "market_prob_pct": 29.0,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 41040,
+      "volume": 418907,
       "categories": [
         "Iran",
         "Broader Geopolitics"
       ],
       "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-june-30",
-      "market_id": "958443",
-      "previous_price": 0.045,
-      "price_delta": 0.0,
+      "url": "https://polymarket.com/event/what-iranian-demands-will-trump-agree-to-by-may-31",
+      "market_id": "2111562",
+      "previous_price": 0.105,
+      "price_delta": 0.185,
       "is_new": false,
-      "cluster_id": 5,
+      "cluster_id": 4,
       "mispricing_signals": []
     },
     {
-      "id": "618509",
-      "question": "Will Trump and Putin not meet?",
-      "yes_price": 0.916,
-      "market_prob_pct": 91.6,
-      "days_to_resolution": 43,
-      "resolution_date": "2026-06-30",
-      "liquidity": 20350,
-      "volume": 869569,
-      "categories": [
-        "Saudi Arabia / Gulf",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Saudi Arabia / Gulf",
-      "score": 11,
-      "url": "https://polymarket.com/event/where-will-trump-and-putin-meet-next-584",
-      "market_id": "618509",
-      "previous_price": 0.934,
-      "price_delta": -0.018,
-      "is_new": false,
-      "cluster_id": 17,
-      "mispricing_signals": []
-    },
-    {
-      "id": "1731345",
-      "question": "Iran agrees to surrender enriched uranium stockpile by June 30, 2026?",
-      "yes_price": 0.145,
-      "market_prob_pct": 14.5,
-      "days_to_resolution": 43,
-      "resolution_date": "2026-06-30",
-      "liquidity": 56043,
-      "volume": 1785356,
+      "id": "2111564",
+      "question": "Will Trump agree to unfreeze Iranian assets by May 31?",
+      "yes_price": 0.24,
+      "market_prob_pct": 24.0,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 27940,
+      "volume": 489637,
       "categories": [
         "Iran",
-        "Israel / Gaza / Lebanon"
+        "Broader Geopolitics"
       ],
       "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/iran-agrees-to-surrender-enriched-uranium-stockpile-by",
-      "market_id": "1731345",
-      "previous_price": 0.195,
-      "price_delta": -0.05,
+      "url": "https://polymarket.com/event/what-iranian-demands-will-trump-agree-to-by-may-31",
+      "market_id": "2111564",
+      "previous_price": 0.105,
+      "price_delta": 0.135,
       "is_new": false,
-      "cluster_id": 18,
+      "cluster_id": 4,
       "mispricing_signals": []
     },
     {
-      "id": "2002609",
-      "question": "Israel withdraws from Lebanon by June 30, 2026?",
-      "yes_price": 0.075,
-      "market_prob_pct": 7.5,
-      "days_to_resolution": 43,
-      "resolution_date": "2026-06-30",
-      "liquidity": 38492,
-      "volume": 230938,
+      "id": "1641496",
+      "question": "Israel strike on Yemen by May 31, 2026?",
+      "yes_price": 0.0485,
+      "market_prob_pct": 4.9,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 19695,
+      "volume": 128808,
       "categories": [
         "Israel / Gaza / Lebanon",
-        "Broader Geopolitics"
+        "Saudi Arabia / Gulf"
       ],
       "primary_category": "Israel / Gaza / Lebanon",
       "score": 11,
-      "url": "https://polymarket.com/event/israel-withdraws-from-lebanon-by",
-      "market_id": "2002609",
+      "url": "https://polymarket.com/event/israel-strike-on-yemen-by-593",
+      "market_id": "1641496",
+      "previous_price": 0.165,
+      "price_delta": -0.1165,
+      "is_new": false,
+      "cluster_id": 16,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2169004",
+      "question": "Will the Netherlands send warships through the Strait of Hormuz by May 31, 2026?",
+      "yes_price": 0.042,
+      "market_prob_pct": 4.2,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 11039,
+      "volume": 58968,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-may-31",
+      "market_id": "2169004",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
-      "cluster_id": 19,
-      "mispricing_signals": []
+      "cluster_id": 1,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
-      "id": "1385754",
-      "question": "Will France, UK, or Germany strike Iran by June 30?",
-      "yes_price": 0.0415,
-      "market_prob_pct": 4.2,
-      "days_to_resolution": 43,
-      "resolution_date": "2026-06-30",
-      "liquidity": 84310,
-      "volume": 1374512,
+      "id": "2169009",
+      "question": "Will Pakistan send warships through the Strait of Hormuz by May 31, 2026?",
+      "yes_price": 0.0435,
+      "market_prob_pct": 4.3,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 15090,
+      "volume": 16693,
       "categories": [
         "Iran",
-        "Saudi Arabia / Gulf"
+        "Broader Geopolitics"
       ],
       "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/will-france-uk-or-germany-strike-iran-by-june-30-259",
-      "market_id": "1385754",
-      "previous_price": 0.041,
-      "price_delta": 0.0005,
-      "is_new": false,
-      "cluster_id": 20,
-      "mispricing_signals": []
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-may-31",
+      "market_id": "2169009",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 1,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
-      "id": "1708086",
-      "question": "Kharg Island no longer under Iranian control by June 30?",
-      "yes_price": 0.085,
-      "market_prob_pct": 8.5,
-      "days_to_resolution": 44,
-      "resolution_date": "2026-06-30",
-      "liquidity": 151057,
-      "volume": 2719410,
+      "id": "2169011",
+      "question": "Will Saudi Arabia send warships through the Strait of Hormuz by May 31, 2026?",
+      "yes_price": 0.0605,
+      "market_prob_pct": 6.0,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 3829,
+      "volume": 22401,
       "categories": [
         "Iran",
-        "Israel / Gaza / Lebanon"
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
       ],
       "primary_category": "Iran",
       "score": 11,
-      "url": "https://polymarket.com/event/kharg-island-no-longer-under-iranian-control-by-march-31",
-      "market_id": "1708086",
-      "previous_price": 0.075,
-      "price_delta": 0.01,
-      "is_new": false,
-      "cluster_id": 5,
-      "mispricing_signals": []
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-may-31",
+      "market_id": "2169011",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 1,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
-      "id": "2237147",
-      "question": "Will Elon Musk post 160-179 tweets from May 15 to May 22, 2026?",
-      "yes_price": 0.165,
-      "market_prob_pct": 16.5,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-05-22",
-      "liquidity": 33357,
-      "volume": 131038,
+      "id": "2169012",
+      "question": "Will the United Arab Emirates send warships through the Strait of Hormuz by May 31, 2026?",
+      "yes_price": 0.043,
+      "market_prob_pct": 4.3,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 14347,
+      "volume": 6505,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-may-31",
+      "market_id": "2169012",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 1,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2169014",
+      "question": "Will Qatar send warships through the Strait of Hormuz by May 31, 2026?",
+      "yes_price": 0.07,
+      "market_prob_pct": 7.0,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 2711,
+      "volume": 7343,
+      "categories": [
+        "Iran",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-may-31",
+      "market_id": "2169014",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 1,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2169016",
+      "question": "Will Oman send warships through the Strait of Hormuz by May 31, 2026?",
+      "yes_price": 0.058,
+      "market_prob_pct": 5.8,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 12457,
+      "volume": 6254,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-may-31",
+      "market_id": "2169016",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 1,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2166671",
+      "question": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
+      "yes_price": 0.072,
+      "market_prob_pct": 7.2,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 29586,
+      "volume": 102286,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-15-may-22",
-      "market_id": "2237147",
+      "score": 11,
+      "url": "https://polymarket.com/event/next-prime-minister-of-romania-732",
+      "market_id": "2166671",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 17,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2166673",
+      "question": "Will Ilie Bolojan be the next Prime Minister of Romania?",
+      "yes_price": 0.0665,
+      "market_prob_pct": 6.7,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 30808,
+      "volume": 102052,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/next-prime-minister-of-romania-732",
+      "market_id": "2166673",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 18,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2166677",
+      "question": "Will Ionu\u021b Dumitru be the next Prime Minister of Romania?",
+      "yes_price": 0.045,
+      "market_prob_pct": 4.5,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 28619,
+      "volume": 52947,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/next-prime-minister-of-romania-732",
+      "market_id": "2166677",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 19,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2166690",
+      "question": "Will Radu Burnete be the next Prime Minister of Romania?",
+      "yes_price": 0.055,
+      "market_prob_pct": 5.5,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 31278,
+      "volume": 27634,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/next-prime-minister-of-romania-732",
+      "market_id": "2166690",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 20,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2166692",
+      "question": "Will Alexandru Nazare be the next Prime Minister of Romania?",
+      "yes_price": 0.1475,
+      "market_prob_pct": 14.8,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-05-31",
+      "liquidity": 27945,
+      "volume": 25721,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/next-prime-minister-of-romania-732",
+      "market_id": "2166692",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -652,68 +838,69 @@
       ]
     },
     {
-      "id": "2237150",
-      "question": "Will Elon Musk post 180-199 tweets from May 15 to May 22, 2026?",
-      "yes_price": 0.205,
-      "market_prob_pct": 20.5,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-05-22",
-      "liquidity": 35445,
-      "volume": 112113,
+      "id": "679492",
+      "question": "Will Choo Mi-ae win the 2026 Gyeonggi Province Gubernatorial Election?",
+      "yes_price": 0.958,
+      "market_prob_pct": 95.8,
+      "days_to_resolution": 9,
+      "resolution_date": "2026-06-03",
+      "liquidity": 33625,
+      "volume": 853386,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-15-may-22",
-      "market_id": "2237150",
+      "score": 11,
+      "url": "https://polymarket.com/event/2026-gyeonggi-province-gubernatorial-election-winner",
+      "market_id": "679492",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
       "cluster_id": 22,
-      "mispricing_signals": []
-    },
-    {
-      "id": "2237153",
-      "question": "Will Elon Musk post 200-219 tweets from May 15 to May 22, 2026?",
-      "yes_price": 0.1815,
-      "market_prob_pct": 18.1,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-05-22",
-      "liquidity": 36163,
-      "volume": 155371,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-15-may-22",
-      "market_id": "2237153",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 23,
       "mispricing_signals": [
         "imminent_extreme"
       ]
     },
     {
-      "id": "2241873",
-      "question": "Iran closes its airspace by May 24?",
-      "yes_price": 0.315,
-      "market_prob_pct": 31.5,
-      "days_to_resolution": 6,
-      "resolution_date": "2026-05-24",
-      "liquidity": 50448,
-      "volume": 372557,
+      "id": "618509",
+      "question": "Will Trump and Putin not meet?",
+      "yes_price": 0.9345,
+      "market_prob_pct": 93.5,
+      "days_to_resolution": 36,
+      "resolution_date": "2026-06-30",
+      "liquidity": 29319,
+      "volume": 883356,
+      "categories": [
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Saudi Arabia / Gulf",
+      "score": 11,
+      "url": "https://polymarket.com/event/where-will-trump-and-putin-meet-next-584",
+      "market_id": "618509",
+      "previous_price": 0.916,
+      "price_delta": 0.0185,
+      "is_new": false,
+      "cluster_id": 23,
+      "mispricing_signals": []
+    },
+    {
+      "id": "1961531",
+      "question": "Will the next diplomatic US-Iran meeting be in the United States?",
+      "yes_price": 0.063,
+      "market_prob_pct": 6.3,
+      "days_to_resolution": 36,
+      "resolution_date": "2026-06-30",
+      "liquidity": 33687,
+      "volume": 251528,
       "categories": [
         "Iran",
         "Broader Geopolitics"
       ],
       "primary_category": "Iran",
-      "score": 10,
-      "url": "https://polymarket.com/event/iran-closes-its-airspace-by",
-      "market_id": "2241873",
+      "score": 11,
+      "url": "https://polymarket.com/event/where-will-the-next-us-iran-diplomatic-meeting-happen-455",
+      "market_id": "1961531",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -721,245 +908,73 @@
       "mispricing_signals": []
     },
     {
-      "id": "1641496",
-      "question": "Israel strike on Yemen by May 31, 2026?",
-      "yes_price": 0.165,
-      "market_prob_pct": 16.5,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-05-31",
-      "liquidity": 8508,
-      "volume": 121299,
+      "id": "2002609",
+      "question": "Israel withdraws from Lebanon by June 30, 2026?",
+      "yes_price": 0.09,
+      "market_prob_pct": 9.0,
+      "days_to_resolution": 36,
+      "resolution_date": "2026-06-30",
+      "liquidity": 38316,
+      "volume": 298111,
       "categories": [
         "Israel / Gaza / Lebanon",
-        "Saudi Arabia / Gulf"
+        "Broader Geopolitics"
       ],
       "primary_category": "Israel / Gaza / Lebanon",
-      "score": 10,
-      "url": "https://polymarket.com/event/israel-strike-on-yemen-by-593",
-      "market_id": "1641496",
-      "previous_price": 0.08,
-      "price_delta": 0.085,
+      "score": 11,
+      "url": "https://polymarket.com/event/israel-withdraws-from-lebanon-by",
+      "market_id": "2002609",
+      "previous_price": 0.075,
+      "price_delta": 0.015,
       "is_new": false,
       "cluster_id": 25,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
+      "mispricing_signals": []
     },
     {
-      "id": "2099041",
-      "question": "Kash Patel out by May 31?",
-      "yes_price": 0.115,
-      "market_prob_pct": 11.5,
-      "days_to_resolution": 13,
-      "resolution_date": "2026-05-31",
-      "liquidity": 17422,
-      "volume": 151736,
+      "id": "1123479",
+      "question": "Iran coup attempt by June 30?",
+      "yes_price": 0.08,
+      "market_prob_pct": 8.0,
+      "days_to_resolution": 36,
+      "resolution_date": "2026-06-30",
+      "liquidity": 46207,
+      "volume": 1280265,
       "categories": [
+        "Iran",
         "Broader Geopolitics"
       ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/kash-patel-out-by",
-      "market_id": "2099041",
-      "previous_price": 0.15,
-      "price_delta": -0.035,
-      "is_new": false,
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/iran-coup-attempt-by-june-30",
+      "market_id": "1123479",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
       "cluster_id": 26,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
+      "mispricing_signals": []
     },
     {
-      "id": "1698900",
-      "question": "Will Elon Musk post 740-759 tweets in May 2026?",
-      "yes_price": 0.058,
-      "market_prob_pct": 5.8,
-      "days_to_resolution": 14,
-      "resolution_date": "2026-06-01",
-      "liquidity": 6831,
-      "volume": 39168,
+      "id": "1986504",
+      "question": "Will Donald Trump attend the next US x Iran diplomatic meeting?",
+      "yes_price": 0.0605,
+      "market_prob_pct": 6.0,
+      "days_to_resolution": 36,
+      "resolution_date": "2026-06-30",
+      "liquidity": 29428,
+      "volume": 231381,
       "categories": [
+        "Iran",
         "Broader Geopolitics"
       ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-2026",
-      "market_id": "1698900",
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/who-will-attend-the-next-us-x-iran-diplomatic-meeting",
+      "market_id": "1986504",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
-      "cluster_id": 27,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1698902",
-      "question": "Will Elon Musk post 760-779 tweets in May 2026?",
-      "yes_price": 0.061,
-      "market_prob_pct": 6.1,
-      "days_to_resolution": 14,
-      "resolution_date": "2026-06-01",
-      "liquidity": 6804,
-      "volume": 39907,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-2026",
-      "market_id": "1698902",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 28,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1698905",
-      "question": "Will Elon Musk post 780-799 tweets in May 2026?",
-      "yes_price": 0.069,
-      "market_prob_pct": 6.9,
-      "days_to_resolution": 14,
-      "resolution_date": "2026-06-01",
-      "liquidity": 5247,
-      "volume": 43195,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-2026",
-      "market_id": "1698905",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 29,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1698908",
-      "question": "Will Elon Musk post 800-839 tweets in May 2026?",
-      "yes_price": 0.116,
-      "market_prob_pct": 11.6,
-      "days_to_resolution": 14,
-      "resolution_date": "2026-06-01",
-      "liquidity": 6193,
-      "volume": 46064,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-2026",
-      "market_id": "1698908",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 30,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1698913",
-      "question": "Will Elon Musk post 920-959 tweets in May 2026?",
-      "yes_price": 0.1055,
-      "market_prob_pct": 10.5,
-      "days_to_resolution": 14,
-      "resolution_date": "2026-06-01",
-      "liquidity": 14072,
-      "volume": 37453,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-2026",
-      "market_id": "1698913",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 31,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1698915",
-      "question": "Will Elon Musk post 960-999 tweets in May 2026?",
-      "yes_price": 0.0925,
-      "market_prob_pct": 9.2,
-      "days_to_resolution": 14,
-      "resolution_date": "2026-06-01",
-      "liquidity": 5795,
-      "volume": 35316,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-2026",
-      "market_id": "1698915",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 32,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1698916",
-      "question": "Will Elon Musk post 1000-1039 tweets in May 2026?",
-      "yes_price": 0.049,
-      "market_prob_pct": 4.9,
-      "days_to_resolution": 14,
-      "resolution_date": "2026-06-01",
-      "liquidity": 6455,
-      "volume": 36120,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-may-2026",
-      "market_id": "1698916",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 33,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "687279",
-      "question": "Will Park Soo-hyun win the 2026 Chungcheongnam Province gubernatorial election?",
-      "yes_price": 0.945,
-      "market_prob_pct": 94.5,
-      "days_to_resolution": 16,
-      "resolution_date": "2026-06-03",
-      "liquidity": 16414,
-      "volume": 391157,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/chungcheongnam-province-governor-election-winner",
-      "market_id": "687279",
-      "previous_price": 0.9435,
-      "price_delta": 0.0015,
-      "is_new": false,
-      "cluster_id": 34,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
+      "cluster_id": 4,
+      "mispricing_signals": []
     }
   ]
 }
