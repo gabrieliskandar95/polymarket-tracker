@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-13 19:57",
+  "generated_at": "2026-09-20 19:54",
   "total": 40,
   "markets": [
     {
-      "id": "4095054",
-      "question": "US x Iran Effective Ceasefire by September 18?",
-      "yes_price": 0.945,
-      "market_prob_pct": 94.5,
+      "id": "4641063",
+      "question": "US x Iran ceasefire continues through September 25?",
+      "yes_price": 0.885,
+      "market_prob_pct": 88.5,
       "days_to_resolution": 5,
-      "resolution_date": "2026-09-18",
-      "liquidity": 29418,
-      "volume": 94024,
+      "resolution_date": "2026-09-25",
+      "liquidity": 103084,
+      "volume": 322450,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -19,8 +19,8 @@
       ],
       "primary_category": "Iran",
       "score": 14,
-      "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-byptptpt-2-week-pause",
-      "market_id": "4095054",
+      "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
+      "market_id": "4641063",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -32,12 +32,12 @@
     {
       "id": "3399458",
       "question": "Israel x Iran ceasefire continues through September 30?",
-      "yes_price": 0.885,
-      "market_prob_pct": 88.5,
-      "days_to_resolution": 17,
+      "yes_price": 0.925,
+      "market_prob_pct": 92.5,
+      "days_to_resolution": 10,
       "resolution_date": "2026-09-30",
-      "liquidity": 101417,
-      "volume": 1904154,
+      "liquidity": 136855,
+      "volume": 2461734,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -48,8 +48,8 @@
       "score": 14,
       "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
       "market_id": "3399458",
-      "previous_price": 0.81,
-      "price_delta": 0.075,
+      "previous_price": 0.885,
+      "price_delta": 0.04,
       "is_new": false,
       "cluster_id": 0,
       "mispricing_signals": [
@@ -57,14 +57,39 @@
       ]
     },
     {
+      "id": "4641064",
+      "question": "US x Iran ceasefire continues through September 30?",
+      "yes_price": 0.785,
+      "market_prob_pct": 78.5,
+      "days_to_resolution": 10,
+      "resolution_date": "2026-09-30",
+      "liquidity": 106492,
+      "volume": 344167,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 13,
+      "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
+      "market_id": "4641064",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 0,
+      "mispricing_signals": []
+    },
+    {
       "id": "2264327",
       "question": "Russia x Ukraine ceasefire by October 31, 2026?",
-      "yes_price": 0.055,
-      "market_prob_pct": 5.5,
-      "days_to_resolution": 48,
+      "yes_price": 0.045,
+      "market_prob_pct": 4.5,
+      "days_to_resolution": 41,
       "resolution_date": "2026-10-31",
-      "liquidity": 136903,
-      "volume": 682214,
+      "liquidity": 119964,
+      "volume": 697976,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -75,46 +100,21 @@
       "score": 13,
       "url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-by",
       "market_id": "2264327",
-      "previous_price": 0.065,
+      "previous_price": 0.055,
       "price_delta": -0.01,
       "is_new": false,
       "cluster_id": 1,
       "mispricing_signals": []
     },
     {
-      "id": "3702045",
-      "question": "US announces end of Iranian blockade by September 21, 2026?",
-      "yes_price": 0.055,
-      "market_prob_pct": 5.5,
-      "days_to_resolution": 8,
-      "resolution_date": "2026-09-22",
-      "liquidity": 44325,
-      "volume": 794995,
-      "categories": [
-        "Iran",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 12,
-      "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
-      "market_id": "3702045",
-      "previous_price": 0.085,
-      "price_delta": -0.03,
-      "is_new": false,
-      "cluster_id": 2,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
       "id": "3128887",
       "question": "US announces end of Iranian blockade by September 30, 2026?",
-      "yes_price": 0.115,
-      "market_prob_pct": 11.5,
-      "days_to_resolution": 17,
+      "yes_price": 0.09,
+      "market_prob_pct": 9.0,
+      "days_to_resolution": 10,
       "resolution_date": "2026-10-01",
-      "liquidity": 85026,
-      "volume": 3169564,
+      "liquidity": 73436,
+      "volume": 3583643,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -123,35 +123,10 @@
       "score": 12,
       "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
       "market_id": "3128887",
-      "previous_price": 0.165,
-      "price_delta": -0.05,
+      "previous_price": 0.115,
+      "price_delta": -0.025,
       "is_new": false,
       "cluster_id": 2,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "3247642",
-      "question": "US x Iran diplomatic meeting by September 30, 2026?",
-      "yes_price": 0.085,
-      "market_prob_pct": 8.5,
-      "days_to_resolution": 17,
-      "resolution_date": "2026-09-30",
-      "liquidity": 89427,
-      "volume": 970467,
-      "categories": [
-        "Iran",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 12,
-      "url": "https://polymarket.com/event/next-round-of-us-iran-peace-talks-byptptpt-20260623022722982",
-      "market_id": "3247642",
-      "previous_price": 0.075,
-      "price_delta": 0.01,
-      "is_new": false,
-      "cluster_id": 3,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -161,10 +136,10 @@
       "question": "Iran full airspace closure by September 30?",
       "yes_price": 0.065,
       "market_prob_pct": 6.5,
-      "days_to_resolution": 17,
+      "days_to_resolution": 10,
       "resolution_date": "2026-10-01",
-      "liquidity": 25854,
-      "volume": 733567,
+      "liquidity": 23849,
+      "volume": 868232,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -173,60 +148,10 @@
       "score": 12,
       "url": "https://polymarket.com/event/iran-full-airspace-closure-byptptpt-20260625195253028",
       "market_id": "3128769",
-      "previous_price": 0.115,
-      "price_delta": -0.05,
+      "previous_price": 0.065,
+      "price_delta": 0.0,
       "is_new": false,
-      "cluster_id": 4,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "2646914",
-      "question": "Will no qualifying diplomatic US-Iran meeting occur by September 30, 2026?",
-      "yes_price": 0.9105,
-      "market_prob_pct": 91.0,
-      "days_to_resolution": 17,
-      "resolution_date": "2026-10-01",
-      "liquidity": 53047,
-      "volume": 1251355,
-      "categories": [
-        "Iran",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 12,
-      "url": "https://polymarket.com/event/where-will-the-next-next-round-of-us-iran-peace-talks-beptptpt-20260623023740663",
-      "market_id": "2646914",
-      "previous_price": 0.9215,
-      "price_delta": -0.011,
-      "is_new": false,
-      "cluster_id": 5,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "3399473",
-      "question": "Iran charges Hormuz fees by September 30?",
-      "yes_price": 0.09,
-      "market_prob_pct": 9.0,
-      "days_to_resolution": 17,
-      "resolution_date": "2026-10-01",
-      "liquidity": 23908,
-      "volume": 157258,
-      "categories": [
-        "Iran",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 12,
-      "url": "https://polymarket.com/event/iran-charges-hormuz-fees-byptptpt-20260625175035466",
-      "market_id": "3399473",
-      "previous_price": 0.075,
-      "price_delta": 0.015,
-      "is_new": false,
-      "cluster_id": 6,
+      "cluster_id": 3,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -236,10 +161,10 @@
       "question": "Will Yulia Navalnaya win the Nobel Peace Prize in 2026?",
       "yes_price": 0.075,
       "market_prob_pct": 7.5,
-      "days_to_resolution": 26,
+      "days_to_resolution": 19,
       "resolution_date": "2026-10-10",
-      "liquidity": 66300,
-      "volume": 297376,
+      "liquidity": 74114,
+      "volume": 299536,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Broader Geopolitics"
@@ -251,18 +176,20 @@
       "previous_price": 0.075,
       "price_delta": 0.0,
       "is_new": false,
-      "cluster_id": 7,
-      "mispricing_signals": []
+      "cluster_id": 4,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
       "id": "637008",
       "question": "Will UNRWA win the Nobel Peace Prize in 2026?",
-      "yes_price": 0.0455,
-      "market_prob_pct": 4.5,
-      "days_to_resolution": 26,
+      "yes_price": 0.053,
+      "market_prob_pct": 5.3,
+      "days_to_resolution": 19,
       "resolution_date": "2026-10-10",
-      "liquidity": 56825,
-      "volume": 2051080,
+      "liquidity": 61518,
+      "volume": 2055018,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Broader Geopolitics"
@@ -271,21 +198,23 @@
       "score": 12,
       "url": "https://polymarket.com/event/nobel-peace-prize-winner-2026-139",
       "market_id": "637008",
-      "previous_price": 0.0555,
-      "price_delta": -0.01,
+      "previous_price": 0.0455,
+      "price_delta": 0.0075,
       "is_new": false,
-      "cluster_id": 8,
-      "mispricing_signals": []
+      "cluster_id": 5,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
       "id": "637009",
       "question": "Will the International Court of Justice win the Nobel Peace Prize in 2026?",
-      "yes_price": 0.0455,
-      "market_prob_pct": 4.5,
-      "days_to_resolution": 26,
+      "yes_price": 0.052,
+      "market_prob_pct": 5.2,
+      "days_to_resolution": 19,
       "resolution_date": "2026-10-10",
-      "liquidity": 55998,
-      "volume": 913662,
+      "liquidity": 59183,
+      "volume": 916199,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Broader Geopolitics"
@@ -294,21 +223,23 @@
       "score": 12,
       "url": "https://polymarket.com/event/nobel-peace-prize-winner-2026-139",
       "market_id": "637009",
-      "previous_price": 0.041,
-      "price_delta": 0.0045,
+      "previous_price": 0.0455,
+      "price_delta": 0.0065,
       "is_new": false,
-      "cluster_id": 9,
-      "mispricing_signals": []
+      "cluster_id": 6,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
       "id": "3399459",
       "question": "Israel x Iran ceasefire continues through October 31?",
-      "yes_price": 0.765,
-      "market_prob_pct": 76.5,
-      "days_to_resolution": 48,
+      "yes_price": 0.78,
+      "market_prob_pct": 78.0,
+      "days_to_resolution": 41,
       "resolution_date": "2026-10-31",
-      "liquidity": 56461,
-      "volume": 547427,
+      "liquidity": 44939,
+      "volume": 753851,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -319,8 +250,8 @@
       "score": 12,
       "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
       "market_id": "3399459",
-      "previous_price": 0.69,
-      "price_delta": 0.075,
+      "previous_price": 0.765,
+      "price_delta": 0.015,
       "is_new": false,
       "cluster_id": 0,
       "mispricing_signals": []
@@ -330,10 +261,10 @@
       "question": "Russia x Ukraine ceasefire agreement by October 31, 2026?",
       "yes_price": 0.065,
       "market_prob_pct": 6.5,
-      "days_to_resolution": 48,
+      "days_to_resolution": 41,
       "resolution_date": "2026-11-01",
-      "liquidity": 77338,
-      "volume": 1639217,
+      "liquidity": 83695,
+      "volume": 1679595,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Saudi Arabia / Gulf",
@@ -343,32 +274,177 @@
       "score": 12,
       "url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-agreement-by",
       "market_id": "2243896",
-      "previous_price": 0.165,
-      "price_delta": -0.1,
+      "previous_price": 0.065,
+      "price_delta": 0.0,
       "is_new": false,
       "cluster_id": 1,
       "mispricing_signals": []
     },
     {
-      "id": "4237459",
-      "question": "Will Elon Musk post 120-139 tweets from September 8 to September 15, 2026?",
-      "yes_price": 0.068,
-      "market_prob_pct": 6.8,
-      "days_to_resolution": 1,
-      "resolution_date": "2026-09-15",
-      "liquidity": 26421,
-      "volume": 163204,
+      "id": "1130016",
+      "question": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
+      "yes_price": 0.042,
+      "market_prob_pct": 4.2,
+      "days_to_resolution": 0,
+      "resolution_date": "2026-09-20",
+      "liquidity": 128359,
+      "volume": 5070280,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
       "score": 11,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-september-8-september-15-2026",
-      "market_id": "4237459",
+      "url": "https://polymarket.com/event/which-party-will-gain-most-seats-in-russian-parliamentary-election",
+      "market_id": "1130016",
+      "previous_price": 0.162,
+      "price_delta": -0.12,
+      "is_new": false,
+      "cluster_id": 7,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "4489696",
+      "question": "Will Elon Musk post 160-179 tweets from September 15 to September 22, 2026?",
+      "yes_price": 0.085,
+      "market_prob_pct": 8.5,
+      "days_to_resolution": 1,
+      "resolution_date": "2026-09-22",
+      "liquidity": 26673,
+      "volume": 82203,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-september-15-september-22-2026",
+      "market_id": "4489696",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
+      "cluster_id": 8,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "1130012",
+      "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+      "yes_price": 0.9565,
+      "market_prob_pct": 95.7,
+      "days_to_resolution": 9,
+      "resolution_date": "2026-09-30",
+      "liquidity": 552977,
+      "volume": 19438364,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 11,
+      "url": "https://polymarket.com/event/which-party-will-gain-most-seats-in-russian-parliamentary-election",
+      "market_id": "1130012",
+      "previous_price": 0.795,
+      "price_delta": 0.1615,
+      "is_new": false,
+      "cluster_id": 9,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "3247642",
+      "question": "US x Iran diplomatic meeting by September 30, 2026?",
+      "yes_price": 0.19,
+      "market_prob_pct": 19.0,
+      "days_to_resolution": 10,
+      "resolution_date": "2026-09-30",
+      "liquidity": 52541,
+      "volume": 1193689,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/next-round-of-us-iran-peace-talks-byptptpt-20260623022722982",
+      "market_id": "3247642",
+      "previous_price": 0.085,
+      "price_delta": 0.105,
+      "is_new": false,
       "cluster_id": 10,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2646914",
+      "question": "Will no qualifying diplomatic US-Iran meeting occur by September 30, 2026?",
+      "yes_price": 0.799,
+      "market_prob_pct": 79.9,
+      "days_to_resolution": 10,
+      "resolution_date": "2026-10-01",
+      "liquidity": 39815,
+      "volume": 1427096,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/where-will-the-next-next-round-of-us-iran-peace-talks-beptptpt-20260623023740663",
+      "market_id": "2646914",
+      "previous_price": 0.9105,
+      "price_delta": -0.1115,
+      "is_new": false,
+      "cluster_id": 11,
+      "mispricing_signals": []
+    },
+    {
+      "id": "2646923",
+      "question": "Will the next diplomatic US-Iran meeting be in the United States by September 30, 2026?",
+      "yes_price": 0.199,
+      "market_prob_pct": 19.9,
+      "days_to_resolution": 10,
+      "resolution_date": "2026-10-01",
+      "liquidity": 45129,
+      "volume": 214602,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/where-will-the-next-next-round-of-us-iran-peace-talks-beptptpt-20260623023740663",
+      "market_id": "2646923",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 12,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "3491474",
+      "question": "Iran-Oman Hormuz Agreement by September 30?",
+      "yes_price": 0.12,
+      "market_prob_pct": 12.0,
+      "days_to_resolution": 10,
+      "resolution_date": "2026-10-01",
+      "liquidity": 21211,
+      "volume": 722241,
+      "categories": [
+        "Iran"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/iran-oman-hormuz-management-agreement-byptptpt-20260804222725871",
+      "market_id": "3491474",
+      "previous_price": 0.235,
+      "price_delta": -0.115,
+      "is_new": false,
+      "cluster_id": 13,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -376,12 +452,12 @@
     {
       "id": "3701662",
       "question": "US-Iran Hormuz Agreement by September 30?",
-      "yes_price": 0.0515,
-      "market_prob_pct": 5.1,
-      "days_to_resolution": 17,
+      "yes_price": 0.0635,
+      "market_prob_pct": 6.3,
+      "days_to_resolution": 10,
       "resolution_date": "2026-10-01",
-      "liquidity": 46189,
-      "volume": 226891,
+      "liquidity": 27896,
+      "volume": 261905,
       "categories": [
         "Iran"
       ],
@@ -389,10 +465,60 @@
       "score": 11,
       "url": "https://polymarket.com/event/us-iran-hormuz-agreement-byptptpt-20260803235957575",
       "market_id": "3701662",
-      "previous_price": 0.07,
-      "price_delta": -0.0185,
+      "previous_price": 0.0515,
+      "price_delta": 0.012,
       "is_new": false,
-      "cluster_id": 6,
+      "cluster_id": 13,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "637022",
+      "question": "Will Sudan's Emergency Response Rooms win the Nobel Peace Prize in 2026?",
+      "yes_price": 0.145,
+      "market_prob_pct": 14.5,
+      "days_to_resolution": 19,
+      "resolution_date": "2026-10-10",
+      "liquidity": 16340,
+      "volume": 22311,
+      "categories": [
+        "Israel / Gaza / Lebanon",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Israel / Gaza / Lebanon",
+      "score": 11,
+      "url": "https://polymarket.com/event/nobel-peace-prize-winner-2026-139",
+      "market_id": "637022",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 14,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "637025",
+      "question": "Will Committee to Protect Journalists win the Nobel Peace Prize in 2026?",
+      "yes_price": 0.0545,
+      "market_prob_pct": 5.5,
+      "days_to_resolution": 19,
+      "resolution_date": "2026-10-10",
+      "liquidity": 14805,
+      "volume": 6493,
+      "categories": [
+        "Israel / Gaza / Lebanon",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Israel / Gaza / Lebanon",
+      "score": 11,
+      "url": "https://polymarket.com/event/nobel-peace-prize-winner-2026-139",
+      "market_id": "637025",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 15,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -400,12 +526,12 @@
     {
       "id": "637031",
       "question": "Will Save the Children win the Nobel Peace Prize in 2026?",
-      "yes_price": 0.063,
-      "market_prob_pct": 6.3,
-      "days_to_resolution": 26,
+      "yes_price": 0.0885,
+      "market_prob_pct": 8.8,
+      "days_to_resolution": 19,
       "resolution_date": "2026-10-10",
-      "liquidity": 8482,
-      "volume": 4003,
+      "liquidity": 15024,
+      "volume": 9304,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Broader Geopolitics"
@@ -414,21 +540,46 @@
       "score": 11,
       "url": "https://polymarket.com/event/nobel-peace-prize-winner-2026-139",
       "market_id": "637031",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 11,
+      "previous_price": 0.063,
+      "price_delta": 0.0255,
+      "is_new": false,
+      "cluster_id": 16,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "2757806",
+      "question": "Iran charges Hormuz fees by October 31?",
+      "yes_price": 0.11,
+      "market_prob_pct": 11.0,
+      "days_to_resolution": 41,
+      "resolution_date": "2026-11-01",
+      "liquidity": 35812,
+      "volume": 539169,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/iran-charges-hormuz-fees-byptptpt-20260625175035466",
+      "market_id": "2757806",
+      "previous_price": 0.225,
+      "price_delta": -0.115,
+      "is_new": false,
+      "cluster_id": 13,
       "mispricing_signals": []
     },
     {
       "id": "4338145",
       "question": "Russia x Ukraine ceasefire agreement by November 30, 2026?",
-      "yes_price": 0.15,
-      "market_prob_pct": 15.0,
-      "days_to_resolution": 78,
+      "yes_price": 0.12,
+      "market_prob_pct": 12.0,
+      "days_to_resolution": 71,
       "resolution_date": "2026-12-01",
-      "liquidity": 24573,
-      "volume": 2460,
+      "liquidity": 25029,
+      "volume": 5462,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Saudi Arabia / Gulf",
@@ -438,9 +589,9 @@
       "score": 11,
       "url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-agreement-by",
       "market_id": "4338145",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
+      "previous_price": 0.15,
+      "price_delta": -0.03,
+      "is_new": false,
       "cluster_id": 1,
       "mispricing_signals": []
     },
@@ -449,10 +600,10 @@
       "question": "Russia x Ukraine ceasefire by December 31, 2026?",
       "yes_price": 0.135,
       "market_prob_pct": 13.5,
-      "days_to_resolution": 109,
+      "days_to_resolution": 102,
       "resolution_date": "2026-12-31",
-      "liquidity": 149882,
-      "volume": 858432,
+      "liquidity": 137319,
+      "volume": 907796,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -463,137 +614,45 @@
       "score": 11,
       "url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-by",
       "market_id": "2264328",
-      "previous_price": 0.125,
-      "price_delta": 0.01,
+      "previous_price": 0.135,
+      "price_delta": 0.0,
       "is_new": false,
       "cluster_id": 1,
       "mispricing_signals": []
     },
     {
-      "id": "4237466",
-      "question": "Will Elon Musk post 180-199 tweets from September 8 to September 15, 2026?",
-      "yes_price": 0.125,
-      "market_prob_pct": 12.5,
+      "id": "4489702",
+      "question": "Will Elon Musk post 220-239 tweets from September 15 to September 22, 2026?",
+      "yes_price": 0.095,
+      "market_prob_pct": 9.5,
       "days_to_resolution": 1,
-      "resolution_date": "2026-09-15",
-      "liquidity": 12251,
-      "volume": 70211,
+      "resolution_date": "2026-09-22",
+      "liquidity": 11985,
+      "volume": 60884,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
       "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-september-8-september-15-2026",
-      "market_id": "4237466",
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-september-15-september-22-2026",
+      "market_id": "4489702",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
-      "cluster_id": 12,
+      "cluster_id": 17,
       "mispricing_signals": [
         "imminent_extreme"
       ]
-    },
-    {
-      "id": "3956905",
-      "question": "Iran-Oman Hormuz Agreement by September 21?",
-      "yes_price": 0.17,
-      "market_prob_pct": 17.0,
-      "days_to_resolution": 8,
-      "resolution_date": "2026-09-21",
-      "liquidity": 32629,
-      "volume": 81101,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 10,
-      "url": "https://polymarket.com/event/iran-oman-hormuz-management-agreement-byptptpt-20260804222725871",
-      "market_id": "3956905",
-      "previous_price": 0.12,
-      "price_delta": 0.05,
-      "is_new": false,
-      "cluster_id": 6,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "1130012",
-      "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-      "yes_price": 0.795,
-      "market_prob_pct": 79.5,
-      "days_to_resolution": 16,
-      "resolution_date": "2026-09-30",
-      "liquidity": 446120,
-      "volume": 9917547,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/which-party-will-gain-most-seats-in-russian-parliamentary-election",
-      "market_id": "1130012",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 13,
-      "mispricing_signals": []
-    },
-    {
-      "id": "1130016",
-      "question": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
-      "yes_price": 0.162,
-      "market_prob_pct": 16.2,
-      "days_to_resolution": 16,
-      "resolution_date": "2026-09-30",
-      "liquidity": 196799,
-      "volume": 2951751,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/which-party-will-gain-most-seats-in-russian-parliamentary-election",
-      "market_id": "1130016",
-      "previous_price": 0.255,
-      "price_delta": -0.093,
-      "is_new": false,
-      "cluster_id": 14,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "3491474",
-      "question": "Iran-Oman Hormuz Agreement by September 30?",
-      "yes_price": 0.235,
-      "market_prob_pct": 23.5,
-      "days_to_resolution": 17,
-      "resolution_date": "2026-10-01",
-      "liquidity": 33610,
-      "volume": 625340,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 10,
-      "url": "https://polymarket.com/event/iran-oman-hormuz-management-agreement-byptptpt-20260804222725871",
-      "market_id": "3491474",
-      "previous_price": 0.225,
-      "price_delta": 0.01,
-      "is_new": false,
-      "cluster_id": 6,
-      "mispricing_signals": []
     },
     {
       "id": "3399450",
       "question": "Iran leadership change by October 31?",
-      "yes_price": 0.055,
-      "market_prob_pct": 5.5,
-      "days_to_resolution": 48,
+      "yes_price": 0.045,
+      "market_prob_pct": 4.5,
+      "days_to_resolution": 41,
       "resolution_date": "2026-11-01",
-      "liquidity": 77508,
-      "volume": 86627,
+      "liquidity": 94633,
+      "volume": 118337,
       "categories": [
         "Iran"
       ],
@@ -602,20 +661,20 @@
       "url": "https://polymarket.com/event/iran-leadership-change-by",
       "market_id": "3399450",
       "previous_price": 0.055,
-      "price_delta": 0.0,
+      "price_delta": -0.01,
       "is_new": false,
-      "cluster_id": 15,
+      "cluster_id": 18,
       "mispricing_signals": []
     },
     {
       "id": "4117193",
       "question": "US x Iran diplomatic meeting by October 31, 2026?",
-      "yes_price": 0.195,
-      "market_prob_pct": 19.5,
-      "days_to_resolution": 48,
+      "yes_price": 0.295,
+      "market_prob_pct": 29.5,
+      "days_to_resolution": 41,
       "resolution_date": "2026-10-31",
-      "liquidity": 38860,
-      "volume": 72369,
+      "liquidity": 26744,
+      "volume": 176841,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -624,88 +683,92 @@
       "score": 10,
       "url": "https://polymarket.com/event/next-round-of-us-iran-peace-talks-byptptpt-20260623022722982",
       "market_id": "4117193",
-      "previous_price": 0.175,
-      "price_delta": 0.02,
+      "previous_price": 0.195,
+      "price_delta": 0.1,
       "is_new": false,
-      "cluster_id": 16,
+      "cluster_id": 19,
       "mispricing_signals": []
     },
     {
-      "id": "3764664",
-      "question": "Mojtaba Khamenei seen in public by October 31?",
-      "yes_price": 0.085,
-      "market_prob_pct": 8.5,
-      "days_to_resolution": 48,
+      "id": "4620250",
+      "question": "Iran full airspace closure by October 31, 2026? (copy)",
+      "yes_price": 0.145,
+      "market_prob_pct": 14.5,
+      "days_to_resolution": 41,
       "resolution_date": "2026-11-01",
-      "liquidity": 20062,
-      "volume": 11635,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 10,
-      "url": "https://polymarket.com/event/mojtaba-khamenei-public-appearance-by",
-      "market_id": "3764664",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 17,
-      "mispricing_signals": []
-    },
-    {
-      "id": "3120760",
-      "question": "NATO x Russia military clash by October 31, 2026?",
-      "yes_price": 0.09,
-      "market_prob_pct": 9.0,
-      "days_to_resolution": 48,
-      "resolution_date": "2026-11-01",
-      "liquidity": 57621,
-      "volume": 448878,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/nato-x-russia-military-clash-in-2025",
-      "market_id": "3120760",
-      "previous_price": 0.115,
-      "price_delta": -0.025,
-      "is_new": false,
-      "cluster_id": 18,
-      "mispricing_signals": []
-    },
-    {
-      "id": "2757806",
-      "question": "Iran charges Hormuz fees by October 31?",
-      "yes_price": 0.225,
-      "market_prob_pct": 22.5,
-      "days_to_resolution": 48,
-      "resolution_date": "2026-11-01",
-      "liquidity": 32475,
-      "volume": 448962,
+      "liquidity": 5190,
+      "volume": 4907,
       "categories": [
         "Iran",
         "Broader Geopolitics"
       ],
       "primary_category": "Iran",
       "score": 10,
-      "url": "https://polymarket.com/event/iran-charges-hormuz-fees-byptptpt-20260625175035466",
-      "market_id": "2757806",
-      "previous_price": 0.125,
-      "price_delta": 0.1,
-      "is_new": false,
-      "cluster_id": 6,
+      "url": "https://polymarket.com/event/iran-full-airspace-closure-byptptpt-20260625195253028",
+      "market_id": "4620250",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 20,
+      "mispricing_signals": []
+    },
+    {
+      "id": "4641065",
+      "question": "US x Iran ceasefire continues through October 31?",
+      "yes_price": 0.505,
+      "market_prob_pct": 50.5,
+      "days_to_resolution": 41,
+      "resolution_date": "2026-10-31",
+      "liquidity": 80621,
+      "volume": 255537,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 10,
+      "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
+      "market_id": "4641065",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 0,
+      "mispricing_signals": []
+    },
+    {
+      "id": "3903076",
+      "question": "Iran invades Kuwait by October 31?",
+      "yes_price": 0.059,
+      "market_prob_pct": 5.9,
+      "days_to_resolution": 41,
+      "resolution_date": "2026-11-01",
+      "liquidity": 19881,
+      "volume": 7988,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon"
+      ],
+      "primary_category": "Iran",
+      "score": 10,
+      "url": "https://polymarket.com/event/iran-invades-kuwait-byptptpt-20260720015031544",
+      "market_id": "3903076",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 21,
       "mispricing_signals": []
     },
     {
       "id": "628940",
       "question": "Will Steve Hilton win the California Governor Election in 2026?",
-      "yes_price": 0.041,
-      "market_prob_pct": 4.1,
-      "days_to_resolution": 50,
+      "yes_price": 0.0545,
+      "market_prob_pct": 5.5,
+      "days_to_resolution": 43,
       "resolution_date": "2026-11-03",
-      "liquidity": 97591,
-      "volume": 2741871,
+      "liquidity": 149606,
+      "volume": 2811188,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -714,20 +777,20 @@
       "url": "https://polymarket.com/event/california-governor-election-2026",
       "market_id": "628940",
       "previous_price": 0.041,
-      "price_delta": 0.0,
+      "price_delta": 0.0135,
       "is_new": false,
-      "cluster_id": 19,
+      "cluster_id": 22,
       "mispricing_signals": []
     },
     {
       "id": "628941",
       "question": "Will Xavier Becerra win the California Governor Election in 2026?",
-      "yes_price": 0.9505,
-      "market_prob_pct": 95.0,
-      "days_to_resolution": 50,
+      "yes_price": 0.9425,
+      "market_prob_pct": 94.2,
+      "days_to_resolution": 43,
       "resolution_date": "2026-11-03",
-      "liquidity": 47544,
-      "volume": 1917351,
+      "liquidity": 80144,
+      "volume": 2027258,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -735,21 +798,21 @@
       "score": 10,
       "url": "https://polymarket.com/event/california-governor-election-2026",
       "market_id": "628941",
-      "previous_price": 0.959,
-      "price_delta": -0.0085,
+      "previous_price": 0.9505,
+      "price_delta": -0.008,
       "is_new": false,
-      "cluster_id": 20,
+      "cluster_id": 23,
       "mispricing_signals": []
     },
     {
       "id": "562831",
       "question": "2026 Balance of Power: R Senate, R House",
-      "yes_price": 0.125,
-      "market_prob_pct": 12.5,
-      "days_to_resolution": 50,
+      "yes_price": 0.075,
+      "market_prob_pct": 7.5,
+      "days_to_resolution": 43,
       "resolution_date": "2026-11-03",
-      "liquidity": 458441,
-      "volume": 3042927,
+      "liquidity": 432925,
+      "volume": 3432635,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -757,21 +820,21 @@
       "score": 10,
       "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
       "market_id": "562831",
-      "previous_price": 0.115,
-      "price_delta": 0.01,
+      "previous_price": 0.125,
+      "price_delta": -0.05,
       "is_new": false,
-      "cluster_id": 21,
+      "cluster_id": 24,
       "mispricing_signals": []
     },
     {
       "id": "562802",
       "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "yes_price": 0.865,
-      "market_prob_pct": 86.5,
-      "days_to_resolution": 50,
+      "yes_price": 0.925,
+      "market_prob_pct": 92.5,
+      "days_to_resolution": 43,
       "resolution_date": "2026-11-03",
-      "liquidity": 567529,
-      "volume": 6296028,
+      "liquidity": 624527,
+      "volume": 6856287,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -779,21 +842,21 @@
       "score": 10,
       "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
       "market_id": "562802",
-      "previous_price": 0.875,
-      "price_delta": -0.01,
+      "previous_price": 0.865,
+      "price_delta": 0.06,
       "is_new": false,
-      "cluster_id": 22,
+      "cluster_id": 25,
       "mispricing_signals": []
     },
     {
       "id": "562803",
       "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "yes_price": 0.135,
-      "market_prob_pct": 13.5,
-      "days_to_resolution": 50,
+      "yes_price": 0.075,
+      "market_prob_pct": 7.5,
+      "days_to_resolution": 43,
       "resolution_date": "2026-11-03",
-      "liquidity": 522529,
-      "volume": 4699714,
+      "liquidity": 814618,
+      "volume": 5039414,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -801,21 +864,65 @@
       "score": 10,
       "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
       "market_id": "562803",
-      "previous_price": 0.125,
-      "price_delta": 0.01,
+      "previous_price": 0.135,
+      "price_delta": -0.06,
       "is_new": false,
-      "cluster_id": 23,
+      "cluster_id": 26,
+      "mispricing_signals": []
+    },
+    {
+      "id": "635012",
+      "question": "Will Bernadette Wilson win the 2026 Alaska governor election?",
+      "yes_price": 0.11,
+      "market_prob_pct": 11.0,
+      "days_to_resolution": 43,
+      "resolution_date": "2026-11-03",
+      "liquidity": 38684,
+      "volume": 177631,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 10,
+      "url": "https://polymarket.com/event/alaska-governor-election-winner",
+      "market_id": "635012",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 27,
+      "mispricing_signals": []
+    },
+    {
+      "id": "635016",
+      "question": "Will Jonathan Kreiss-Tomkins win the 2026 Alaska governor election?",
+      "yes_price": 0.883,
+      "market_prob_pct": 88.3,
+      "days_to_resolution": 43,
+      "resolution_date": "2026-11-03",
+      "liquidity": 36696,
+      "volume": 73141,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 10,
+      "url": "https://polymarket.com/event/alaska-governor-election-winner",
+      "market_id": "635016",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 28,
       "mispricing_signals": []
     },
     {
       "id": "3491438",
       "question": "US-Iran Final Nuclear Deal by November 30, 2026?",
-      "yes_price": 0.045,
-      "market_prob_pct": 4.5,
-      "days_to_resolution": 78,
+      "yes_price": 0.065,
+      "market_prob_pct": 6.5,
+      "days_to_resolution": 71,
       "resolution_date": "2026-12-01",
-      "liquidity": 77841,
-      "volume": 22346,
+      "liquidity": 47731,
+      "volume": 36442,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -824,45 +931,21 @@
       "score": 10,
       "url": "https://polymarket.com/event/us-iran-final-nuclear-deal-by-20260621201254412",
       "market_id": "3491438",
-      "previous_price": 0.065,
-      "price_delta": -0.02,
+      "previous_price": 0.045,
+      "price_delta": 0.02,
       "is_new": false,
-      "cluster_id": 24,
-      "mispricing_signals": []
-    },
-    {
-      "id": "678749",
-      "question": "Will Israel strike 6 countries in 2026?",
-      "yes_price": 0.0595,
-      "market_prob_pct": 5.9,
-      "days_to_resolution": 109,
-      "resolution_date": "2027-01-01",
-      "liquidity": 27186,
-      "volume": 651960,
-      "categories": [
-        "Israel / Gaza / Lebanon",
-        "Saudi Arabia / Gulf",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Israel / Gaza / Lebanon",
-      "score": 10,
-      "url": "https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026",
-      "market_id": "678749",
-      "previous_price": 0.0635,
-      "price_delta": -0.004,
-      "is_new": false,
-      "cluster_id": 25,
+      "cluster_id": 29,
       "mispricing_signals": []
     },
     {
       "id": "665224",
       "question": "Ukraine signs peace deal with Russia before 2027?",
-      "yes_price": 0.095,
-      "market_prob_pct": 9.5,
-      "days_to_resolution": 109,
+      "yes_price": 0.105,
+      "market_prob_pct": 10.5,
+      "days_to_resolution": 102,
       "resolution_date": "2027-01-01",
-      "liquidity": 90162,
-      "volume": 2724023,
+      "liquidity": 63549,
+      "volume": 2773223,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Saudi Arabia / Gulf",
@@ -872,81 +955,10 @@
       "score": 10,
       "url": "https://polymarket.com/event/ukraine-signs-peace-deal-with-russia-before-2027",
       "market_id": "665224",
-      "previous_price": 0.135,
-      "price_delta": -0.04,
+      "previous_price": 0.095,
+      "price_delta": 0.01,
       "is_new": false,
       "cluster_id": 1,
-      "mispricing_signals": []
-    },
-    {
-      "id": "3903043",
-      "question": "0 ships transit Hormuz on any date by September 30?",
-      "yes_price": 0.17,
-      "market_prob_pct": 17.0,
-      "days_to_resolution": 16,
-      "resolution_date": "2026-09-30",
-      "liquidity": 9340,
-      "volume": 54470,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 9,
-      "url": "https://polymarket.com/event/0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966",
-      "market_id": "3903043",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 26,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "2107988",
-      "question": "Will Russia capture all of Vovchansk by September 30?",
-      "yes_price": 0.0485,
-      "market_prob_pct": 4.9,
-      "days_to_resolution": 17,
-      "resolution_date": "2026-10-01",
-      "liquidity": 2572,
-      "volume": 54912,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 9,
-      "url": "https://polymarket.com/event/will-russia-capture-all-of-vovchansk-by",
-      "market_id": "2107988",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 27,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "3128888",
-      "question": "US announces end of Iranian blockade by October 31, 2026?",
-      "yes_price": 0.335,
-      "market_prob_pct": 33.5,
-      "days_to_resolution": 48,
-      "resolution_date": "2026-11-01",
-      "liquidity": 99144,
-      "volume": 1151304,
-      "categories": [
-        "Iran",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 9,
-      "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
-      "market_id": "3128888",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 2,
       "mispricing_signals": []
     }
   ]
