@@ -1,43 +1,16 @@
 {
-  "generated_at": "2026-10-11 21:09",
+  "generated_at": "2026-10-18 19:47",
   "total": 40,
   "markets": [
     {
-      "id": "5339988",
-      "question": "Israel x Iran ceasefire continues through October 15?",
-      "yes_price": 0.9535,
-      "market_prob_pct": 95.3,
+      "id": "5686979",
+      "question": "US x Iran ceasefire continues through October 22?",
+      "yes_price": 0.955,
+      "market_prob_pct": 95.5,
       "days_to_resolution": 4,
-      "resolution_date": "2026-10-16",
-      "liquidity": 75333,
-      "volume": 437577,
-      "categories": [
-        "Iran",
-        "Israel / Gaza / Lebanon",
-        "Saudi Arabia / Gulf",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 14,
-      "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
-      "market_id": "5339988",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 0,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "5130978",
-      "question": "US x Iran ceasefire continues through October 15?",
-      "yes_price": 0.925,
-      "market_prob_pct": 92.5,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-10-16",
-      "liquidity": 287751,
-      "volume": 1020499,
+      "resolution_date": "2026-10-23",
+      "liquidity": 61004,
+      "volume": 183137,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -47,10 +20,64 @@
       "primary_category": "Iran",
       "score": 14,
       "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
-      "market_id": "5130978",
-      "previous_price": 0.855,
-      "price_delta": 0.07,
-      "is_new": false,
+      "market_id": "5686979",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 0,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "5686977",
+      "question": "US x Iran ceasefire continues through October 24?",
+      "yes_price": 0.915,
+      "market_prob_pct": 91.5,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-10-25",
+      "liquidity": 33526,
+      "volume": 53029,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 14,
+      "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
+      "market_id": "5686977",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 0,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "5686982",
+      "question": "US x Iran ceasefire continues through October 28?",
+      "yes_price": 0.865,
+      "market_prob_pct": 86.5,
+      "days_to_resolution": 10,
+      "resolution_date": "2026-10-29",
+      "liquidity": 34736,
+      "volume": 55808,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 14,
+      "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
+      "market_id": "5686982",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
       "cluster_id": 0,
       "mispricing_signals": [
         "imminent_extreme"
@@ -59,12 +86,12 @@
     {
       "id": "3399459",
       "question": "Israel x Iran ceasefire continues through October 31?",
-      "yes_price": 0.855,
-      "market_prob_pct": 85.5,
-      "days_to_resolution": 19,
+      "yes_price": 0.865,
+      "market_prob_pct": 86.5,
+      "days_to_resolution": 13,
       "resolution_date": "2026-10-31",
-      "liquidity": 95860,
-      "volume": 1748897,
+      "liquidity": 77544,
+      "volume": 2439450,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -75,8 +102,8 @@
       "score": 14,
       "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
       "market_id": "3399459",
-      "previous_price": 0.835,
-      "price_delta": 0.02,
+      "previous_price": 0.855,
+      "price_delta": 0.01,
       "is_new": false,
       "cluster_id": 0,
       "mispricing_signals": [
@@ -86,12 +113,12 @@
     {
       "id": "4641065",
       "question": "US x Iran ceasefire continues through October 31?",
-      "yes_price": 0.785,
-      "market_prob_pct": 78.5,
-      "days_to_resolution": 20,
+      "yes_price": 0.825,
+      "market_prob_pct": 82.5,
+      "days_to_resolution": 13,
       "resolution_date": "2026-10-31",
-      "liquidity": 470951,
-      "volume": 2179991,
+      "liquidity": 449671,
+      "volume": 3874847,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -102,21 +129,23 @@
       "score": 13,
       "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
       "market_id": "4641065",
-      "previous_price": 0.725,
-      "price_delta": 0.06,
+      "previous_price": 0.785,
+      "price_delta": 0.04,
       "is_new": false,
       "cluster_id": 0,
-      "mispricing_signals": []
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
-      "id": "2243896",
-      "question": "Russia x Ukraine ceasefire agreement by October 31, 2026?",
-      "yes_price": 0.0445,
-      "market_prob_pct": 4.5,
-      "days_to_resolution": 20,
-      "resolution_date": "2026-11-01",
-      "liquidity": 108545,
-      "volume": 1958135,
+      "id": "4761462",
+      "question": "US x Yemen ceasefire continues through October 31?",
+      "yes_price": 0.945,
+      "market_prob_pct": 94.5,
+      "days_to_resolution": 13,
+      "resolution_date": "2026-10-31",
+      "liquidity": 161824,
+      "volume": 292355,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Saudi Arabia / Gulf",
@@ -124,38 +153,12 @@
       ],
       "primary_category": "Israel / Gaza / Lebanon",
       "score": 13,
-      "url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-agreement-by",
-      "market_id": "2243896",
-      "previous_price": 0.0435,
-      "price_delta": 0.001,
-      "is_new": false,
-      "cluster_id": 1,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "5164765",
-      "question": "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
-      "yes_price": 0.065,
-      "market_prob_pct": 6.5,
-      "days_to_resolution": 20,
-      "resolution_date": "2026-11-01",
-      "liquidity": 90169,
-      "volume": 813101,
-      "categories": [
-        "Iran",
-        "Israel / Gaza / Lebanon",
-        "Saudi Arabia / Gulf"
-      ],
-      "primary_category": "Iran",
-      "score": 13,
-      "url": "https://polymarket.com/event/israel-accuses-iranproxies-of-plane-stabbing-incident-by-oct-31",
-      "market_id": "5164765",
+      "url": "https://polymarket.com/event/us-yemen-ceasefire-continues-throughptptpt",
+      "market_id": "4761462",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
-      "cluster_id": 0,
+      "cluster_id": 1,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -165,10 +168,10 @@
       "question": "Will Naftali Bennett be the next Prime Minister of Israel?",
       "yes_price": 0.135,
       "market_prob_pct": 13.5,
-      "days_to_resolution": 16,
+      "days_to_resolution": 9,
       "resolution_date": "2026-10-28",
-      "liquidity": 121198,
-      "volume": 3662173,
+      "liquidity": 136994,
+      "volume": 3931431,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Broader Geopolitics"
@@ -177,8 +180,8 @@
       "score": 12,
       "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
       "market_id": "682706",
-      "previous_price": 0.105,
-      "price_delta": 0.03,
+      "previous_price": 0.135,
+      "price_delta": 0.0,
       "is_new": false,
       "cluster_id": 2,
       "mispricing_signals": [
@@ -188,12 +191,12 @@
     {
       "id": "3128888",
       "question": "US announces end of Iranian blockade by October 31, 2026?",
-      "yes_price": 0.145,
-      "market_prob_pct": 14.5,
-      "days_to_resolution": 20,
+      "yes_price": 0.065,
+      "market_prob_pct": 6.5,
+      "days_to_resolution": 13,
       "resolution_date": "2026-11-01",
-      "liquidity": 189833,
-      "volume": 4436207,
+      "liquidity": 140209,
+      "volume": 5211020,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -202,8 +205,8 @@
       "score": 12,
       "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
       "market_id": "3128888",
-      "previous_price": 0.215,
-      "price_delta": -0.07,
+      "previous_price": 0.145,
+      "price_delta": -0.08,
       "is_new": false,
       "cluster_id": 3,
       "mispricing_signals": [
@@ -211,14 +214,39 @@
       ]
     },
     {
+      "id": "4620250",
+      "question": "Iran full airspace closure by October 31, 2026?",
+      "yes_price": 0.06,
+      "market_prob_pct": 6.0,
+      "days_to_resolution": 13,
+      "resolution_date": "2026-11-01",
+      "liquidity": 26894,
+      "volume": 242248,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/iran-full-airspace-closure-byptptpt-20260625195253028",
+      "market_id": "4620250",
+      "previous_price": 0.075,
+      "price_delta": -0.015,
+      "is_new": false,
+      "cluster_id": 4,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
       "id": "2757806",
       "question": "Iran charges Hormuz fees by October 31?",
-      "yes_price": 0.07,
-      "market_prob_pct": 7.0,
-      "days_to_resolution": 20,
+      "yes_price": 0.055,
+      "market_prob_pct": 5.5,
+      "days_to_resolution": 13,
       "resolution_date": "2026-11-01",
-      "liquidity": 35963,
-      "volume": 646949,
+      "liquidity": 26977,
+      "volume": 664311,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -227,23 +255,98 @@
       "score": 12,
       "url": "https://polymarket.com/event/iran-charges-hormuz-fees-byptptpt-20260625175035466",
       "market_id": "2757806",
-      "previous_price": 0.075,
-      "price_delta": -0.005,
+      "previous_price": 0.07,
+      "price_delta": -0.015,
       "is_new": false,
-      "cluster_id": 4,
+      "cluster_id": 5,
       "mispricing_signals": [
         "imminent_extreme"
       ]
     },
     {
+      "id": "5572738",
+      "question": "Will there be a Hormuz agreement and the Democrats win the Senate?",
+      "yes_price": 0.0475,
+      "market_prob_pct": 4.8,
+      "days_to_resolution": 16,
+      "resolution_date": "2026-11-04",
+      "liquidity": 238282,
+      "volume": 345888,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/who-wins-the-senate-pending-hormuz-agreement-before-the-midterms",
+      "market_id": "5572738",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 6,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "5572739",
+      "question": "Will there be no Hormuz agreement?",
+      "yes_price": 0.9145,
+      "market_prob_pct": 91.5,
+      "days_to_resolution": 16,
+      "resolution_date": "2026-11-04",
+      "liquidity": 214714,
+      "volume": 518465,
+      "categories": [
+        "Iran",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/who-wins-the-senate-pending-hormuz-agreement-before-the-midterms",
+      "market_id": "5572739",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 7,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "5686980",
+      "question": "US x Iran ceasefire continues through November 8?",
+      "yes_price": 0.695,
+      "market_prob_pct": 69.5,
+      "days_to_resolution": 21,
+      "resolution_date": "2026-11-09",
+      "liquidity": 52337,
+      "volume": 16361,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 12,
+      "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
+      "market_id": "5686980",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 0,
+      "mispricing_signals": []
+    },
+    {
       "id": "5339986",
       "question": "Israel x Iran ceasefire continues through November 15?",
-      "yes_price": 0.755,
-      "market_prob_pct": 75.5,
-      "days_to_resolution": 35,
+      "yes_price": 0.695,
+      "market_prob_pct": 69.5,
+      "days_to_resolution": 28,
       "resolution_date": "2026-11-16",
-      "liquidity": 48581,
-      "volume": 110689,
+      "liquidity": 70548,
+      "volume": 246391,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -254,21 +357,21 @@
       "score": 12,
       "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
       "market_id": "5339986",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
+      "previous_price": 0.755,
+      "price_delta": -0.06,
+      "is_new": false,
       "cluster_id": 0,
       "mispricing_signals": []
     },
     {
       "id": "4338145",
       "question": "Russia x Ukraine ceasefire agreement by November 30, 2026?",
-      "yes_price": 0.105,
-      "market_prob_pct": 10.5,
-      "days_to_resolution": 50,
+      "yes_price": 0.065,
+      "market_prob_pct": 6.5,
+      "days_to_resolution": 43,
       "resolution_date": "2026-12-01",
-      "liquidity": 56992,
-      "volume": 51869,
+      "liquidity": 45403,
+      "volume": 56304,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Saudi Arabia / Gulf",
@@ -278,21 +381,21 @@
       "score": 12,
       "url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-agreement-by",
       "market_id": "4338145",
-      "previous_price": 0.095,
-      "price_delta": 0.01,
+      "previous_price": 0.105,
+      "price_delta": -0.04,
       "is_new": false,
-      "cluster_id": 1,
+      "cluster_id": 8,
       "mispricing_signals": []
     },
     {
       "id": "2264328",
       "question": "Russia x Ukraine ceasefire by December 31, 2026?",
-      "yes_price": 0.115,
-      "market_prob_pct": 11.5,
-      "days_to_resolution": 81,
+      "yes_price": 0.095,
+      "market_prob_pct": 9.5,
+      "days_to_resolution": 74,
       "resolution_date": "2026-12-31",
-      "liquidity": 133381,
-      "volume": 1059197,
+      "liquidity": 230334,
+      "volume": 1119935,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -303,70 +406,113 @@
       "score": 12,
       "url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-by",
       "market_id": "2264328",
-      "previous_price": 0.105,
-      "price_delta": 0.01,
+      "previous_price": 0.115,
+      "price_delta": -0.02,
       "is_new": false,
-      "cluster_id": 1,
+      "cluster_id": 8,
       "mispricing_signals": []
     },
     {
-      "id": "2757899",
-      "question": "Will Vladan \u0110oki\u0107 be the next Prime Minister of Serbia?",
-      "yes_price": 0.041,
-      "market_prob_pct": 4.1,
-      "days_to_resolution": 14,
-      "resolution_date": "2026-10-25",
-      "liquidity": 37602,
-      "volume": 37745,
+      "id": "5167201",
+      "question": "Saudi Arabia military action against Yemen on October 20?",
+      "yes_price": 0.715,
+      "market_prob_pct": 71.5,
+      "days_to_resolution": 2,
+      "resolution_date": "2026-10-21",
+      "liquidity": 23555,
+      "volume": 3480,
       "categories": [
+        "Saudi Arabia / Gulf",
         "Broader Geopolitics"
       ],
-      "primary_category": "Broader Geopolitics",
+      "primary_category": "Saudi Arabia / Gulf",
       "score": 11,
-      "url": "https://polymarket.com/event/next-prime-minister-of-serbia-20260629223938642",
-      "market_id": "2757899",
+      "url": "https://polymarket.com/event/saudi-arabia-military-action-against-yemen-on-october-2026",
+      "market_id": "5167201",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
-      "cluster_id": 5,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
+      "cluster_id": 9,
+      "mispricing_signals": []
     },
     {
-      "id": "4620250",
-      "question": "Iran full airspace closure by October 31, 2026?",
-      "yes_price": 0.075,
-      "market_prob_pct": 7.5,
-      "days_to_resolution": 20,
-      "resolution_date": "2026-11-01",
-      "liquidity": 12566,
-      "volume": 180357,
+      "id": "5167204",
+      "question": "Saudi Arabia military action against Yemen on October 23?",
+      "yes_price": 0.76,
+      "market_prob_pct": 76.0,
+      "days_to_resolution": 5,
+      "resolution_date": "2026-10-24",
+      "liquidity": 23726,
+      "volume": 5036,
       "categories": [
-        "Iran",
+        "Saudi Arabia / Gulf",
         "Broader Geopolitics"
       ],
-      "primary_category": "Iran",
+      "primary_category": "Saudi Arabia / Gulf",
       "score": 11,
-      "url": "https://polymarket.com/event/iran-full-airspace-closure-byptptpt-20260625195253028",
-      "market_id": "4620250",
-      "previous_price": 0.075,
-      "price_delta": 0.0,
+      "url": "https://polymarket.com/event/saudi-arabia-military-action-against-yemen-on-october-2026",
+      "market_id": "5167204",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 10,
+      "mispricing_signals": []
+    },
+    {
+      "id": "5167205",
+      "question": "Saudi Arabia military action against Yemen on October 24?",
+      "yes_price": 0.725,
+      "market_prob_pct": 72.5,
+      "days_to_resolution": 6,
+      "resolution_date": "2026-10-25",
+      "liquidity": 29088,
+      "volume": 2737,
+      "categories": [
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Saudi Arabia / Gulf",
+      "score": 11,
+      "url": "https://polymarket.com/event/saudi-arabia-military-action-against-yemen-on-october-2026",
+      "market_id": "5167205",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 11,
+      "mispricing_signals": []
+    },
+    {
+      "id": "5167206",
+      "question": "Saudi Arabia military action against Yemen on October 25?",
+      "yes_price": 0.725,
+      "market_prob_pct": 72.5,
+      "days_to_resolution": 7,
+      "resolution_date": "2026-10-26",
+      "liquidity": 30181,
+      "volume": 5391,
+      "categories": [
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Saudi Arabia / Gulf",
+      "score": 11,
+      "url": "https://polymarket.com/event/saudi-arabia-military-action-against-yemen-on-october-2026",
+      "market_id": "5167206",
+      "previous_price": 0.675,
+      "price_delta": 0.05,
       "is_new": false,
-      "cluster_id": 6,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
+      "cluster_id": 12,
+      "mispricing_signals": []
     },
     {
       "id": "3120760",
       "question": "NATO x Russia military clash by October 31, 2026?",
-      "yes_price": 0.065,
-      "market_prob_pct": 6.5,
-      "days_to_resolution": 20,
+      "yes_price": 0.085,
+      "market_prob_pct": 8.5,
+      "days_to_resolution": 13,
       "resolution_date": "2026-11-01",
-      "liquidity": 154090,
-      "volume": 1666810,
+      "liquidity": 61853,
+      "volume": 1967036,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -374,34 +520,10 @@
       "score": 11,
       "url": "https://polymarket.com/event/nato-x-russia-military-clash-in-2025",
       "market_id": "3120760",
-      "previous_price": 0.085,
-      "price_delta": -0.02,
-      "is_new": false,
-      "cluster_id": 7,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "3764664",
-      "question": "Mojtaba Khamenei seen in public by October 31?",
-      "yes_price": 0.045,
-      "market_prob_pct": 4.5,
-      "days_to_resolution": 20,
-      "resolution_date": "2026-11-01",
-      "liquidity": 33213,
-      "volume": 67858,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 11,
-      "url": "https://polymarket.com/event/mojtaba-khamenei-public-appearance-by",
-      "market_id": "3764664",
       "previous_price": 0.065,
-      "price_delta": -0.02,
+      "price_delta": 0.02,
       "is_new": false,
-      "cluster_id": 8,
+      "cluster_id": 13,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -409,12 +531,12 @@
     {
       "id": "3954617",
       "question": "Iran-Oman Hormuz Agreement by October 31?",
-      "yes_price": 0.15,
-      "market_prob_pct": 15.0,
-      "days_to_resolution": 20,
+      "yes_price": 0.065,
+      "market_prob_pct": 6.5,
+      "days_to_resolution": 13,
       "resolution_date": "2026-10-31",
-      "liquidity": 29646,
-      "volume": 431219,
+      "liquidity": 46350,
+      "volume": 544012,
       "categories": [
         "Iran"
       ],
@@ -422,10 +544,10 @@
       "score": 11,
       "url": "https://polymarket.com/event/iran-oman-hormuz-management-agreement-byptptpt-20260804222725871",
       "market_id": "3954617",
-      "previous_price": 0.145,
-      "price_delta": 0.005,
+      "previous_price": 0.15,
+      "price_delta": -0.085,
       "is_new": false,
-      "cluster_id": 4,
+      "cluster_id": 5,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -433,12 +555,12 @@
     {
       "id": "5074920",
       "question": "US-Iran Hormuz Agreement by October 31?",
-      "yes_price": 0.128,
-      "market_prob_pct": 12.8,
-      "days_to_resolution": 20,
+      "yes_price": 0.068,
+      "market_prob_pct": 6.8,
+      "days_to_resolution": 13,
       "resolution_date": "2026-11-01",
-      "liquidity": 33359,
-      "volume": 98716,
+      "liquidity": 75279,
+      "volume": 228892,
       "categories": [
         "Iran"
       ],
@@ -446,10 +568,34 @@
       "score": 11,
       "url": "https://polymarket.com/event/us-iran-hormuz-agreement-byptptpt-20260803235957575",
       "market_id": "5074920",
-      "previous_price": 0.175,
-      "price_delta": -0.047,
+      "previous_price": 0.128,
+      "price_delta": -0.06,
       "is_new": false,
-      "cluster_id": 4,
+      "cluster_id": 5,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "5571194",
+      "question": "US-Iran Hormuz Agreement by November 2?",
+      "yes_price": 0.0835,
+      "market_prob_pct": 8.3,
+      "days_to_resolution": 13,
+      "resolution_date": "2026-11-01",
+      "liquidity": 36132,
+      "volume": 66327,
+      "categories": [
+        "Iran"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/us-iran-hormuz-agreement-byptptpt-20260803235957575",
+      "market_id": "5571194",
+      "previous_price": 0.115,
+      "price_delta": -0.0315,
+      "is_new": false,
+      "cluster_id": 5,
       "mispricing_signals": [
         "imminent_extreme"
       ]
@@ -457,12 +603,12 @@
     {
       "id": "4118937",
       "question": "Russia-Ukraine peace talks by October 31, 2026?",
-      "yes_price": 0.22,
-      "market_prob_pct": 22.0,
-      "days_to_resolution": 20,
+      "yes_price": 0.075,
+      "market_prob_pct": 7.5,
+      "days_to_resolution": 13,
       "resolution_date": "2026-10-31",
-      "liquidity": 23584,
-      "volume": 288058,
+      "liquidity": 16086,
+      "volume": 339503,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Broader Geopolitics"
@@ -471,21 +617,23 @@
       "score": 11,
       "url": "https://polymarket.com/event/russia-x-ukraine-peace-talks-byptptpt-20260609012540716",
       "market_id": "4118937",
-      "previous_price": 0.38,
-      "price_delta": -0.16,
+      "previous_price": 0.22,
+      "price_delta": -0.145,
       "is_new": false,
-      "cluster_id": 1,
-      "mispricing_signals": []
+      "cluster_id": 8,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
       "id": "562831",
       "question": "2026 Balance of Power: R Senate, R House",
       "yes_price": 0.085,
       "market_prob_pct": 8.5,
-      "days_to_resolution": 23,
+      "days_to_resolution": 16,
       "resolution_date": "2026-11-04",
-      "liquidity": 2168090,
-      "volume": 7005114,
+      "liquidity": 2911650,
+      "volume": 7712126,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -493,21 +641,23 @@
       "score": 11,
       "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
       "market_id": "562831",
-      "previous_price": 0.075,
-      "price_delta": 0.01,
+      "previous_price": 0.085,
+      "price_delta": 0.0,
       "is_new": false,
-      "cluster_id": 9,
-      "mispricing_signals": []
+      "cluster_id": 14,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
       "id": "562802",
       "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
       "yes_price": 0.905,
       "market_prob_pct": 90.5,
-      "days_to_resolution": 23,
+      "days_to_resolution": 16,
       "resolution_date": "2026-11-04",
-      "liquidity": 2514764,
-      "volume": 9167333,
+      "liquidity": 2778312,
+      "volume": 10661096,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -515,21 +665,23 @@
       "score": 11,
       "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
       "market_id": "562802",
-      "previous_price": 0.935,
-      "price_delta": -0.03,
+      "previous_price": 0.905,
+      "price_delta": 0.0,
       "is_new": false,
-      "cluster_id": 10,
-      "mispricing_signals": []
+      "cluster_id": 15,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
       "id": "562803",
       "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
       "yes_price": 0.095,
       "market_prob_pct": 9.5,
-      "days_to_resolution": 23,
+      "days_to_resolution": 16,
       "resolution_date": "2026-11-04",
-      "liquidity": 2487640,
-      "volume": 7248743,
+      "liquidity": 2418896,
+      "volume": 7739776,
       "categories": [
         "Broader Geopolitics"
       ],
@@ -537,21 +689,48 @@
       "score": 11,
       "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
       "market_id": "562803",
-      "previous_price": 0.075,
-      "price_delta": 0.02,
+      "previous_price": 0.095,
+      "price_delta": 0.0,
       "is_new": false,
-      "cluster_id": 11,
+      "cluster_id": 16,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "5190747",
+      "question": "US x Iran ceasefire continues through November 15?",
+      "yes_price": 0.595,
+      "market_prob_pct": 59.5,
+      "days_to_resolution": 28,
+      "resolution_date": "2026-11-16",
+      "liquidity": 59125,
+      "volume": 297607,
+      "categories": [
+        "Iran",
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Iran",
+      "score": 11,
+      "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
+      "market_id": "5190747",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 0,
       "mispricing_signals": []
     },
     {
       "id": "3902370",
       "question": "Israel x Iran ceasefire continues through November 30?",
-      "yes_price": 0.635,
-      "market_prob_pct": 63.5,
-      "days_to_resolution": 49,
+      "yes_price": 0.605,
+      "market_prob_pct": 60.5,
+      "days_to_resolution": 43,
       "resolution_date": "2026-11-30",
-      "liquidity": 66175,
-      "volume": 535799,
+      "liquidity": 57506,
+      "volume": 593904,
       "categories": [
         "Iran",
         "Israel / Gaza / Lebanon",
@@ -562,8 +741,8 @@
       "score": 11,
       "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
       "market_id": "3902370",
-      "previous_price": 0.715,
-      "price_delta": -0.08,
+      "previous_price": 0.635,
+      "price_delta": -0.03,
       "is_new": false,
       "cluster_id": 0,
       "mispricing_signals": []
@@ -571,12 +750,12 @@
     {
       "id": "3491438",
       "question": "US-Iran Final Nuclear Deal by November 30, 2026?",
-      "yes_price": 0.065,
-      "market_prob_pct": 6.5,
-      "days_to_resolution": 50,
+      "yes_price": 0.055,
+      "market_prob_pct": 5.5,
+      "days_to_resolution": 43,
       "resolution_date": "2026-12-01",
-      "liquidity": 90571,
-      "volume": 143243,
+      "liquidity": 41308,
+      "volume": 149564,
       "categories": [
         "Iran",
         "Broader Geopolitics"
@@ -585,21 +764,45 @@
       "score": 11,
       "url": "https://polymarket.com/event/us-iran-final-nuclear-deal-by-20260621201254412",
       "market_id": "3491438",
-      "previous_price": 0.085,
-      "price_delta": -0.02,
+      "previous_price": 0.065,
+      "price_delta": -0.01,
       "is_new": false,
-      "cluster_id": 12,
+      "cluster_id": 17,
+      "mispricing_signals": []
+    },
+    {
+      "id": "2243897",
+      "question": "Russia x Ukraine ceasefire agreement by December 31, 2026?",
+      "yes_price": 0.125,
+      "market_prob_pct": 12.5,
+      "days_to_resolution": 74,
+      "resolution_date": "2027-01-01",
+      "liquidity": 168256,
+      "volume": 2867096,
+      "categories": [
+        "Israel / Gaza / Lebanon",
+        "Saudi Arabia / Gulf",
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Israel / Gaza / Lebanon",
+      "score": 11,
+      "url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-agreement-by",
+      "market_id": "2243897",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 8,
       "mispricing_signals": []
     },
     {
       "id": "665224",
       "question": "Ukraine signs peace deal with Russia before 2027?",
-      "yes_price": 0.085,
-      "market_prob_pct": 8.5,
-      "days_to_resolution": 81,
+      "yes_price": 0.07,
+      "market_prob_pct": 7.0,
+      "days_to_resolution": 74,
       "resolution_date": "2027-01-01",
-      "liquidity": 63450,
-      "volume": 2853176,
+      "liquidity": 54725,
+      "volume": 2862000,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Saudi Arabia / Gulf",
@@ -610,44 +813,20 @@
       "url": "https://polymarket.com/event/ukraine-signs-peace-deal-with-russia-before-2027",
       "market_id": "665224",
       "previous_price": 0.085,
-      "price_delta": 0.0,
+      "price_delta": -0.015,
       "is_new": false,
-      "cluster_id": 1,
-      "mispricing_signals": []
-    },
-    {
-      "id": "3902310",
-      "question": "Will Mohammed bin Salman attend a US x Iran diplomatic meeting by December 31, 2026?",
-      "yes_price": 0.047,
-      "market_prob_pct": 4.7,
-      "days_to_resolution": 81,
-      "resolution_date": "2026-12-31",
-      "liquidity": 20050,
-      "volume": 34866,
-      "categories": [
-        "Iran",
-        "Saudi Arabia / Gulf",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Iran",
-      "score": 11,
-      "url": "https://polymarket.com/event/who-will-attend-a-round-of-us-iran-peace-talks-by-december-31-20260812153824803",
-      "market_id": "3902310",
-      "previous_price": 0.066,
-      "price_delta": -0.019,
-      "is_new": false,
-      "cluster_id": 13,
+      "cluster_id": 8,
       "mispricing_signals": []
     },
     {
       "id": "2412361",
       "question": "Will Saudi Arabia recognize Israel by December 31?",
-      "yes_price": 0.0495,
-      "market_prob_pct": 5.0,
-      "days_to_resolution": 81,
+      "yes_price": 0.0425,
+      "market_prob_pct": 4.2,
+      "days_to_resolution": 74,
       "resolution_date": "2027-01-01",
-      "liquidity": 25206,
-      "volume": 80147,
+      "liquidity": 20306,
+      "volume": 86381,
       "categories": [
         "Israel / Gaza / Lebanon",
         "Saudi Arabia / Gulf",
@@ -657,124 +836,28 @@
       "score": 11,
       "url": "https://polymarket.com/event/which-countries-will-recognize-israel-by-december-31",
       "market_id": "2412361",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 14,
+      "previous_price": 0.0495,
+      "price_delta": -0.007,
+      "is_new": false,
+      "cluster_id": 18,
       "mispricing_signals": []
     },
     {
-      "id": "5223511",
-      "question": "Will Elon Musk post 320-339 tweets from October 6 to October 13, 2026?",
-      "yes_price": 0.074,
-      "market_prob_pct": 7.4,
-      "days_to_resolution": 1,
-      "resolution_date": "2026-10-13",
-      "liquidity": 11942,
-      "volume": 131929,
+      "id": "5838887",
+      "question": "Games Total: O/U 3.5",
+      "yes_price": 0.185,
+      "market_prob_pct": 18.5,
+      "days_to_resolution": 0,
+      "resolution_date": "2026-10-19",
+      "liquidity": 57343,
+      "volume": 122928,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
       "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-6-october-13-2026",
-      "market_id": "5223511",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 15,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "5223519",
-      "question": "Will Elon Musk post 400-419 tweets from October 6 to October 13, 2026?",
-      "yes_price": 0.046,
-      "market_prob_pct": 4.6,
-      "days_to_resolution": 1,
-      "resolution_date": "2026-10-13",
-      "liquidity": 8053,
-      "volume": 111342,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-6-october-13-2026",
-      "market_id": "5223519",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 16,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "5362514",
-      "question": "Will Elon Musk post 160-179 tweets from October 9 to October 16, 2026?",
-      "yes_price": 0.0425,
-      "market_prob_pct": 4.2,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-10-16",
-      "liquidity": 6909,
-      "volume": 42051,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-9-october-16-2026",
-      "market_id": "5362514",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 17,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "5362518",
-      "question": "Will Elon Musk post 180-199 tweets from October 9 to October 16, 2026?",
-      "yes_price": 0.068,
-      "market_prob_pct": 6.8,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-10-16",
-      "liquidity": 7163,
-      "volume": 34792,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-9-october-16-2026",
-      "market_id": "5362518",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 18,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "5362530",
-      "question": "Will Elon Musk post 260-279 tweets from October 9 to October 16, 2026?",
-      "yes_price": 0.1365,
-      "market_prob_pct": 13.7,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-10-16",
-      "liquidity": 6723,
-      "volume": 13405,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-9-october-16-2026",
-      "market_id": "5362530",
+      "url": "https://polymarket.com/event/lol-kc-mvk-2026-10-18",
+      "market_id": "5838887",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -784,21 +867,21 @@
       ]
     },
     {
-      "id": "5362535",
-      "question": "Will Elon Musk post 280-299 tweets from October 9 to October 16, 2026?",
-      "yes_price": 0.0875,
-      "market_prob_pct": 8.8,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-10-16",
-      "liquidity": 6896,
-      "volume": 25262,
+      "id": "5838893",
+      "question": "Game Handicap: KC (-2.5) vs MVK Esports (+2.5)",
+      "yes_price": 0.825,
+      "market_prob_pct": 82.5,
+      "days_to_resolution": 0,
+      "resolution_date": "2026-10-19",
+      "liquidity": 52334,
+      "volume": 223674,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
       "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-9-october-16-2026",
-      "market_id": "5362535",
+      "url": "https://polymarket.com/event/lol-kc-mvk-2026-10-18",
+      "market_id": "5838893",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -808,21 +891,21 @@
       ]
     },
     {
-      "id": "5362539",
-      "question": "Will Elon Musk post 300-319 tweets from October 9 to October 16, 2026?",
-      "yes_price": 0.052,
-      "market_prob_pct": 5.2,
-      "days_to_resolution": 4,
-      "resolution_date": "2026-10-16",
-      "liquidity": 7043,
-      "volume": 30060,
+      "id": "5479390",
+      "question": "Will Elon Musk post 320-339 tweets from October 13 to October 20, 2026?",
+      "yes_price": 0.0705,
+      "market_prob_pct": 7.0,
+      "days_to_resolution": 1,
+      "resolution_date": "2026-10-20",
+      "liquidity": 14416,
+      "volume": 84214,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
       "score": 10,
-      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-9-october-16-2026",
-      "market_id": "5362539",
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-13-october-20-2026",
+      "market_id": "5479390",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
@@ -832,36 +915,62 @@
       ]
     },
     {
-      "id": "2757900",
-      "question": "Will Ilija Srdanovi\u0107 be the next prime minister of Serbia?",
-      "yes_price": 0.225,
-      "market_prob_pct": 22.5,
-      "days_to_resolution": 14,
-      "resolution_date": "2026-10-25",
-      "liquidity": 50818,
-      "volume": 173558,
+      "id": "5479394",
+      "question": "Will Elon Musk post 400-419 tweets from October 13 to October 20, 2026?",
+      "yes_price": 0.0735,
+      "market_prob_pct": 7.3,
+      "days_to_resolution": 1,
+      "resolution_date": "2026-10-20",
+      "liquidity": 10463,
+      "volume": 62601,
       "categories": [
         "Broader Geopolitics"
       ],
       "primary_category": "Broader Geopolitics",
       "score": 10,
-      "url": "https://polymarket.com/event/next-prime-minister-of-serbia-20260629223938642",
-      "market_id": "2757900",
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-13-october-20-2026",
+      "market_id": "5479394",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
       "cluster_id": 22,
-      "mispricing_signals": []
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
     },
     {
-      "id": "5167206",
-      "question": "Saudi Arabia military action against Yemen on October 25?",
-      "yes_price": 0.675,
-      "market_prob_pct": 67.5,
-      "days_to_resolution": 14,
-      "resolution_date": "2026-10-26",
-      "liquidity": 36480,
-      "volume": 2273,
+      "id": "5479395",
+      "question": "Will Elon Musk post 420-439 tweets from October 13 to October 20, 2026?",
+      "yes_price": 0.043,
+      "market_prob_pct": 4.3,
+      "days_to_resolution": 1,
+      "resolution_date": "2026-10-20",
+      "liquidity": 8339,
+      "volume": 54639,
+      "categories": [
+        "Broader Geopolitics"
+      ],
+      "primary_category": "Broader Geopolitics",
+      "score": 10,
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-13-october-20-2026",
+      "market_id": "5479395",
+      "previous_price": null,
+      "price_delta": null,
+      "is_new": true,
+      "cluster_id": 23,
+      "mispricing_signals": [
+        "imminent_extreme"
+      ]
+    },
+    {
+      "id": "5167202",
+      "question": "Saudi Arabia military action against Yemen on October 21?",
+      "yes_price": 0.765,
+      "market_prob_pct": 76.5,
+      "days_to_resolution": 3,
+      "resolution_date": "2026-10-22",
+      "liquidity": 16335,
+      "volume": 3643,
       "categories": [
         "Saudi Arabia / Gulf",
         "Broader Geopolitics"
@@ -869,102 +978,11 @@
       "primary_category": "Saudi Arabia / Gulf",
       "score": 10,
       "url": "https://polymarket.com/event/saudi-arabia-military-action-against-yemen-on-october-2026",
-      "market_id": "5167206",
+      "market_id": "5167202",
       "previous_price": null,
       "price_delta": null,
       "is_new": true,
-      "cluster_id": 23,
-      "mispricing_signals": []
-    },
-    {
-      "id": "682705",
-      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "yes_price": 0.335,
-      "market_prob_pct": 33.5,
-      "days_to_resolution": 16,
-      "resolution_date": "2026-10-28",
-      "liquidity": 359045,
-      "volume": 6885224,
-      "categories": [
-        "Israel / Gaza / Lebanon",
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Israel / Gaza / Lebanon",
-      "score": 10,
-      "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-      "market_id": "682705",
-      "previous_price": 0.365,
-      "price_delta": -0.03,
-      "is_new": false,
       "cluster_id": 24,
-      "mispricing_signals": []
-    },
-    {
-      "id": "5571194",
-      "question": "US-Iran Hormuz Agreement by November 2?",
-      "yes_price": 0.115,
-      "market_prob_pct": 11.5,
-      "days_to_resolution": 20,
-      "resolution_date": "2026-11-01",
-      "liquidity": 15359,
-      "volume": 2405,
-      "categories": [
-        "Iran"
-      ],
-      "primary_category": "Iran",
-      "score": 10,
-      "url": "https://polymarket.com/event/us-iran-hormuz-agreement-byptptpt-20260803235957575",
-      "market_id": "5571194",
-      "previous_price": null,
-      "price_delta": null,
-      "is_new": true,
-      "cluster_id": 4,
-      "mispricing_signals": [
-        "imminent_extreme"
-      ]
-    },
-    {
-      "id": "562830",
-      "question": "2026 Balance of Power: R Senate, D House",
-      "yes_price": 0.285,
-      "market_prob_pct": 28.5,
-      "days_to_resolution": 23,
-      "resolution_date": "2026-11-04",
-      "liquidity": 2222799,
-      "volume": 3447004,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
-      "market_id": "562830",
-      "previous_price": 0.275,
-      "price_delta": 0.01,
-      "is_new": false,
-      "cluster_id": 25,
-      "mispricing_signals": []
-    },
-    {
-      "id": "635012",
-      "question": "Will Bernadette Wilson win the 2026 Alaska governor election?",
-      "yes_price": 0.195,
-      "market_prob_pct": 19.5,
-      "days_to_resolution": 23,
-      "resolution_date": "2026-11-04",
-      "liquidity": 91550,
-      "volume": 193548,
-      "categories": [
-        "Broader Geopolitics"
-      ],
-      "primary_category": "Broader Geopolitics",
-      "score": 10,
-      "url": "https://polymarket.com/event/alaska-governor-election-winner",
-      "market_id": "635012",
-      "previous_price": 0.185,
-      "price_delta": 0.01,
-      "is_new": false,
-      "cluster_id": 26,
       "mispricing_signals": []
     }
   ]
